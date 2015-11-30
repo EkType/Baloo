@@ -5,15 +5,15 @@ A perfect blend of pointy paws in a coat of fur, Baloo is an affable display typ
 Baloo is a distinctive heavy spurless design with a subtle tinge of playfulness and all the bare necessities of type. Snuggling several scripts under a single weight, the typeface focuses on giving equal justice to every act of this gentle jungle affair, to secure single and multi-script use. Carefree yet confident, warm yet entertaining, sprightly yet intelligible, Baloo infuses life everywhere it goes.
 
 The Baloo family contains separate fonts with unique local names for each of the nine Indic Scripts.
-Baloo Paaji - Gurumukhi + Latin,
-Baloo Da - Bangla, Assamese + Latin, 
-Baloo Bhaina - Odia + Latin,
-Baloo Bhai - Gujarati + Latin, 
-Baloo Tamma - Kannada + Latin
-Baloo Tammudu - Telugu + Latin
-Baloo Cheta - Malayalam + Latin
-Baloo Thambi - Tamil + Latin
-Baloo - Devanagari + Latin
+- Baloo Paaji - Gurumukhi + Latin
+- Baloo Da - Bangla, Assamese + Latin 
+- Baloo Bhaina - Odia + Latin
+- Baloo Bhai - Gujarati + Latin 
+- Baloo Tamma - Kannada + Latin
+- Baloo Tammudu - Telugu + Latin
+- Baloo Cheta - Malayalam + Latin
+- Baloo Thambi - Tamil + Latin
+- Baloo - Devanagari + Latin
 
 Well fed and thoroughly nourished across every script, it took a team of committed type-designers to rear Baloo and raise it to be the typeface we love. Baloo (Devanagari) is designed by Sarang Kulkarni, Gurmukhi by Shuchita Grover, Bangla by Noopur Datye, Odia by Manish Minz and Shuchita Grover, Gujarati by Supriya Tembe and Noopur Datye, Kannada by Divya Kowshik, Telugu by Omkar Shende, Malayalam by Maithili Shingre and Tamil by Aadarsh Rajan. Baloo (Latin) is collaboratively designed by Ek Type. Type Design assistance and Font engineering by Girish Dalvi.
 
