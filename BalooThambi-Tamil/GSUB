@@ -1,0 +1,293 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem taml dflt;
+languagesystem taml TAM ;
+languagesystem tml2 dflt;
+languagesystem tml2 TAM ;
+
+
+
+
+
+#--------------------------------------------------------------------
+
+
+#---------- L A T I N ----------#
+
+#--------------------------------------------------------------------
+
+
+
+
+
+
+feature frac { # Fractions Latin
+
+
+
+    sub one slash two by onehalf;
+
+    sub one slash four by onequarter;
+
+    sub three slash four by threequarters;
+
+    sub one slash three by onethird;
+
+    sub two slash three by twothirds;
+
+    sub one slash eight by oneeighth;
+
+    sub three slash eight by threeeighths;
+    sub five slash eight by fiveeighths;
+
+    sub seven slash eight by seveneighths;
+
+
+
+
+} frac;
+
+#--------------------------------------------------------------------
+
+
+
+
+feature liga { # Ligatures
+
+
+
+    sub f i by fi;
+
+    sub f l by fl;
+
+
+
+
+
+
+
+} liga;
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript/Inferior
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript/Superior
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+#--------------------------------------------------------------------
+
+
+
+
+
+
+
+#--------------------------------------------------------------------
+
+
+#---------- T A M I L ----------#
+
+#--------------------------------------------------------------------
+
+
+
+
+feature akhn { # akhand forms
+script taml;
+language dflt;
+lookup akhn1 {
+sub ka.tm pullidflt.tm ssa.tm by kssa.tm;
+sub sha.tm pullidflt.tm ra.tm matraiidflt.tm by shree.tm;
+} akhn1;
+
+script tml2;
+language dflt;
+lookup akhn1;
+} akhn;
+
+#..............................................
+
+
+feature haln { # pulli forms
+script taml;
+language dflt;
+lookup haln1 {
+sub ka.tm pullidflt.tm by kapulli.tm;
+sub nga.tm pullidflt.tm by ngapulli.tm;
+sub ca.tm pullidflt.tm by capulli.tm;
+sub ja.tm pullidflt.tm by japulli.tm;
+sub nya.tm pullidflt.tm by nyapulli.tm;
+sub tta.tm pullidflt.tm by ttapulli.tm;
+sub nna.tm pullidflt.tm by nnapulli.tm;
+sub ta.tm pullidflt.tm by tapulli.tm;
+sub na.tm pullidflt.tm by napulli.tm;
+sub nnna.tm pullidflt.tm by nnnapulli.tm;
+sub pa.tm pullidflt.tm by papulli.tm;
+sub ma.tm pullidflt.tm by mapulli.tm;
+sub ya.tm pullidflt.tm by yapulli.tm;
+sub ra.tm pullidflt.tm by rapulli.tm;
+sub rra.tm pullidflt.tm by rrapulli.tm;
+sub la.tm pullidflt.tm by lapulli.tm;
+sub lla.tm pullidflt.tm by llapulli.tm;
+sub llla.tm pullidflt.tm by lllapulli.tm;
+sub va.tm pullidflt.tm by vapulli.tm;
+sub sha.tm pullidflt.tm by shapulli.tm;
+sub ssa.tm pullidflt.tm by ssapulli.tm;
+sub sa.tm pullidflt.tm by sapulli.tm;
+sub ha.tm pullidflt.tm by hapulli.tm;
+sub kssa.tm pullidflt.tm by kssapulli.tm;
+} haln1;
+
+script tml2;
+language dflt;
+lookup haln1;
+} haln;
+
+#..............................................
+
+feature abvs { # ii matra
+script taml;
+language dflt;
+lookup abvs1 {
+sub ka.tm matraiidflt.tm by kamatraii.tm;
+sub nga.tm matraiidflt.tm by ngamatraii.tm;
+sub ca.tm matraiidflt.tm by camatraii.tm;
+sub ja.tm matraiidflt.tm by jamatraii.tm;
+sub nya.tm matraiidflt.tm by nyamatraii.tm;
+sub tta.tm matraiidflt.tm by ttamatraii.tm;
+sub nna.tm matraiidflt.tm by nnamatraii.tm;
+sub ta.tm matraiidflt.tm by tamatraii.tm;
+sub na.tm matraiidflt.tm by namatraii.tm;
+sub nnna.tm matraiidflt.tm by nnnamatraii.tm;
+sub pa.tm matraiidflt.tm by pamatraii.tm;
+sub ma.tm matraiidflt.tm by mamatraii.tm;
+sub ya.tm matraiidflt.tm by yamatraii.tm;
+sub ra.tm matraiidflt.tm by ramatraii.tm;
+sub rra.tm matraiidflt.tm by rramatraii.tm;
+sub la.tm matraiidflt.tm by lamatraii.tm;
+sub lla.tm matraiidflt.tm by llamatraii.tm;
+sub llla.tm matraiidflt.tm by lllamatraii.tm;
+sub va.tm matraiidflt.tm by vamatraii.tm;
+sub sha.tm matraiidflt.tm by shamatraii.tm;
+sub ssa.tm matraiidflt.tm by ssamatraii.tm;
+sub sa.tm matraiidflt.tm by samatraii.tm;
+sub ha.tm matraiidflt.tm by hamatraii.tm;
+sub kssa.tm matraiidflt.tm by kssamatraii.tm;
+} abvs1;
+
+script tml2;
+language dflt;
+lookup abvs1;
+} abvs;
+
+#..............................................
+
+feature psts { 
+script taml;
+language dflt;
+lookup psts1 { # i matra
+sub ka.tm matraidflt.tm by kamatrai.tm;
+sub nga.tm matraidflt.tm by ngamatrai.tm;
+sub ca.tm matraidflt.tm by camatrai.tm;
+sub ja.tm matraidflt.tm by jamatrai.tm;
+sub nya.tm matraidflt.tm by nyamatrai.tm;
+sub tta.tm matraidflt.tm by ttamatrai.tm;
+sub nna.tm matraidflt.tm by nnamatrai.tm;
+sub ta.tm matraidflt.tm by tamatrai.tm;
+sub na.tm matraidflt.tm by namatrai.tm;
+sub nnna.tm matraidflt.tm by nnnamatrai.tm;
+sub pa.tm matraidflt.tm by pamatrai.tm;
+sub ma.tm matraidflt.tm by mamatrai.tm;
+sub ya.tm matraidflt.tm by yamatrai.tm;
+sub ra.tm matraidflt.tm by ramatrai.tm;
+sub rra.tm matraidflt.tm by rramatrai.tm;
+sub la.tm matraidflt.tm by lamatrai.tm;
+sub lla.tm matraidflt.tm by llamatrai.tm;
+sub llla.tm matraidflt.tm by lllamatrai.tm;
+sub va.tm matraidflt.tm by vamatrai.tm;
+sub sha.tm matraidflt.tm by shamatrai.tm;
+sub ssa.tm matraidflt.tm by ssamatrai.tm;
+sub sa.tm matraidflt.tm by samatrai.tm;
+sub ha.tm matraidflt.tm by hamatrai.tm;
+sub kssa.tm matraidflt.tm by kssamatrai.tm;
+} psts1;
+
+lookup psts2 { # u matra
+sub ka.tm matraudflt.tm by kamatrau.tm;
+sub nga.tm matraudflt.tm by ngamatrau.tm;
+sub ca.tm matraudflt.tm by camatrau.tm;
+sub ja.tm matraudflt.tm by jamatrau.tm;
+sub nya.tm matraudflt.tm by nyamatrau.tm;
+sub tta.tm matraudflt.tm by ttamatrau.tm;
+sub nna.tm matraudflt.tm by nnamatrau.tm;
+sub ta.tm matraudflt.tm by tamatrau.tm;
+sub na.tm matraudflt.tm by namatrau.tm;
+sub nnna.tm matraudflt.tm by nnnamatrau.tm;
+sub pa.tm matraudflt.tm by pamatrau.tm;
+sub ma.tm matraudflt.tm by mamatrau.tm;
+sub ya.tm matraudflt.tm by yamatrau.tm;
+sub ra.tm matraudflt.tm by ramatrau.tm;
+sub matraaa.tm matraudflt.tm by ramatrau.tm;
+sub rra.tm matraudflt.tm by rramatrau.tm;
+sub la.tm matraudflt.tm by lamatrau.tm;
+sub lla.tm matraudflt.tm by llamatrau.tm;
+sub llla.tm matraudflt.tm by lllamatrau.tm;
+sub va.tm matraudflt.tm by vamatrau.tm;
+sub sha.tm matraudflt.tm by shamatrau.tm;
+sub ssa.tm matraudflt.tm by ssamatrau.tm;
+sub sa.tm matraudflt.tm by samatrau.tm;
+sub ha.tm matraudflt.tm by hamatrau.tm;
+sub kssa.tm matraudflt.tm by kssamatrau.tm;
+} psts2;
+
+lookup psts3 { # uu matra
+sub ka.tm matrauudflt.tm by kamatrauu.tm;
+sub nga.tm matrauudflt.tm by ngamatrauu.tm;
+sub ca.tm matrauudflt.tm by camatrauu.tm;
+sub ja.tm matrauudflt.tm by jamatrauu.tm;
+sub nya.tm matrauudflt.tm by nyamatrauu.tm;
+sub tta.tm matrauudflt.tm by ttamatrauu.tm;
+sub nna.tm matrauudflt.tm by nnamatrauu.tm;
+sub ta.tm matrauudflt.tm by tamatrauu.tm;
+sub na.tm matrauudflt.tm by namatrauu.tm;
+sub nnna.tm matrauudflt.tm by nnnamatrauu.tm;
+sub pa.tm matrauudflt.tm by pamatrauu.tm;
+sub ma.tm matrauudflt.tm by mamatrauu.tm;
+sub ya.tm matrauudflt.tm by yamatrauu.tm;
+sub ra.tm matrauudflt.tm by ramatrauu.tm;
+sub matraaa.tm matrauudflt.tm by ramatrauu.tm;
+sub rra.tm matrauudflt.tm by rramatrauu.tm;
+sub la.tm matrauudflt.tm by lamatrauu.tm;
+sub lla.tm matrauudflt.tm by llamatrauu.tm;
+sub llla.tm matrauudflt.tm by lllamatrauu.tm;
+sub va.tm matrauudflt.tm by vamatrauu.tm;
+sub sha.tm matrauudflt.tm by shamatrauu.tm;
+sub ssa.tm matrauudflt.tm by ssamatrauu.tm;
+sub sa.tm matrauudflt.tm by samatrauu.tm;
+sub ha.tm matrauudflt.tm by hamatrauu.tm;
+sub kssa.tm matrauudflt.tm by kssamatrauu.tm;
+} psts3;
+
+script tml2;
+language dflt;
+lookup psts1;
+lookup psts2;
+lookup psts3;
+} psts;
+
+
+
+

@@ -1,0 +1,12 @@
+# [PostScriptName]
+#   f=  Preferred Family Name
+#   s=  Subfamily Name (Style Name)
+#   l=  Compatible Family Menu Name
+#   m=1,Macintosh Compatible Full Name
+
+
+[BalooDa]
+  f=  Baloo Da
+  s=  ExtraBold
+  l=  Baloo Da
+  m=1,Baloo Da

@@ -1,0 +1,8 @@
+InputFontPath	.\BalooDa.ttf
+OutputFontPath	.\BalooDa.otf
+ReleaseMode	true
+DoSubroutinization	true
+Renumber	5
+FeaturePath	.\features
+FontMenuDBPath	.\FontMenuNameDB
+GlyphAliasDBPath	.\GlyphOrderAndAliasDB

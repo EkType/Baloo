@@ -1,0 +1,7 @@
+include (GROUPS);
+include (GSUB);
+include (GPOS);
+include (GDEF);
+include (tables);
+
+
