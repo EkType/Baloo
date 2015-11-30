@@ -1,0 +1,319 @@
+
+
+
+
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+
+languagesystem guru dflt;
+
+languagesystem gur2 dflt;
+
+
+
+
+
+#--------------------------------------------------------------------
+
+
+#---------- L A T I N ----------#
+
+#--------------------------------------------------------------------
+
+
+
+
+
+
+feature frac { # Fractions Latin
+
+
+
+    sub one slash two by onehalf;
+
+    sub one slash four by onequarter;
+
+    sub three slash four by threequarters;
+
+    sub one slash three by onethird;
+
+    sub two slash three by twothirds;
+
+    sub one slash eight by oneeighth;
+
+    sub three slash eight by threeeighths;
+    
+    sub five slash eight by fiveeighths;
+
+    sub seven slash eight by seveneighths;
+
+
+
+
+} frac;
+
+#--------------------------------------------------------------------
+
+
+
+
+feature liga { # Ligatures
+
+
+
+    sub f i by fi;
+
+    sub f l by fl;
+
+
+
+
+
+
+
+} liga;
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript/Inferior
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript/Superior
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+#--------------------------------------------------------------------
+
+
+
+#........................................# G U R M U K H I #........................................#
+
+
+feature nukt { # Nukta consonants
+
+script guru; #Gurmukhi
+lookup lookup1 {
+    sub Kha.gm Nukta.gm by Khha.gm;
+    sub Ga.gm Nukta.gm by Ghha.gm;
+    sub Sa.gm Nukta.gm by Sha.gm;
+    sub La.gm Nukta.gm by Lla.gm;
+    sub Ja.gm Nukta.gm by Za.gm;
+    sub Pha.gm Nukta.gm by Fa.gm;
+    sub Dda.gm Nukta.gm by Rra.gm;
+} lookup1;
+
+script gur2; #Gurmukhi v.2
+lookup lookup1;
+} nukt;
+
+
+#....................................................................................................#
+
+feature akhn { #Akhanda Forms
+
+script guru;
+  sub Ka.gm Ra.gm Virama.gm by KaViramaRa.gm;
+  sub Rra.gm Ha.gm Virama.gm by RraViramaHa.gm;
+script gur2;
+  sub Ka.gm Virama.gm Ra.gm by KaViramaRa.gm;
+  sub Rra.gm Virama.gm Ha.gm by RraViramaHa.gm;
+
+} akhn;
+
+
+#....................................................................................................#
+
+
+feature blwf { #Below Base Form 
+
+script gur2;
+lookup lookup2 {
+  sub Virama.gm Ra.gm by RaHalant.gm;
+  sub Virama.gm Ha.gm by HaHalant.gm;
+  sub Virama.gm Va.gm by VaHalant.gm;  
+
+
+} lookup2;
+
+script guru; 
+  sub Ra.gm Virama.gm by RaHalant.gm;
+  sub Ha.gm Virama.gm by HaHalant.gm;
+  sub Va.gm Virama.gm by VaHalant.gm;
+
+
+
+} blwf;
+
+
+#....................................................................................................#
+
+feature pstf { # Post Base Forms
+
+script guru;
+sub Ya.gm Virama.gm by YaHalant.gm;
+
+script gur2;
+sub Virama.gm Ya.gm by YaHalant.gm; 
+  
+} pstf;
+
+
+
+#....................................................................................................#
+
+
+feature abvs { # Above Base Substitutions
+
+script guru;
+lookup lookup3 {
+    sub MatraEe.gm Bindi.gm by MatraEeBindi.gm;
+    sub MatraAi.gm Bindi.gm by MatraAiBindi.gm;
+    sub MatraOo.gm Bindi.gm by MatraOoBindi.gm;
+    sub MatraAu.gm Bindi.gm by MatraAuBindi.gm;
+    sub MatraIi.gm Bindi.gm by MatraIiBindi.gm;
+    sub MatraEe.gm Addak.gm by MatraEeAddak.gm;
+    sub MatraAi.gm Addak.gm by MatraAiAddak.gm;
+    sub MatraOo.gm Addak.gm by MatraOoAddak.gm;
+    sub MatraAu.gm Addak.gm by MatraAuAddak.gm;
+    sub MatraEe.gm AdakBindi.gm by MatraEeAddakBindi.gm;
+    sub MatraAi.gm AdakBindi.gm by MatraAiAddakBindi.gm;
+    sub MatraOo.gm AdakBindi.gm by MatraOoAddakBindi.gm;
+    sub MatraAu.gm AdakBindi.gm by MatraAuAddakBindi.gm;
+  
+} lookup3;
+
+lookup lookup4 {
+  sub [Na.gm Ttha.gm] [MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm]' by [MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt];
+  sub [Na.gm Ttha.gm] [MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraEeAddak.gm MatraAiAddak.gm MatraOoAddak.gm MatraAuAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm]' by [MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt];
+  sub [VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm MatraIi.gm Ura.gm] [Addak.gm AdakBindi.gm]' by [Addak.gm.alt AdakBindi.gm.alt];
+} lookup4;
+
+
+script gur2;
+lookup lookup3;
+lookup lookup4;
+
+
+} abvs;
+
+
+#....................................................................................................#
+
+
+
+feature blws { # Below Base Substitutions
+
+script guru;
+lookup lookup5 { #Half characters 
+  sub RaHalant.gm MatraU.gm by RaHalantMatraU.gm;
+  sub RaHalant.gm MatraUu.gm by RaHalantMatraUu.gm;
+  sub VaHalant.gm MatraU.gm by VaHalantMatraU.gm;
+  sub VaHalant.gm MatraUu.gm by VaHalantMatraUu.gm;  
+  sub HaHalant.gm MatraU.gm by HaHalantMatraU.gm;
+  sub HaHalant.gm MatraUu.gm by HaHalantMatraUu.gm;
+  sub RaHalant.gm Virama.gm by RaHalantVirama.gm;
+  sub VaHalant.gm Virama.gm by VaHalantVirama.gm;
+  sub HaHalant.gm Virama.gm by HaHalantVirama.gm;
+  sub Yakash.gm MatraU.gm by YakashMatraU.gm;
+  sub Yakash.gm MatraUu.gm by YakashMatraUu.gm;
+  sub Yakash.gm Virama.gm by YakashVirama.gm;
+  sub Udaat.gm MatraU.gm by UdaatMatraU.gm;
+  sub Udaat.gm MatraUu.gm by UdaatMatraUu.gm;
+  sub Udaat.gm Virama.gm by UdaatVirama.gm;
+} lookup5;
+
+script gur2;
+lookup lookup5;
+  
+
+} blws;
+
+#....................................................................................................#
+
+feature psts { #Post Base Substitutions
+  
+script guru;
+  sub KaViramaRa.gm MatraU.gm by KaViramaRaMatraU.gm;
+  sub KaViramaRa.gm MatraUu.gm by KaViramaRaMatraUu.gm; 
+
+
+script gur2;
+  sub KaViramaRa.gm MatraU.gm by KaViramaRaMatraU.gm;
+  sub KaViramaRa.gm MatraUu.gm by KaViramaRaMatraUu.gm; 
+
+
+
+} psts;
+
+#....................................................................................................#
+
+feature haln { #Halant forms
+
+script guru; 
+lookup lookup6 {
+  sub Ka.gm Virama.gm by KaVirama.gm;
+  sub Kha.gm Virama.gm by KhaVirama.gm;
+  sub Ga.gm Virama.gm by GaVirama.gm;
+  sub Gha.gm Virama.gm by GhaVirama.gm;
+  sub Nga.gm Virama.gm by NgaVirama.gm;
+  sub Ca.gm Virama.gm by CaVirama.gm;
+  sub Cha.gm Virama.gm by ChaVirama.gm;
+  sub Ja.gm Virama.gm by JaVirama.gm;
+  sub Jha.gm Virama.gm by JhaVirama.gm;
+  sub Nya.gm Virama.gm by NyaVirama.gm;
+  sub Tta.gm Virama.gm by TtaVirama.gm;
+  sub Ttha.gm Virama.gm by TthaVirama.gm;
+  sub Dda.gm Virama.gm by DdaVirama.gm;
+  sub Ddha.gm Virama.gm by DdhaVirama.gm;
+  sub Nna.gm Virama.gm by NnaVirama.gm;
+  sub Ta.gm Virama.gm by TaVirama.gm;
+  sub Tha.gm Virama.gm by ThaVirama.gm;
+  sub Da.gm Virama.gm by DaVirama.gm;
+  sub Dha.gm Virama.gm by DhaVirama.gm;
+  sub Na.gm Virama.gm by NaVirama.gm;
+  sub Pa.gm Virama.gm by PaVirama.gm;
+  sub Pha.gm Virama.gm by PhaVirama.gm;
+  sub Ba.gm Virama.gm by BaVirama.gm;
+  sub Bha.gm Virama.gm by BhaVirama.gm;
+  sub Ma.gm Virama.gm by MaVirama.gm;
+  sub Ya.gm Virama.gm by YaVirama.gm;
+  sub Ra.gm Virama.gm by RaVirama.gm;
+  sub La.gm Virama.gm by LaVirama.gm;
+  sub Lla.gm Virama.gm by LlaVirama.gm;
+  sub Va.gm Virama.gm by VaVirama.gm;
+  sub Sha.gm Virama.gm by ShaVirama.gm;
+  sub Sa.gm Virama.gm by SaVirama.gm;
+  sub Ha.gm Virama.gm by HaVirama.gm;
+  sub Khha.gm Virama.gm by KhhaVirama.gm;
+  sub Ghha.gm Virama.gm by GhhaVirama.gm;
+  sub Za.gm Virama.gm by ZaVirama.gm;
+  sub Rra.gm Virama.gm by RraVirama.gm;
+  sub Fa.gm Virama.gm by FaVirama.gm;
+} lookup6;
+
+script gur2;
+lookup lookup6;
+
+} haln;
+
+
+#....................................................................................................#
+@Space= [at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde breve dotaccent ring hungarumlaut ogonek caron dotlessi fraction Lslash lslash Zcaron zcaron space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question Euro quotesinglbase florin quotedblbase ellipsis dagger daggerdbl circumflex perthousand Scaron guilsinglleft OE quoteleft quoteright quotedblleft quotedblright bullet endash emdash tilde trademark scaron guilsinglright oe Ydieresis uni00A0 exclamdown cent sterling currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot minus registered macron degree plusminus twosuperior threesuperior acute mu paragraph periodcentered cedilla onesuperior ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis uni00AD Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gbreve gbreve Gcommaaccent gcommaaccent Imacron imacron Iogonek iogonek Idotaccent Kcommaaccent kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Nacute nacute Ncommaaccent ncommaaccent Ncaron ncaron Omacron omacron Ohungarumlaut ohungarumlaut Racute racute Rcommaaccent rcommaaccent Rcaron rcaron Sacute sacute Scedilla scedilla Tcommaaccent tcommaaccent Tcaron tcaron Umacron umacron Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Zacute zacute Zdotaccent zdotaccent Scommaaccent scommaaccent uni021A uni021B uni02C9 pi uni20B9 uni20BA uni20BD afii61289 Omega estimated partialdiff Delta product summation uni2215  radical infinity integral approxequal notequal lessequal greaterequal lozenge DiaComma capgrave capacute caphungarumlaut capring capcircumflex capcaron AdakBindi.gm Bindi.gm Visarga.gm zero.gm one.gm two.gm three.gm four.gm five.gm six.gm seven.gm eight.gm nine.gm EkOnkar.gm Danda.gm Doubledanda.gm];
+
+
+#....................................................................................................#
+
+
+
+

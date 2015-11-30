@@ -1,0 +1,154 @@
+
+# Classes for Gurmukhi sub
+
+@BelowBaseMarks = [RaHalant.gm VaHalant.gm HaHalant.gm RaHalantMatraU.gm VaHalantMatraU.gm HaHalantMatraU.gm RaHalantMatraUu.gm VaHalantMatraUu.gm HaHalantMatraUu.gm RaHalantVirama.gm VaHalantVirama.gm HaHalantVirama.gm UdaatVirama.gm UdaatMatraU.gm UdaatMatraUu.gm YakashVirama.gm YakashMatraU.gm YakashMatraUu.gm Udaat.gm Yakash.gm];
+
+@BelowBaseMatra = [MatraU.gm MatraUu.gm];
+
+@AboveBaseMarks = [Tippi.gm Addak.gm AdakBindi.gm Bindi.gm];
+
+@AboveBaseMatra = [MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraAuAddak.gm MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt];
+
+@Basic_gm = [Jha.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraI.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Iri.gm Ura.gm Danda.gm Doubledanda.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm YaHalant.gm MatraIiBindi.gm KaViramaRa.gm KaViramaRaMatraU.gm KaViramaRaMatraUu.gm RraViramaHa.gm ];
+
+@AboveBaseMarkAlt = [Addak.gm.alt AdakBindi.gm.alt];
+
+@AboveBaseMatraAlt = [MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraAuBindi.gm.alt MatraOoBindi.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt];
+
+
+
+#--------------------------------------------------------------------
+
+
+# Classes for Latin sub
+
+
+@Numbers = [zero one two three four five six seven eight nine];
+
+@Subscript = [zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior ];
+
+@Superscript = [zero.superior onesuperior twosuperior threesuperior four.superior five.superior six.superior seven.superior eight.superior nine.superior];
+
+
+#--------------------------------------------------------------------
+
+
+
+
+# Kerning classes 
+
+
+@_A_Left_Right=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
+@_C_Right=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_O_Left=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut G Gbreve Gcommaaccent Oslash Gcircumflex Gdotaccent Ohorn uni01D1 Gcaron uni1E20 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 C Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_O_Right=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Eth Dcaron Dcroat Oslash uni01D1 uni1E0C uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8  uni1E0E ];
+@_E_Right=[E  AE Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron OE Ebreve uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6];
+@_G_Right=[G  Gbreve Gcommaaccent Gcircumflex Gdotaccent Gcaron uni1E20];
+@_K_Right=[K  Kcommaaccent];
+@_L_Right=[L  Lacute Lcommaaccent Lcaron Ldot uni1E36 uni1E38 uni1E3A];
+@_R_Right=[R  Racute Rcommaaccent Rcaron uni1E5A uni1E5C uni1E5E];
+@_S_Left_Right=[S  Sacute Scedilla Scaron Scommaaccent Scircumflex];
+@_T_Left_Right=[T  Tcommaaccent Tcaron uni021A uni1E6C uni1E6E];
+@_U_Left_Right=[U  Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Utilde Ubreve uni01D3 uni01D5 uni01D7 uni01D9 uni01DB uni1EE4 uni1EE6];
+@_Y_Left_Right=[Y  Yacute Ydieresis Ycircumflex Ygrave uni1EF4 uni1EF6 uni1EF8 uni1E8E];
+@_Z_Left_Right=[Z  Zacute Zdotaccent Zcaron uni1E92];
+@_a_Left=[a  agrave aacute acircumflex atilde adieresis aring ae amacron abreve aogonek uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7];
+@_a_Right=[a  agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 uni01CE];
+@_c_Right=[c  ccedilla cacute ccaron ccircumflex cdotaccent];
+@_e_Right=[e  ae egrave eacute ecircumflex edieresis emacron edotaccent eogonek ecaron oe ebreve uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7];
+@_f_Left=[f  fi fl];
+@_h_n_Right=[h  n ntilde nacute ncommaaccent ncaron uni1E25 uni1E2B uni1E45 uni1E47 uni1E49];
+@_i_Left=[i  igrave iacute icircumflex idieresis imacron iogonek dotlessi itilde uni01D0 uni1EC9 uni1ECB];
+@_k_Right=[k  kcommaaccent kgreenlandic];
+@_m_Left=[m  n nacute ncommaaccent ncaron r racute rcommaaccent rcaron p napostrophe uni1E45 uni1E47 uni1E49 uni1E5B uni1E5D uni1E5F uni1E43];
+@_o_Right=[o  ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut b p oslash uni01D2 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni0259];
+@_o_Left=[o  ograve oacute ocircumflex otilde odieresis omacron ohungarumlaut c ccedilla cacute ccaron ccircumflex e egrave eacute ecircumflex edieresis emacron edotaccent eogonek ecaron d q dcaron dcroat eth oslash uni01D2 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 cdotaccent ebreve uni1E0D uni1E0F uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 ohorn uni0251];
+@_r_Right=[r  racute rcommaaccent rcaron uni1E5B uni1E5D uni1E5F];
+@_s_Left_right=[s  sacute scaron scedilla scommaaccent scircumflex uni1E61 uni1E63];
+@_t_Left_Right=[t  tcommaaccent uni1E6D uni1E6F uni1E97];
+@_u_Left=[u  ugrave uacute ucircumflex udieresis uhungarumlaut umacron uring uogonek uni01D4 uni01D6 uni01D8 uni01DA uni01DC uni1EE5 uni1EE7 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1 uhorn];
+@_v_Left_Right=[v  y yacute ydieresis ycircumflex ygrave uni1EF5 uni1EF7 uni1EF9 uni1E8F];
+@_z_Left_right=[z  zacute zdotaccent zcaron uni1E93];
+@_period_comma=[period  comma ellipsis];
+@_brackets_Right=[parenleft  bracketleft braceleft];
+@_brackets_Left=[parenright  bracketright braceright];
+@_dashes=[hyphen  endash emdash plus equal multiply divide minus bullet uni2010 figuredash uni2015];
+@_percent=[percent  perthousand];
+@_colon=[colon  semicolon];
+@_less=[less  lessequal];
+@_greater=[greater  greaterequal];
+@_bar=[bar  brokenbar];
+@_fractions1=[onequarter  onehalf onethird oneeighth];
+@_fractions4=[onequarter  threequarters];
+@_quoteleft=[quoteleft  quotedblleft];
+@_quoteright_Left=[quoteright  quotedblright];
+@_quoteright_Right=[quoteright  quotedblright lcaron tcaron dcaron];
+@_quote=[quotesingle  quotedbl];
+@_ord=[ordmasculine  ordfeminine];
+@_g_Left=[g  gbreve gcommaaccent uni1E21 gcircumflex gdotaccent gcaron uni0261 ];
+@_g_Right=[g  gbreve gcommaaccent q uni1E21 gcircumflex gdotaccent gcaron uni0261];
+@_i_Right=[i  igrave iacute icircumflex idieresis imacron iogonek dotlessi fi];
+@_M_Left_Right=[M  uni1E42];
+@_W_Left_Right=[W  Wcircumflex Wgrave Wacute Wdieresis];
+@_w_Left_Right=[w  wcircumflex wgrave wacute wdieresis];
+@_j_Left_Right=[j  jcircumflex];
+@_m_Right=[m  uni1E43];
+@_J_Left=[J  Jcircumflex uni0237];
+@_fractions3=[onethird  twothirds];
+@_fractions8=[oneeighth  threeeighths fiveeighths seveneighths];
+@_horn_right=[Ohorn  uni1EDA Uhorn uni1EDC uni1EDE uni1EE0 uni1EE2 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0 ];
+@_l_Left=[l  k b h lacute lcommaaccent lcaron ldot kcommaaccent hcircumflex uni1E25 uni1E2B];
+@_l_Right=[l  d lcommaaccent uni1E0D uni1E0F];
+@_horn_right_1=[ohorn  uhorn uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1];
+@_u_Right=[u  ugrave uacute ucircumflex udieresis uhungarumlaut umacron uring uogonek uni01D4 uni01D6 uni01D8 uni01DA uni01DC uni1EE5 uni1EE7];
+@_TM=[trademark  uni2120];
+@_COPYRIGHT=[copyright  uni2117];
+
+
+
+
+
+@_vowelA_Left=[VowelA.gm  VowelAa.gm VowelAi.gm VowelAu.gm];
+@_vowelEe_Left=[VowelEe.gm  VowelIi.gm Iri.gm];
+@_VowelU_Left_Right=[VowelU.gm  VowelUu.gm VowelOo.gm Ura.gm];
+@_Ka_Left_Right=[Ka.gm  KaVirama.gm KaViramaRa.gm KaViramaRaMatraU.gm KaViramaRaMatraUu.gm];
+@_Kha_Left=[Kha.gm  Dha.gm KhaVirama.gm DhaVirama.gm Pa.gm PaVirama.gm];
+@_Ga_Left=[Ga.gm  Ra.gm Ha.gm GaVirama.gm RaVirama.gm HaVirama.gm];
+@_Nga_Left_Right=[Nga.gm  NgaVirama.gm];
+@_Ca_Left_Right=[Ca.gm  CaVirama.gm];
+@_Cha_Left_Right=[Cha.gm  ChaVirama.gm];
+@_Ja_Left=[Ja.gm  JaVirama.gm Za.gm];
+@_Jha_Left_Right=[Jha.gm  JhaVirama.gm];
+@_Nya_Left_Right=[Nya.gm  Va.gm NyaVirama.gm VaVirama.gm];
+@_Tta_Left=[Tta.gm  TtaVirama.gm Nna.gm NnaVirama.gm];
+@_Ttha_Left_Right=[Ttha.gm  TthaVirama.gm];
+@_Dda_Left_Right=[Dda.gm  DdaVirama.gm];
+@_Ddha_Left=[Ddha.gm  Da.gm DdhaVirama.gm DaVirama.gm];
+@_Ta_Left_Right=[Ta.gm  TaVirama.gm];
+@_Tha_Left=[Tha.gm  Ya.gm Gha.gm ThaVirama.gm YaVirama.gm GhaVirama.gm];
+@_Na_Left_Right=[Na.gm  La.gm Lla.gm NaVirama.gm LaVirama.gm LlaVirama.gm];
+@_Ba_Left=[Ba.gm  BaVirama.gm];
+@_Bha_Left_Right=[Bha.gm  BhaVirama.gm];
+@_Ma_Left=[Ma.gm  Sha.gm Sa.gm ShaVirama.gm SaVirama.gm MaVirama.gm];
+@_Pha_Right=[Pha.gm  Ddha.gm DdhaVirama.gm PhaVirama.gm Fa.gm];
+@_VowelEe_Right=[VowelEe.gm  VowelI.gm Iri.gm];
+@_Tta_Right=[Tta.gm  Da.gm TtaVirama.gm DaVirama.gm];
+@_Kana_Right=[MatraAa.gm  VowelAa.gm];
+@_Rra_Left_Right=[Rra.gm  RraVirama.gm RraViramaHa.gm];
+@_Pha_Left=[Pha.gm PhaVirama.gm];
+@_Danda=[Danda.gm  Doubledanda.gm];
+
+
+
+
+
+
+
+# To kern with punctuations
+
+
+@_for_Punctuation=[YaHalant.gm  VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelEe.gm VowelAi.gm VowelAu.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Jha.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Va.gm Sha.gm Sa.gm Ha.gm Khha.gm Za.gm Rra.gm Fa.gm Iri.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm KaViramaRa.gm KaViramaRaMatraU.gm KaViramaRaMatraUu.gm RraViramaHa.gm Danda.gm Doubledanda.gm MatraI.gm];
+
+@_for_Punctuation1=[YaHalant.gm  VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelEe.gm VowelAi.gm VowelAu.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Jha.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Va.gm Sha.gm Sa.gm Ha.gm Khha.gm Za.gm Rra.gm Fa.gm Iri.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm KaViramaRa.gm KaViramaRaMatraU.gm KaViramaRaMatraUu.gm RraViramaHa.gm MatraIiBindi.gm Danda.gm Doubledanda.gm MatraAa.gm MatraIi.gm];
+
+

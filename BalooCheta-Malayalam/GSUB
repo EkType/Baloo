@@ -1,0 +1,430 @@
+
+
+
+
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+
+languagesystem mlym dflt;
+languagesystem mlym MAL ;
+languagesystem mlm2 dflt;
+languagesystem mlm2 MAL ;
+
+
+
+
+#--------------------------------------------------------------------
+
+
+#---------- L A T I N ----------#
+
+#--------------------------------------------------------------------
+
+
+
+feature subs { # Subscript/Inferior
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript/Superior
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+#--------------------------------------------------------------------
+
+
+
+
+
+
+feature frac { # Fractions Latin
+
+
+
+    sub one slash two by onehalf;
+
+    sub one slash four by onequarter;
+
+    sub three slash four by threequarters;
+
+    sub one slash three by onethird;
+
+    sub two slash three by twothirds;
+
+    sub one slash eight by oneeighth;
+
+    sub three slash eight by threeeighths;
+    sub five slash eight by fiveeighths;
+
+    sub seven slash eight by seveneighths;
+
+
+
+
+} frac;
+
+#--------------------------------------------------------------------
+
+
+
+
+feature liga { # Ligatures
+
+
+
+    sub f i by fi;
+
+    sub f l by fl;
+
+
+
+
+
+
+
+} liga;
+
+
+#--------------------------------------------------------------------
+
+
+
+
+
+#--------------------------------------------------------------------
+
+#---------- M A L A Y A L A M ----------#
+
+#--------------------------------------------------------------------
+
+
+@ignore = [Zha.mlm Lla.mlm LlaLla.mlm];
+
+#--------------------------------------------------------------------
+
+
+feature akhn { # Akhands- all conjuncts
+
+script mlm2;
+language dflt;
+
+lookup akhn1 {
+    sub LlaLla.mlm Virama.mlm LlaLla.mlm by LlaLla.mlm;
+    sub Va.mlm Virama.mlm Va.mlm by VaVa.mlm;
+} akhn1;
+
+lookup akhn2 {
+    sub Ka.mlm Virama.mlm Ssa.mlm Virama.mlm Ma.mlm by KaSsaMa.mlm;
+    sub Ga.mlm Virama.mlm Da.mlm Virama.mlm Dha.mlm by GaDaDha.mlm;
+    sub Ya.mlm Virama.mlm Ta.mlm Virama.mlm Ta.mlm by YaTaTa.mlm; 
+    sub Ya.mlm Virama.mlm Ka.mlm Virama.mlm Ka.mlm by YaKaKa.mlm; 
+    sub Ssa.mlm Virama.mlm Rra.mlm Virama.mlm Rra.mlm by SsaRraRra.mlm; 
+    sub Sa.mlm Virama.mlm Rra.mlm Virama.mlm Rra.mlm by SaRraRra.mlm; 
+    sub Zha.mlm Virama.mlm Ta.mlm Virama.mlm Ta.mlm by ZhaTaTa.mlm;
+    sub Zha.mlm Virama.mlm Na.mlm Virama.mlm Na.mlm by ZhaNaNa.mlm;  
+
+    sub Ka.mlm Virama.mlm Ka.mlm by KaKa.mlm;
+    sub Ka.mlm Virama.mlm Ta.mlm by KaTa.mlm;
+    sub Ka.mlm Virama.mlm Ssa.mlm by KaSsa.mlm;
+    sub Ga.mlm Virama.mlm Na.mlm by GaNa.mlm;
+    sub Ga.mlm Virama.mlm Ma.mlm by GaMa.mlm;
+    sub Ga.mlm Virama.mlm Da.mlm by GaDa.mlm;
+    sub Nga.mlm Virama.mlm Nga.mlm by NgaNga.mlm;
+    sub Nga.mlm Virama.mlm Ka.mlm by NgaKa.mlm;
+    sub Ja.mlm Virama.mlm Nya.mlm by JaNya.mlm;
+    sub Nya.mlm Virama.mlm Cha.mlm by NyaCha.mlm;
+    sub Nya.mlm Virama.mlm Ca.mlm by NyaCa.mlm;
+    sub Nya.mlm Virama.mlm Ja.mlm by NyaJa.mlm;
+    sub Nya.mlm Virama.mlm Nya.mlm by NyaNya.mlm;
+    sub Ja.mlm Virama.mlm Ja.mlm by JaJa.mlm;
+    sub Tta.mlm Virama.mlm Tta.mlm by TtaTta.mlm;
+    sub Nna.mlm Virama.mlm Tta.mlm by NnaTta.mlm;
+    sub Nna.mlm Virama.mlm Dda.mlm by NnaDda.mlm;
+    sub Nna.mlm Virama.mlm Ddha.mlm by NnaDdha.mlm;
+    sub Nna.mlm Virama.mlm Ma.mlm by NnaMa.mlm;
+    sub Ta.mlm Virama.mlm Na.mlm by TaNa.mlm;
+    sub Ta.mlm Virama.mlm Bha.mlm by TaBha.mlm;
+    sub Ta.mlm Virama.mlm Ma.mlm by TaMa.mlm;
+    sub Ta.mlm Virama.mlm Tha.mlm by TaTha.mlm;
+    sub Ta.mlm Virama.mlm Sa.mlm by TaSa.mlm;
+    sub Ta.mlm Virama.mlm Ta.mlm by TaTa.mlm;
+    sub Da.mlm Virama.mlm Dha.mlm by DaDha.mlm;
+    sub Da.mlm Virama.mlm Da.mlm by DaDa.mlm;
+    sub Na.mlm Virama.mlm Tha.mlm by NaTha.mlm;
+    sub Na.mlm Virama.mlm Ma.mlm by NaMa.mlm;
+    sub Na.mlm Virama.mlm Dha.mlm by NaDha.mlm;
+    sub Na.mlm Virama.mlm Ta.mlm by NaTa.mlm;
+    sub Na.mlm Virama.mlm Da.mlm by NaDa.mlm;
+    sub Na.mlm Virama.mlm Na.mlm by NaNa.mlm;
+    sub Ba.mlm Virama.mlm Ja.mlm by BaJa.mlm;
+    sub Ma.mlm Virama.mlm Pa.mlm by MaPa.mlm;
+    sub Ma.mlm Virama.mlm Ma.mlm by MaMa.mlm;
+    sub Lla.mlm Virama.mlm Lla.mlm by LlaLla.mlm;
+    sub Sha.mlm Virama.mlm Ca.mlm by ShaCa.mlm;
+    sub Sha.mlm Virama.mlm Cha.mlm by ShaCha.mlm;
+    sub Sa.mlm Virama.mlm Tha.mlm by SaTha.mlm;
+    sub Sa.mlm Virama.mlm Pha.mlm by SaPha.mlm;
+    sub Ha.mlm Virama.mlm Ma.mlm by HaMa.mlm;
+    sub Ha.mlm Virama.mlm Na.mlm by HaNa.mlm;
+
+    sub Ka.mlm Virama.mlm La.mlm by KaLa.mlm;
+    sub Ga.mlm Virama.mlm La.mlm by GaLa.mlm;
+    sub Ta.mlm Virama.mlm La.mlm by TaLa.mlm;
+    sub Pa.mlm Virama.mlm La.mlm by PaLa.mlm;
+    sub Ba.mlm Virama.mlm La.mlm by BaLa.mlm;
+    sub Pha.mlm Virama.mlm La.mlm by PhaLa.mlm;
+    sub Ma.mlm Virama.mlm La.mlm by MaLa.mlm;
+    sub La.mlm Virama.mlm La.mlm by LaLa.mlm;
+    sub Va.mlm Virama.mlm La.mlm by VaLa.mlm;
+    sub Sha.mlm Virama.mlm La.mlm by ShaLa.mlm;
+    sub Sa.mlm Virama.mlm La.mlm by SaLa.mlm;
+    sub Ha.mlm Virama.mlm La.mlm by HaLa.mlm;
+
+    sub Ka.mlm Virama.mlm Tta.mlm by KaTta.mlm;
+    sub Ka.mlm Virama.mlm Sa.mlm by KaSa.mlm;
+    sub Gha.mlm Virama.mlm Na.mlm by GhaNa.mlm;
+    sub Ga.mlm Virama.mlm Ga.mlm by GaGa.mlm;
+    sub Ca.mlm Virama.mlm Ca.mlm by CaCa.mlm; 
+    sub Ca.mlm Virama.mlm Cha.mlm by CaCha.mlm; 
+    sub Dda.mlm Virama.mlm Dda.mlm by DdaDda.mlm; 
+    sub Dda.mlm Virama.mlm Ddha.mlm by DdaDdha.mlm; 
+    sub Nna.mlm Virama.mlm Nna.mlm by NnaNna.mlm; 
+    sub Nna.mlm Virama.mlm Ttha.mlm by NnaTtha.mlm; 
+    sub Pa.mlm Virama.mlm Pa.mlm by PaPa.mlm; 
+    sub Pa.mlm Virama.mlm Na.mlm by PaNa.mlm; 
+    sub Pa.mlm Virama.mlm Sa.mlm by PaSa.mlm; 
+    sub Pa.mlm Virama.mlm Ta.mlm by PaTa.mlm; 
+    sub Ba.mlm Virama.mlm Ba.mlm by BaBa.mlm; 
+    sub Ba.mlm Virama.mlm Da.mlm by BaDa.mlm; 
+    sub Ba.mlm Virama.mlm Dha.mlm by BaDha.mlm; 
+    sub Ba.mlm Virama.mlm Ka.mlm by BaKa.mlm; 
+    sub Pha.mlm Virama.mlm Ka.mlm by PhaKa.mlm; 
+    sub Pha.mlm Virama.mlm Ta.mlm by PhaTa.mlm; 
+    sub Ma.mlm Virama.mlm Na.mlm by MaNa.mlm; 
+    sub Ya.mlm Virama.mlm Ya.mlm by YaYa.mlm; 
+    sub Ya.mlm Virama.mlm Ma.mlm by YaMa.mlm; 
+    sub Ya.mlm Virama.mlm Pa.mlm by YaPa.mlm; 
+    sub Ya.mlm Virama.mlm Ka.mlm by YaKa.mlm; 
+    sub Ya.mlm Virama.mlm Ta.mlm by YaTa.mlm; 
+    sub Rra.mlm Virama.mlm Rra.mlm by RraRra.mlm; 
+    sub La.mlm Virama.mlm Pa.mlm by LaPa.mlm; 
+    sub La.mlm Virama.mlm Ka.mlm by LaKa.mlm; 
+    sub La.mlm Virama.mlm Ma.mlm by LaMa.mlm; 
+    sub Sha.mlm Virama.mlm Sha.mlm by ShaSha.mlm; 
+    sub Sha.mlm Virama.mlm Na.mlm by ShaNa.mlm; 
+    sub Sha.mlm Virama.mlm Ma.mlm by ShaMa.mlm; 
+    sub Ssa.mlm Virama.mlm Pa.mlm by SsaPa.mlm; 
+    sub Ssa.mlm Virama.mlm Ka.mlm by SsaKa.mlm; 
+    sub Ssa.mlm Virama.mlm Nna.mlm by SsaNna.mlm; 
+    sub Ssa.mlm Virama.mlm Tta.mlm by SsaTta.mlm; 
+    sub Ssa.mlm Virama.mlm Ma.mlm by SsaMa.mlm; 
+    sub Ssa.mlm Virama.mlm Pha.mlm by SsaPha.mlm; 
+    sub Ssa.mlm Virama.mlm Ttha.mlm by SsaTtha.mlm; 
+    sub Ssa.mlm Virama.mlm Ta.mlm by SsaTa.mlm; 
+    sub Sa.mlm Virama.mlm Sa.mlm by SaSa.mlm;  
+    sub Sa.mlm Virama.mlm Pa.mlm by SaPa.mlm; 
+    sub Sa.mlm Virama.mlm Ta.mlm by SaTa.mlm; 
+    sub Sa.mlm Virama.mlm Ka.mlm by SaKa.mlm; 
+    sub Sa.mlm Virama.mlm Na.mlm by SaNa.mlm; 
+    sub Sa.mlm Virama.mlm Ma.mlm by SaMa.mlm; 
+    sub Zha.mlm Virama.mlm Ca.mlm by ZhaCa.mlm;  
+    sub Zha.mlm Virama.mlm Ta.mlm by ZhaTa.mlm; 
+    sub Zha.mlm Virama.mlm Ka.mlm by ZhaKa.mlm; 
+    sub Zha.mlm Virama.mlm Ma.mlm by ZhaMa.mlm; 
+    sub Na.mlm Virama.mlm Rra.mlm by NaRra.mlm; 
+
+
+    sub Lla.mlm Virama.mlm ZWJ by chilluLl.mlm;
+    sub Nna.mlm Virama.mlm ZWJ by chilluNn.mlm;
+    sub Ra.mlm Virama.mlm ZWJ by chilluRr.mlm;
+    sub La.mlm Virama.mlm ZWJ by chilluL.mlm;
+    sub Na.mlm Virama.mlm ZWJ by chilluN.mlm;
+    sub Ka.mlm Virama.mlm ZWJ by chilluK.mlm;
+
+} akhn2;
+
+
+language MAL ;
+
+lookup akhn1;
+lookup akhn2;
+
+
+script mlym;
+language dflt;
+
+lookup akhn3 {
+    sub LlaLla.mlm LlaLla.mlm Virama.mlm by LlaLla.mlm;
+    sub Va.mlm Va.mlm Virama.mlm by VaVa.mlm;
+} akhn3;
+
+lookup akhn2;
+
+
+language MAL ;
+
+lookup akhn3;
+lookup akhn2;
+
+} akhn;
+
+
+#--------------------------------------------------------------------
+
+feature haln {
+    sub NaRra.mlm Virama.mlm by NaRraVirama.mlm;
+} haln;
+
+#--------------------------------------------------------------------
+
+
+feature pref { # Pre-base Forms- Rakar
+    ignore sub @ignore Virama.mlm' Ra.mlm';
+    sub Virama.mlm' Ra.mlm' by ViramaRa.mlm;
+
+} pref;
+
+
+
+
+#--------------------------------------------------------------------
+
+
+feature pstf { # Post-base Forms - Ya Va conjunct forms, Rakar
+
+
+
+script mlm2;
+language dflt ;
+
+lookup pstf1 {
+    ignore sub @ignore Virama.mlm' Ya.mlm';
+    sub Virama.mlm' Ya.mlm' by ViramaYa.mlm;
+
+} pstf1;
+
+lookup pstf2 {
+    ignore sub @ignore Virama.mlm' Va.mlm';
+    sub Virama.mlm' Va.mlm' by ViramaVa.mlm;
+}pstf2;
+
+lookup pstf3 {
+    ignore sub @ignore Virama.mlm' Ra.mlm';
+    sub Virama.mlm' Ra.mlm' by ViramaRa.mlm;
+}pstf3;
+
+
+
+language MAL ;
+lookup pstf1;
+lookup pstf2;
+lookup pstf3;
+
+
+script mlym; # Malayalam
+language dflt;
+
+lookup pstf4 {
+    ignore sub @ignore Ya.mlm' Virama.mlm';
+    sub Ya.mlm' Virama.mlm' by ViramaYa.mlm;
+
+} pstf4;
+
+lookup pstf5 {
+    ignore sub @ignore Va.mlm' Virama.mlm';
+    sub Va.mlm' Virama.mlm' by ViramaVa.mlm;
+}pstf5;
+
+lookup pstf6 {
+    ignore sub @ignore Ra.mlm' Virama.mlm';
+    sub Ra.mlm' Virama.mlm' by ViramaRa.mlm;
+}pstf6;
+
+language MAL;
+lookup pstf4;
+lookup pstf5;
+lookup pstf6;
+
+
+} pstf;
+
+
+
+
+#--------------------------------------------------------------------
+
+
+@matraI1 = [La.mlm Kha.mlm Gha.mlm Ca.mlm Tha.mlm Pa.mlm Pha.mlm Ba.mlm Va.mlm Ssa.mlm KaSsa.mlm NaTha.mlm MaPa.mlm ShaCa.mlm SaTha.mlm GhaNa.mlm KaSsaMa.mlm CaCa.mlm CaCha.mlm PaPa.mlm PaNa.mlm PaLa.mlm PaSa.mlm PaTa.mlm BaBa.mlm BaLa.mlm BaDa.mlm BaDha.mlm BaKa.mlm PhaLa.mlm PhaKa.mlm PhaTa.mlm LaLa.mlm LaPa.mlm LaKa.mlm LaMa.mlm VaVa.mlm VaLa.mlm SsaPa.mlm SsaKa.mlm SsaNna.mlm SsaTta.mlm SsaMa.mlm SsaRraRra.mlm SsaPha.mlm SsaTtha.mlm SsaTa.mlm ViramaVa.mlm uni0D6E uni0D67 Ya.mlm YaYa.mlm YaMa.mlm YaPa.mlm YaKa.mlm YaKaKa.mlm YaTa.mlm YaTaTa.mlm Zha.mlm ZhaKa.mlm ZhaCa.mlm ZhaTa.mlm ZhaTaTa.mlm ZhaNaNa.mlm ZhaMa.mlm Tta.mlm TtaTta.mlm NyaCa.mlm Jha.mlm Dda.mlm Ddha.mlm Dha.mlm Sa.mlm Virama.mlm uni0D4E GaDaDha.mlm NnaDda.mlm NnaDdha.mlm TaSa.mlm DaDha.mlm NaDha.mlm DdaDda.mlm DdaDdha.mlm SaKa.mlm SaTa.mlm SaNa.mlm SaPa.mlm SaPha.mlm SaMa.mlm SaRraRra.mlm SaLa.mlm SaSa.mlm BaJa.mlm];
+
+@ViramaVa1 = [Ja.mlm JaJa.mlm NyaJa.mlm KaTta.mlm KaLa.mlm KaSa.mlm KaSsaMa.mlm GhaNa.mlm GaGa.mlm GaLa.mlm CaCa.mlm CaCha.mlm TtaTta.mlm DdaDda.mlm DdaDdha.mlm NnaNna.mlm NnaTtha.mlm TaLa.mlm DaDa.mlm PaTa.mlm PaNa.mlm PaLa.mlm PaSa.mlm BaKa.mlm BaJa.mlm BaDa.mlm BaDha.mlm BaBa.mlm BaLa.mlm PhaKa.mlm PhaTa.mlm PhaLa.mlm MaNa.mlm MaLa.mlm YaKa.mlm YaKaKa.mlm YaTa.mlm YaTaTa.mlm YaPa.mlm YaMa.mlm YaYa.mlm RraRra.mlm LaKa.mlm LaPa.mlm LaMa.mlm LaLa.mlm VaLa.mlm VaVa.mlm SsaKa.mlm SsaTta.mlm SsaTtha.mlm SsaNna.mlm SsaTa.mlm ShaNa.mlm SsaPa.mlm SsaPha.mlm SsaMa.mlm SsaRraRra.mlm ShaMa.mlm ShaLa.mlm ShaSha.mlm SaKa.mlm SaTa.mlm SaNa.mlm SaPa.mlm SaPha.mlm SaMa.mlm SaRraRra.mlm SaLa.mlm SaSa.mlm HaLa.mlm ZhaKa.mlm ZhaCa.mlm ZhaTa.mlm ZhaTaTa.mlm ZhaNaNa.mlm ZhaMa.mlm NaRra.mlm];
+
+@ViramaRa1= [Ja.mlm JaJa.mlm JaNya.mlm CaCha.mlm TtaTta.mlm PaSa.mlm MaNa.mlm MaLa.mlm ZhaKa.mlm ZhaCa.mlm ZhaTa.mlm ZhaTaTa.mlm ZhaNaNa.mlm];
+
+@ViramaYa1 = [Ja.mlm JaJa.mlm NyaJa.mlm KaLa.mlm KaSa.mlm KaSsaMa.mlm GhaNa.mlm GaGa.mlm GaLa.mlm CaCa.mlm CaCha.mlm TtaTta.mlm DdaDda.mlm DdaDdha.mlm NnaNna.mlm NnaTtha.mlm TaLa.mlm DaDa.mlm PaTa.mlm PaNa.mlm PaLa.mlm PaSa.mlm BaKa.mlm BaJa.mlm BaDa.mlm BaDha.mlm BaBa.mlm BaLa.mlm PhaKa.mlm PhaTa.mlm PhaLa.mlm MaNa.mlm MaLa.mlm YaKaKa.mlm YaTaTa.mlm YaPa.mlm YaYa.mlm LaKa.mlm LaPa.mlm LaLa.mlm VaLa.mlm VaVa.mlm SsaKa.mlm SsaTta.mlm SsaTtha.mlm SsaNna.mlm SsaTa.mlm SsaPa.mlm SsaPha.mlm SsaMa.mlm SsaRraRra.mlm ShaMa.mlm ShaLa.mlm ShaSha.mlm SaKa.mlm SaTa.mlm SaNa.mlm SaPa.mlm SaPha.mlm SaMa.mlm SaRraRra.mlm SaLa.mlm SaSa.mlm HaLa.mlm ZhaKa.mlm ZhaCa.mlm ZhaTa.mlm ZhaTaTa.mlm ZhaNaNa.mlm ZhaMa.mlm NaRra.mlm];
+
+
+feature psts { # Post-base Substitutions
+
+
+lookup psts1 {
+	sub Ya.mlm ViramaYa.mlm by YaYa.mlm;
+	sub Va.mlm ViramaVa.mlm by VaVa.mlm;
+} psts1;
+
+
+lookup psts2 { 
+	sub @matraI1 matraI.mlm' by matraI1.mlm;
+	sub @matraI1 matraIi.mlm' by matraIi1.mlm;
+} psts2;
+
+
+
+	sub @ViramaVa1 ViramaVa.mlm' by ViramaVa1.mlm;
+	sub @ViramaYa1 ViramaYa.mlm' by ViramaYa1.mlm;
+	sub ViramaRa.mlm' @ViramaRa1 by ViramaRa1.mlm;
+
+
+} psts;
+
+
+#--------------------------------------------------------------------
+
+@matraU1 = [Ka.mlm Kha.mlm Gha.mlm Ca.mlm Tha.mlm Pa.mlm Pha.mlm Ba.mlm Ma.mlm La.mlm Lla.mlm Va.mlm Ssa.mlm KaSsa.mlm GaMa.mlm NyaCa.mlm NnaMa.mlm TaTha.mlm TaMa.mlm NaMa.mlm NaTha.mlm MaMa.mlm MaPa.mlm ShaCa.mlm HaMa.mlm LlaLla.mlm KaTta.mlm KaLa.mlm  KaSsaMa.mlm GhaNa.mlm GaGa.mlm GaLa.mlm NgaKa.mlm DdaDda.mlm NnaNna.mlm NnaTtha.mlm TaLa.mlm  PaPa.mlm  BaDa.mlm  PhaKa.mlm PhaTa.mlm PhaLa.mlm YaKaKa.mlm YaPa.mlm YaYa.mlm  LaMa.mlm LaLa.mlm  SsaKa.mlm SsaTtha.mlm  SaPa.mlm SaPha.mlm SaMa.mlm SaRraRra.mlm  SaLa.mlm HaLa.mlm];
+
+@matraU2 = [Ja.mlm JaJa.mlm NyaJa.mlm KaSa.mlm NgaKa.mlm CaCa.mlm CaCha.mlm TtaTta.mlm DdaDdha.mlm DaDa.mlm PaTa.mlm PaNa.mlm PaLa.mlm PaSa.mlm BaJa.mlm BaDha.mlm BaBa.mlm BaLa.mlm MaNa.mlm MaLa.mlm YaTaTa.mlm LaPa.mlm VaLa.mlm VaVa.mlm SsaNna.mlm SsaTa.mlm SsaPa.mlm SsaPha.mlm SsaMa.mlm SsaRraRra.mlm SaTa.mlm SaNa.mlm ZhaKa.mlm ZhaTa.mlm ZhaNaNa.mlm NaRra.mlm ZhaTaTa.mlm BaKa.mlm];
+
+@matraRu1 = [KaLa.mlm KaSa.mlm KaSsaMa.mlm GhaNa.mlm GaGa.mlm GaLa.mlm DdaDda.mlm NnaNna.mlm NnaTtha.mlm TaLa.mlm BaJa.mlm BaDa.mlm BaDha.mlm BaLa.mlm PhaKa.mlm PhaTa.mlm PhaLa.mlm YaKaKa.mlm YaPa.mlm YaYa.mlm RraRra.mlm LaKa.mlm LaLa.mlm SsaKa.mlm SsaTta.mlm SsaTtha.mlm SsaTa.mlm SsaPha.mlm SsaMa.mlm ShaMa.mlm SaPa.mlm SaPha.mlm SaMa.mlm SaSa.mlm HaLa.mlm ];
+
+@matraRu2 = [CaCa.mlm CaCha.mlm TtaTta.mlm DdaDdha.mlm DaDa.mlm PaTa.mlm PaNa.mlm PaLa.mlm PaSa.mlm BaKa.mlm BaBa.mlm MaNa.mlm MaLa.mlm YaTaTa.mlm LaPa.mlm VaLa.mlm VaVa.mlm SsaNna.mlm SsaPa.mlm SsaRraRra.mlm SaKa.mlm SaTa.mlm SaNa.mlm SaRraRra.mlm SaLa.mlm ZhaKa.mlm ZhaTa.mlm ZhaTaTa.mlm ZhaNaNa.mlm NaRra.mlm Ja.mlm NyaJa.mlm JaJa.mlm];
+
+feature blws {
+ 
+	sub @matraU1 matraU.mlm' by matraU1.mlm;
+	sub @matraU1 matraUu.mlm' by matraUu1.mlm;
+	sub @matraRu1 matraRu.mlm' by matraRu1.mlm;
+
+	sub @matraU2 matraU.mlm' by matraU2.mlm;
+	sub @matraU2 matraUu.mlm' by matraUu2.mlm;
+	sub @matraRu2 matraRu.mlm' by matraRu2.mlm;
+
+	sub [ViramaYa.mlm ViramaYa1.mlm] matraU.mlm' by matraU2.mlm;
+	sub [ViramaVa.mlm ViramaVa1.mlm] matraU.mlm' by matraU2.mlm;
+	sub [ViramaYa.mlm ViramaYa1.mlm] matraRu.mlm' by matraRu2.mlm;
+	sub [ViramaVa.mlm ViramaVa1.mlm] matraRu.mlm' by matraRu2.mlm;
+} blws;
+
+
+#--------------------------------------------------------------------
+
+
+
+
