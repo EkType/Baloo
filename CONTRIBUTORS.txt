@@ -28,7 +28,7 @@ D: Type Design (Malayalam)
 N: Noopur Datye
 E: noopur.datye@ektype.in
 W: www.ektype.in
-D: Type Design (Bengali)
+D: Type Design (Bangla)
 
 N: Sarang Kulkarni
 E: sarang.kulkarni@ektype.in

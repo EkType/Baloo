@@ -1,7 +1,0 @@
-InputFontPath	.\BalooCheta.ttf
-OutputFontPath	.\BalooCheta.otf
-ReleaseMode	true
-Renumber	5
-FeaturePath	.\features
-FontMenuDBPath	.\FontMenuNameDB
-GlyphAliasDBPath	.\GlyphOrderAndAliasDB

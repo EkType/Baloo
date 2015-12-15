@@ -11,7 +11,7 @@ The Baloo family contains separate fonts with unique local names for each of the
 - Baloo Bhai - Gujarati + Latin 
 - Baloo Tamma - Kannada + Latin
 - Baloo Tammudu - Telugu + Latin
-- Baloo Cheta - Malayalam + Latin
+- Baloo Chettan - Malayalam + Latin
 - Baloo Thambi - Tamil + Latin
 - Baloo - Devanagari + Latin
 
