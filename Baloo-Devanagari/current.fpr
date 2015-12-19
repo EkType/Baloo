@@ -1,0 +1,8 @@
+InputFontPath	.\Baloo.ttf
+OutputFontPath	.\Baloo.otf
+Renumber	5
+ReleaseMode	true
+DoSubroutinization	true
+FeaturePath	.\features
+FontMenuDBPath	.\FontMenuNameDB
+GlyphAliasDBPath	.\GlyphOrderAndAliasDB
