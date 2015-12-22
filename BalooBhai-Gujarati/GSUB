@@ -1,0 +1,1192 @@
+#--------------------------------------------------------------------
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem gjr2 dflt;
+languagesystem gjr2 GUJ ;
+languagesystem gujr dflt;
+languagesystem gujr GUJ ;
+
+
+#--------------------------------------------------------------------
+
+#---------- L A T I N ----------#
+
+#--------------------------------------------------------------------
+
+
+feature frac { # Fractions Latin
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+    sub one slash three by onethird;
+    sub two slash three by twothirds;
+    sub one slash eight by oneeighth;
+    sub three slash eight by threeeighths;
+    sub five slash eight by fiveeighths;
+    sub seven slash eight by seveneighths;
+} frac;
+
+
+#--------------------------------------------------------------------
+
+
+feature liga { # Ligatures
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript/Inferior
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript/Superior
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+
+
+#--------------------------------------------------------------------
+
+#---------- G U J A R A T I ----------#
+
+#--------------------------------------------------------------------
+
+
+feature akhn { # Akhanda
+script gjr2;
+language dflt;
+lookup akhn1 {
+	sub Ka.gj Halant.gj Ssa.gj by KaSsa.gj;
+	sub Ja.gj Halant.gj Nya.gj by JaNya.gj;
+}akhn1;	
+script gujr;
+language dflt;
+lookup akhn1;
+} akhn;
+
+#--------------------------------------------------------------------
+
+
+feature rphf { # Reph forms
+script gjr2;
+language dflt;
+lookup rphf1 {
+	sub Ra.gj Halant.gj by Reph.gj;
+} rphf1;
+script gujr;
+language dflt;
+lookup rphf1;
+} rphf;
+
+
+#--------------------------------------------------------------------
+
+feature rkrf { # Rakar
+	script gjr2;
+	language dflt;
+	lookup rkrf1 {
+		sub Ka.gj Halant.gj Ra.gj by KaRa.gj;
+		sub Kha.gj Halant.gj Ra.gj by KhaRa.gj;
+		sub Ga.gj Halant.gj Ra.gj by GaRa.gj;
+		sub Gha.gj Halant.gj Ra.gj by GhaRa.gj;
+		sub Ca.gj Halant.gj Ra.gj by CaRa.gj;
+		sub Jha.gj Halant.gj Ra.gj by JhaRa.gj;
+		sub Nya.gj Halant.gj Ra.gj by NyaRa.gj;
+		sub Nna.gj Halant.gj Ra.gj by NnaRa.gj;
+		sub Ta.gj Halant.gj Ra.gj by TaRa.gj;
+		sub Tha.gj Halant.gj Ra.gj by ThaRa.gj;
+		sub Da.gj Halant.gj Ra.gj by DaRa.gj;
+		sub Dha.gj Halant.gj Ra.gj by DhaRa.gj;
+		sub Na.gj Halant.gj Ra.gj by NaRa.gj;
+		sub Pa.gj Halant.gj Ra.gj by PaRa.gj;
+		sub Pha.gj Halant.gj Ra.gj by PhaRa.gj;
+		sub Ba.gj Halant.gj Ra.gj by BaRa.gj;
+		sub Bha.gj Halant.gj Ra.gj by BhaRa.gj;
+		sub Ma.gj Halant.gj Ra.gj by MaRa.gj;
+		sub Ya.gj Halant.gj Ra.gj by YaRa.gj;
+		sub La.gj Halant.gj Ra.gj by LaRa.gj;
+		sub Va.gj Halant.gj Ra.gj by VaRa.gj;
+		sub Sha.gj Halant.gj Ra.gj by ShaRa.gj;
+		sub Sa.gj Halant.gj Ra.gj by SaRa.gj;
+		sub Ssa.gj Halant.gj Ra.gj by SsaRa.gj;
+		sub Ha.gj Halant.gj Ra.gj by HaRa.gj;
+        sub Lla.gj Halant.gj Ra.gj by LlaRa.gj;
+} rkrf1;
+} rkrf ;
+
+#--------------------------------------------------------------------
+
+
+feature blwf {
+script gjr2;
+language dflt;
+	lookup blwf2{
+		sub Halant.gj Ra.gj by Vattu.gj;
+}blwf2;
+script gujr;
+language dflt;
+	lookup blwf1{
+		sub Ra.gj Halant.gj by Vattu.gj;
+}blwf1;
+}blwf;
+
+
+#-------------------------------------------------------------------
+
+
+feature half  {  # Half Forms
+script gjr2;
+language dflt;
+	lookup half_rakar1 {
+		sub KaRa.gj Halant.gj by KaRaHalf.gj;
+		sub GaRa.gj Halant.gj by GaRaHalf.gj;
+		sub GhaRa.gj Halant.gj by GhaRaHalf.gj;
+		sub TaRa.gj Halant.gj by TaRaHalf.gj;
+		sub DhaRa.gj Halant.gj by DhaRaHalf.gj;
+		sub PaRa.gj Halant.gj by PaRaHalf.gj;
+		sub BhaRa.gj Halant.gj by BhaRaHalf.gj;
+		sub VaRa.gj Halant.gj by VaRaHalf.gj;
+		sub ShaRa.gj Halant.gj by ShaRaHalf.gj;
+		sub SsaRa.gj Halant.gj by SsaRaHalf.gj;
+		sub SaRa.gj Halant.gj by SaRaHalf.gj;
+} half_rakar1;
+
+lookup half_rakar2 {
+		sub Ka.gj Halant.gj Ra.gj Halant.gj by KaRaHalf.gj;
+		sub Ga.gj Halant.gj Ra.gj Halant.gj by GaRaHalf.gj;
+		sub Gha.gj Halant.gj Ra.gj Halant.gj by GhaRaHalf.gj;
+		sub Ta.gj Halant.gj Ra.gj Halant.gj by TaRaHalf.gj;
+		sub Dha.gj Halant.gj Ra.gj Halant.gj by DhaRaHalf.gj;
+		sub Pa.gj Halant.gj Ra.gj Halant.gj by PaRaHalf.gj;
+		sub Bha.gj Halant.gj Ra.gj Halant.gj by BhaRaHalf.gj;
+		sub Va.gj Halant.gj Ra.gj Halant.gj by VaRaHalf.gj;
+		sub Sha.gj Halant.gj Ra.gj Halant.gj by ShaRaHalf.gj;
+		sub Ssa.gj Halant.gj Ra.gj Halant.gj by SsaRaHalf.gj;
+		sub Sa.gj Halant.gj Ra.gj Halant.gj by SaRaHalf.gj;
+} half_rakar2;
+	
+	lookup half1 {
+		sub Ka.gj Halant.gj by KaHalf.gj;
+		sub Kha.gj Halant.gj by KhaHalf.gj;
+		sub Ga.gj Halant.gj by GaHalf.gj;
+		sub Gha.gj Halant.gj by GhaHalf.gj;		
+		sub Ca.gj Halant.gj by CaHalf.gj;
+		sub Ja.gj Halant.gj by JaHalf.gj;
+		sub Nya.gj Halant.gj by NyaHalf.gj;
+		sub Nna.gj Halant.gj by NnaHalf.gj;
+		sub Ta.gj Halant.gj by TaHalf.gj;
+		sub Tha.gj Halant.gj by ThaHalf.gj;
+		sub Dha.gj Halant.gj by DhaHalf.gj;
+		sub Na.gj Halant.gj by NaHalf.gj;
+		sub Pa.gj Halant.gj by PaHalf.gj;
+		sub Pha.gj Halant.gj by PhaHalf.gj;
+		sub Ba.gj Halant.gj by BaHalf.gj;
+		sub Bha.gj Halant.gj by BhaHalf.gj;
+		sub Ma.gj Halant.gj by MaHalf.gj;
+		sub Ya.gj Halant.gj by YaHalf.gj;
+		sub La.gj Halant.gj by LaHalf.gj;
+		sub Lla.gj Halant.gj by LlaHalf.gj;
+		sub Va.gj Halant.gj by VaHalf.gj;
+		sub Sha.gj Halant.gj by ShaHalf.gj;
+		sub Ssa.gj Halant.gj by SsaHalf.gj;
+		sub Sa.gj Halant.gj by SaHalf.gj;
+		sub KaSsa.gj Halant.gj by KaSsaHalf.gj;
+		sub JaNya.gj Halant.gj by JaNyaHalf.gj;
+} half1;
+script gujr;
+language dflt;
+lookup half_rakar1;
+lookup half_rakar2; 
+lookup half1;
+} half;
+
+#--------------------------------------------------------------------
+
+feature vatu { # Vattu
+	script gujr;
+	language dflt;
+	lookup vatu1 {
+		sub Ka.gj Vattu.gj by KaRa.gj;
+		sub Kha.gj Vattu.gj by KhaRa.gj;
+		sub Ga.gj Vattu.gj by GaRa.gj;
+		sub Gha.gj Vattu.gj by GhaRa.gj;
+		sub Ca.gj Vattu.gj by CaRa.gj;
+		sub Jha.gj Vattu.gj by JhaRa.gj;
+		sub Nya.gj Vattu.gj by NyaRa.gj;
+		sub Nna.gj Vattu.gj by NnaRa.gj;
+		sub Ta.gj Vattu.gj by TaRa.gj;
+		sub Tha.gj Vattu.gj by ThaRa.gj;
+		sub Da.gj Vattu.gj by DaRa.gj;
+		sub Dha.gj Vattu.gj by DhaRa.gj;
+		sub Na.gj Vattu.gj by NaRa.gj;
+		sub Pa.gj Vattu.gj by PaRa.gj;
+		sub Pha.gj Vattu.gj by PhaRa.gj;
+		sub Ba.gj Vattu.gj by BaRa.gj;
+		sub Bha.gj Vattu.gj by BhaRa.gj;
+		sub Ma.gj Vattu.gj by MaRa.gj;
+		sub Ya.gj Vattu.gj by YaRa.gj;
+		sub La.gj Vattu.gj by LaRa.gj;
+		sub Va.gj Vattu.gj by VaRa.gj;
+		sub Sha.gj Vattu.gj by ShaRa.gj;
+		sub Sa.gj Vattu.gj by SaRa.gj;
+		sub Ssa.gj Vattu.gj by SsaRa.gj;
+		sub Ha.gj Vattu.gj by HaRa.gj;
+		sub Lla.gj Vattu.gj by LlaRa.gj;
+} vatu1;
+
+
+	lookup vatu_half1 {
+		sub KaHalf.gj Vattu.gj by KaRaHalf.gj;
+		sub GaHalf.gj Vattu.gj by GaRaHalf.gj;
+		sub GhaHalf.gj Vattu.gj by GhaRaHalf.gj;
+		sub TaHalf.gj Vattu.gj by TaRaHalf.gj;
+		sub DhaHalf.gj Vattu.gj by DhaRaHalf.gj;
+		sub PaHalf.gj Vattu.gj by PaRaHalf.gj;
+		sub BhaHalf.gj Vattu.gj by BhaRaHalf.gj;
+		sub VaHalf.gj Vattu.gj by VaRaHalf.gj;
+		sub ShaHalf.gj Vattu.gj by ShaRaHalf.gj;
+		sub SsaHalf.gj Vattu.gj by SsaRaHalf.gj;
+		sub SaHalf.gj Vattu.gj by SaRaHalf.gj;		
+} vatu_half1;
+}vatu;
+
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+
+feature pres {
+
+
+lookup presHalf {
+		sub KaHalf.gj SaHalf.gj by KaSaHalf.gj;
+		sub NaHalf.gj ThaHalf.gj by NaThaHalf.gj;
+		sub NaHalf.gj NaHalf.gj by NaNaHalf.gj;
+		sub NaHalf.gj MaHalf.gj by NaMaHalf.gj;
+		sub TaHalf.gj KaHalf.gj by TaKaHalf.gj;
+		sub TaHalf.gj TaHalf.gj by TaTaHalf.gj;
+		sub TaHalf.gj TaHalf_alt.gj by TaTaHalf.gj;
+		sub BaHalf.gj DhaHalf.gj by BaDhaHalf.gj;	
+		sub SaHalf.gj KaHalf.gj by SaKaHalf.gj;			
+		sub Ha.gj Halant.gj MaHalf.gj by HaMaHalf.gj;
+} presHalf;
+
+
+lookup MatraI { # Replace Ikar matra for conjuncts
+
+	sub MatraI.gj' @matraI1 by MatraI1.gj;
+	sub MatraI.gj' @matraI2 by MatraI2.gj;
+	sub MatraI.gj' @matraI3 by MatraI3.gj;
+	sub MatraI.gj' @matraI4 by MatraI4.gj;
+	sub MatraI.gj' @matraI5 by MatraI5.gj;
+
+	sub MatraI.gj' @matraI6 by MatraI6.gj;
+	sub MatraI.gj' NaHalf.gj Da.gj by MatraI6.gj;
+	
+	sub MatraI.gj' @matraI7 by MatraI7.gj;
+	sub MatraI.gj' PaHalf.gj Ttha.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt2.gj Ha.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt2.gj Ka.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt2.gj KaRa.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt2.gj Pha.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt2.gj PhaRa.gj by MatraI7.gj;
+	sub MatraI.gj' MaHalf.gj Ha.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf_alt.gj Tta.gj by MatraI7.gj;
+	sub MatraI.gj' NaHalf.gj Dda.gj by MatraI7.gj;
+
+	sub MatraI.gj' @matraI8 by MatraI8.gj;
+	sub MatraI.gj' NaHalf.gj DaRa.gj by MatraI8.gj;
+	sub MatraI.gj' NaHalf.gj DaVa.gj by MatraI8.gj;
+	sub MatraI.gj' SsaHalf.gj Ttha.gj by MatraI8.gj;
+	sub MatraI.gj' DhaHalf.gj Da.gj by MatraI8.gj;
+	sub MatraI.gj' PaHalf.gj Tta.gj by MatraI8.gj;
+
+	sub MatraI.gj' @matraI9 by MatraI9.gj;
+	sub MatraI.gj' GaHalf.gj Da.gj by MatraI9.gj;
+	sub MatraI.gj' GaHalf.gj Dda.gj by MatraI9.gj;
+	sub MatraI.gj' LaHalf_alt.gj Da.gj by MatraI9.gj;
+	sub MatraI.gj' SaHalf.gj Da.gj by MatraI9.gj;
+	sub MatraI.gj' NaHalf_alt.gj Pa.gj by MatraI9.gj;
+	sub MatraI.gj' NaHalf_alt.gj PaRa.gj by MatraI9.gj;
+	sub MatraI.gj' NaHalf_alt.gj Ssa.gj by MatraI9.gj;
+	sub MatraI.gj' LaHalf_alt.gj Da.gj by MatraI9.gj;
+	sub MatraI.gj' SaHalf_alt.gj Dda.gj by MatraI9.gj;	
+	sub MatraI.gj' SsaHalf.gj Tta.gj by MatraI9.gj;
+
+	sub MatraI.gj' @matraI10 by MatraI10.gj;
+	sub MatraI.gj' GaHalf.gj Ddha.gj by MatraI10.gj;
+	sub MatraI.gj' ShaHalf.gj Tta.gj by MatraI10.gj;
+	sub MatraI.gj' NaHalf_alt.gj Ssa.gj by MatraI10.gj;
+	sub MatraI.gj' NaHalf_alt.gj Pa.gj by MatraI10.gj;
+	sub MatraI.gj' NaHalf_alt.gj PaRa.gj by MatraI10.gj;
+	sub MatraI.gj' NaHalf.gj Va.gj by MatraI10.gj;
+	sub MatraI.gj' LaHalf_alt.gj Dda.gj by MatraI10.gj;
+	sub MatraI.gj' ShaHalf.gj Ka.gj by MatraI10.gj;
+	sub MatraI.gj' ShaHalf.gj Dda.gj by MatraI10.gj;
+	sub MatraI.gj' ShaHalf.gj Pha.gj by MatraI10.gj;
+	sub MatraI.gj' ShaHalf.gj Ha.gj by MatraI10.gj;
+	sub MatraI.gj' MaHalf.gj Ta.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Ta.gj by MatraI10.gj;
+	sub MatraI.gj' TaHalf.gj Va.gj by MatraI10.gj;
+	sub MatraI.gj' MaHalf.gj Va.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Na.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Pa.gj by MatraI10.gj;
+	sub MatraI.gj' TaHalf.gj Va.gj by MatraI10.gj;
+	sub MatraI.gj' MaHalf.gj Va.gj by MatraI10.gj;
+	sub MatraI.gj' NaHalf_alt.gj Ya.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Na.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Pa.gj by MatraI10.gj;
+	sub MatraI.gj' MaHalf.gj Na.gj by MatraI10.gj;
+	sub MatraI.gj' MaHalf.gj Ma.gj by MatraI10.gj;
+	sub MatraI.gj' LaHalf_alt2.gj Ttha.gj by MatraI10.gj;
+	sub MatraI.gj' KaSsaHalf.gj Tta.gj by MatraI10.gj;
+	sub MatraI.gj' NaNaHalf.gj Ya.gj by MatraI10.gj;
+	sub MatraI.gj' PaHalf.gj Ssa.gj by MatraI10.gj;
+	sub MatraI.gj' LaHalf.gj Ha.gj by MatraI10.gj;
+	sub MatraI.gj' TaHalf.gj Na.gj by MatraI10.gj;
+	sub MatraI.gj' SaHalf.gj Tta.gj by MatraI10.gj;
+
+	sub MatraI.gj' @matraI11 by MatraI11.gj;
+	sub MatraI.gj' TaHalf.gj Ma.gj by MatraI11.gj;
+	sub MatraI.gj' TaHalf.gj Pa.gj by MatraI11.gj;
+	sub MatraI.gj' TaHalf.gj PaRa.gj by MatraI11.gj;
+	sub MatraI.gj' ShaHalf.gj Ha.gj by MatraI11.gj;
+	sub MatraI.gj' PaHalf.gj Va.gj by MatraI11.gj;
+	sub MatraI.gj' MaHalf.gj Pa.gj by MatraI11.gj;
+	sub MatraI.gj' VaHalf.gj Va.gj by MatraI11.gj;
+	sub MatraI.gj' MaHalf.gj PaRa.gj by MatraI11.gj;
+	sub MatraI.gj' PaHalf.gj Ya.gj by MatraI11.gj;
+	sub MatraI.gj' NaHalf.gj Cha.gj by MatraI11.gj;
+	sub MatraI.gj' MaHalf.gj Ya.gj by MatraI11.gj;
+	sub MatraI.gj' SsaHalf.gj Ssa.gj by MatraI11.gj;
+	sub MatraI.gj' SsaHalf.gj Pa.gj by MatraI11.gj;
+	sub MatraI.gj' SsaHalf.gj PaRa.gj by MatraI11.gj;
+	sub MatraI.gj' SsaHalf.gj Va.gj by MatraI11.gj;
+	sub MatraI.gj' TaRaHalf.gj Ya.gj by MatraI11.gj;
+	sub MatraI.gj' VaHalf.gj Ya.gj by MatraI11.gj;
+	sub MatraI.gj' LaHalf.gj DaRa.gj by MatraI11.gj;
+	sub MatraI.gj' KaHalf.gj Ttha.gj by MatraI11.gj;
+	sub MatraI.gj' KaHalf_alt.gj Dda.gj by MatraI11.gj;
+	sub MatraI.gj' KaHalf_alt.gj Da.gj by MatraI11.gj;
+	sub MatraI.gj' NaHalf_alt2.gj Dha.gj by MatraI11.gj;
+	sub MatraI.gj' NaHalf_alt2.gj DhaRa.gj by MatraI11.gj;
+	sub MatraI.gj' YaHalf.gj Va.gj by MatraI11.gj;
+	sub MatraI.gj' ThaHalf.gj Na.gj by MatraI11.gj;
+	sub MatraI.gj' LaHalf_alt2.gj Ha.gj by MatraI11.gj;
+	sub MatraI.gj' LaHalf_alt2.gj Tta.gj by MatraI11.gj;
+
+	sub MatraI.gj' @matraI12 by MatraI12.gj;
+	sub MatraI.gj' CaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' DhaHalf.gj Ma.gj by MatraI12.gj;
+	sub MatraI.gj' YaHalf.gj Ya.gj by MatraI12.gj;
+	sub MatraI.gj' PaHalf.gj Tha.gj by MatraI12.gj;
+	sub MatraI.gj' GaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' SsaHalf.gj Ma.gj by MatraI12.gj;
+	sub MatraI.gj' DhaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' SsaHalf.gj Ya.gj by MatraI12.gj;
+	sub MatraI.gj' NnaHalf.gj Ttha.gj by MatraI12.gj;
+	sub MatraI.gj' NnaHalf.gj Ha.gj by MatraI12.gj;
+	sub MatraI.gj' ThaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' TaTaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' TaTaHalf.gj Ya.gj by MatraI12.gj;
+	sub MatraI.gj' NaHalf_alt.gj Sa.gj by MatraI12.gj;
+	sub MatraI.gj' SaHalf.gj Na.gj by MatraI12.gj;
+	sub MatraI.gj' GaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' NaHalf_alt.gj Jha.gj by MatraI12.gj;
+	sub MatraI.gj' GaHalf.gj Na.gj by MatraI12.gj;
+	sub MatraI.gj' GaHalf.gj Pa.gj by MatraI12.gj;
+	sub MatraI.gj' GhaHalf.gj Na.gj by MatraI12.gj;
+	sub MatraI.gj' GhaHalf.gj Va.gj by MatraI12.gj;
+	sub MatraI.gj' CaHalf.gj Na.gj by MatraI12.gj;
+	sub MatraI.gj' CaHalf.gj Ma.gj by MatraI12.gj;
+	sub MatraI.gj' TaHalf_alt.gj Tha.gj by MatraI12.gj;
+	sub MatraI.gj' TaHalf_alt.gj Ya.gj by MatraI12.gj;
+	sub MatraI.gj' DhaHalf.gj Na.gj by MatraI12.gj;
+	sub MatraI.gj' PhaHalf.gj Tta.gj by MatraI12.gj;
+	sub MatraI.gj' CaHalf.gj Ta.gj by MatraI12.gj;
+	sub MatraI.gj' TaHalf.gj La.gj by MatraI12.gj;
+	sub MatraI.gj' LaHalf.gj Ta.gj by MatraI12.gj;
+	sub MatraI.gj' KaHalf.gj Tta.gj by MatraI12.gj;
+	sub MatraI.gj' NnaHalf.gj Dda.gj by MatraI12.gj;
+
+	sub MatraI.gj' @matraI13 by MatraI13.gj;
+	sub MatraI.gj' TaHalf.gj Ba.gj by MatraI13.gj;
+	sub MatraI.gj' TaHalf_alt.gj Sa.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Ma.gj by MatraI13.gj;
+	sub MatraI.gj' GhaHalf.gj Ma.gj by MatraI13.gj;
+	sub MatraI.gj' GhaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' CaHalf.gj ChaVa.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Gha.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Ddha.gj by MatraI13.gj;
+	sub MatraI.gj' LaHalf.gj Va.gj by MatraI13.gj;
+	sub MatraI.gj' TaHalf.gj Ba.gj by MatraI13.gj;
+	sub MatraI.gj' ThaHalf.gj Tha.gj by MatraI13.gj;
+	sub MatraI.gj' ThaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' GaRaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' MaHalf.gj Sa.gj by MatraI13.gj;
+	sub MatraI.gj' MaHalf.gj La.gj by MatraI13.gj;
+	sub MatraI.gj' SaHalf.gj Pa.gj by MatraI13.gj;
+	sub MatraI.gj' SaHalf.gj Ta.gj by MatraI13.gj;
+	sub MatraI.gj' VaHalf.gj La.gj by MatraI13.gj;
+	sub MatraI.gj' SaHalf.gj Va.gj by MatraI13.gj;
+	sub MatraI.gj' PaHalf.gj La.gj by MatraI13.gj;
+	sub MatraI.gj' SaHalf.gj PaRa.gj by MatraI13.gj;
+	sub MatraI.gj' LaHalf.gj Pa.gj by MatraI13.gj;
+	sub MatraI.gj' BaHalf.gj Va.gj by MatraI13.gj;
+	sub MatraI.gj' ShaRaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' PaHalf.gj Kha.gj by MatraI13.gj;
+	sub MatraI.gj' ShaHalf.gj Ta.gj by MatraI13.gj;
+	sub MatraI.gj' VaHalf.gj La.gj by MatraI13.gj;
+	sub MatraI.gj' GhaHalf.gj Gha.gj by MatraI13.gj;
+	sub MatraI.gj' NyaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' DhaHalf.gj Dha.gj by MatraI13.gj;
+	sub MatraI.gj' DhaHalf.gj Ya.gj by MatraI13.gj;
+	sub MatraI.gj' NaHalf_alt.gj Sha.gj by MatraI13.gj;
+	sub MatraI.gj' BaHalf.gj Na.gj by MatraI13.gj;
+	sub MatraI.gj' SaHalf.gj Ma.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Ga.gj by MatraI13.gj;
+	sub MatraI.gj' GaHalf.gj Dha.gj by MatraI13.gj;	
+	sub MatraI.gj' LaHalf.gj Ma.gj by MatraI13.gj;	
+	sub MatraI.gj' LaHalf.gj Ya.gj by MatraI13.gj;	
+	sub MatraI.gj' NnaHalf.gj Ddha.gj by MatraI13.gj;
+	sub MatraI.gj' NnaHalf.gj Tta.gj by MatraI13.gj;
+
+	sub MatraI.gj' @matraI14 by MatraI14.gj;
+	sub MatraI.gj' JaHalf.gj Dda.gj by MatraI14.gj;
+	sub MatraI.gj' JaHalf.gj Ka.gj by MatraI14.gj;
+	sub MatraI.gj' JaHalf.gj Da.gj by MatraI14.gj;
+	sub MatraI.gj' SaHalf.gj Ya.gj by MatraI14.gj;
+	sub MatraI.gj' ShaHalf.gj Pa.gj by MatraI14.gj;
+	sub MatraI.gj' ShaHalf.gj Ma.gj by MatraI14.gj;
+	sub MatraI.gj' MaHalf.gj Ba.gj by MatraI14.gj;
+	sub MatraI.gj' KaSsaHalf.gj Va.gj by MatraI14.gj;
+	sub MatraI.gj' MaHalf.gj BaRa.gj by MatraI14.gj;
+	sub MatraI.gj' KaHalf.gj Va.gj by MatraI14.gj;
+	sub MatraI.gj' NaHalf.gj Ja.gj by MatraI14.gj;
+	sub MatraI.gj' KaHalf.gj PaRa.gj by MatraI14.gj;
+	sub MatraI.gj' KhaHalf.gj Na.gj by MatraI14.gj;
+	sub MatraI.gj' NyaHalf.gj Ca.gj by MatraI14.gj;
+	sub MatraI.gj' NyaHalf.gj Cha.gj by MatraI14.gj;
+	sub MatraI.gj' NaHalf_alt.gj SaKa.gj by MatraI14.gj;
+	sub MatraI.gj' NaHalf_alt.gj SaKaRa.gj by MatraI14.gj;
+	sub MatraI.gj' BaHalf.gj Ta.gj by MatraI14.gj;
+	sub MatraI.gj' BhaHalf.gj Na.gj by MatraI14.gj;
+	sub MatraI.gj' LaHalf_alt2.gj Tha.gj by MatraI14.gj;
+	sub MatraI.gj' KaSsaHalf.gj Ma.gj by MatraI14.gj;
+	sub MatraI.gj' KaSsaHalf.gj Ya.gj by MatraI14.gj;
+	sub MatraI.gj' KaHalf.gj Na.gj by MatraI14.gj;
+	sub MatraI.gj' KaHalf.gj Pa.gj by MatraI14.gj;
+	sub MatraI.gj' KaHalf.gj Ta.gj by MatraI14.gj;
+	sub MatraI.gj' KhaHalf.gj Ta.gj by MatraI14.gj;
+	sub MatraI.gj' GaHalf.gj Jha.gj by MatraI14.gj;
+	sub MatraI.gj' GaHalf.gj Ba.gj by MatraI14.gj;
+	sub MatraI.gj' GaHalf.gj La.gj by MatraI14.gj;
+	sub MatraI.gj' GaHalf.gj Sa.gj by MatraI14.gj;
+	sub MatraI.gj' NnaHalf.gj Na.gj by MatraI14.gj;
+	sub MatraI.gj' NaHalf.gj Bha.gj by MatraI14.gj;
+	sub MatraI.gj' PhaHalf.gj Ta.gj by MatraI14.gj;
+	sub MatraI.gj' BaHalf.gj Ya.gj by MatraI14.gj;
+	sub MatraI.gj' MaHalf.gj Nna.gj by MatraI14.gj;
+	sub MatraI.gj' ShaHalf.gj Ya.gj by MatraI14.gj;
+	sub MatraI.gj' SaHalf.gj Sa.gj by MatraI14.gj;	
+	sub MatraI.gj' LlaHalf.gj Ya.gj by MatraI14.gj;
+	sub MatraI.gj' CaHalf.gj Cha.gj by MatraI14.gj;
+	sub MatraI.gj' JaHalf_alt.gj Tta.gj by MatraI14.gj;
+
+	sub MatraI.gj' @matraI15 by MatraI15.gj;
+	sub MatraI.gj' KhaHalf.gj Ya.gj by MatraI15.gj;
+	sub MatraI.gj' KhaHalf.gj Va.gj by MatraI15.gj;
+	sub MatraI.gj' NyaHalf.gj Jha.gj by MatraI15.gj;
+	sub MatraI.gj' NaHalf_alt.gj SaHalf.gj Tta.gj by MatraI15.gj;
+	sub MatraI.gj' PhaHalf.gj Pa.gj by MatraI15.gj;
+	sub MatraI.gj' BaHalf.gj Jha.gj by MatraI15.gj;
+	sub MatraI.gj' BhaHalf.gj Va.gj by MatraI15.gj;
+	sub MatraI.gj' LaHalf.gj Va.gj Da.gj by MatraI15.gj;
+	sub MatraI.gj' LaHalf_alt2.gj Sa.gj by MatraI15.gj;
+	sub MatraI.gj' SaHalf.gj Ca.gj by MatraI15.gj;
+	sub MatraI.gj' NnaHalf.gj Va.gj by MatraI15.gj;
+	sub MatraI.gj' TaHalf.gj KhaRa.gj by MatraI15.gj;
+	sub MatraI.gj' MaHalf.gj Bha.gj by MatraI15.gj;
+	sub MatraI.gj' LaHalf.gj La.gj by MatraI15.gj;
+	sub MatraI.gj' ShaHalf.gj Cha.gj by MatraI15.gj;
+	sub MatraI.gj' SsaHalf.gj Kha.gj by MatraI15.gj;
+	sub MatraI.gj' SaHalf.gj La.gj by MatraI15.gj;	
+	sub MatraI.gj' TaHalf.gj Kha.gj by MatraI15.gj;	
+
+	sub MatraI.gj' @matraI16 by MatraI16.gj;
+	sub MatraI.gj' LaHalf.gj Ba.gj by MatraI16.gj;
+	sub MatraI.gj' JaHalf.gj Va.gj by MatraI16.gj;
+	sub MatraI.gj' SsaHalf.gj Nna.gj by MatraI16.gj;
+	sub MatraI.gj' NnaHalf.gj Ma.gj by MatraI16.gj;
+	sub MatraI.gj' NnaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' BaHalf.gj Sa.gj by MatraI16.gj;
+	sub MatraI.gj' GaHalf.gj Ja.gj by MatraI16.gj;
+	sub MatraI.gj' BhaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' ShaHalf.gj La.gj by MatraI16.gj;
+	sub MatraI.gj' GaHalf.gj Nna.gj by MatraI16.gj;
+	sub MatraI.gj' SaHalf.gj Ba.gj by MatraI16.gj;
+	sub MatraI.gj' BaHalf.gj La.gj by MatraI16.gj;
+	sub MatraI.gj' BhaRaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' ShaHalf.gj Sha.gj by MatraI16.gj;
+	sub MatraI.gj' NaHalf.gj TaHalf_alt.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' NaHalf.gj BhaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' CaHalf.gj Bha.gj by MatraI16.gj;
+	sub MatraI.gj' LaHalf.gj Kha.gj by MatraI16.gj;
+	sub MatraI.gj' VaHalf.gj Bha.gj by MatraI16.gj;
+	sub MatraI.gj' KhaHalf.gj Jha.gj by MatraI16.gj;
+	sub MatraI.gj' KaHalf_alt.gj Cha.gj by MatraI16.gj;
+	sub MatraI.gj' KhaHalf_alt2.gj Ma.gj by MatraI16.gj;
+	sub MatraI.gj' KhaHalf_alt2.gj Sa.gj by MatraI16.gj;	
+	sub MatraI.gj' LaHalf_alt2.gj Sha.gj by MatraI16.gj;
+	sub MatraI.gj' HaMaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' NaMaHalf.gj Ya.gj by MatraI16.gj;
+	sub MatraI.gj' KaHalf.gj Ca.gj by MatraI16.gj;
+	sub MatraI.gj' KaHalf.gj Jha.gj by MatraI16.gj;
+	sub MatraI.gj' LaHalf.gj Kha.gj by MatraI16.gj;	
+
+	sub MatraI.gj' @matraI17 by MatraI17.gj;
+	sub MatraI.gj' LaHalf.gj Kha.gj by MatraI17.gj;
+	sub MatraI.gj' SaHalf.gj Kha.gj by MatraI17.gj;
+	sub MatraI.gj' BaHalf.gj Ba.gj by MatraI17.gj;
+	sub MatraI.gj' KaHalf.gj La.gj by MatraI17.gj;
+	sub MatraI.gj' PhaHalf.gj La.gj by MatraI17.gj;
+	sub MatraI.gj' SaHalf_alt.gj Ja.gj by MatraI17.gj;
+	sub MatraI.gj' GaHalf.gj Bha.gj by MatraI17.gj;
+	sub MatraI.gj' KhaHalf.gj Kha.gj by MatraI17.gj;
+	sub MatraI.gj' KaHalf_alt.gj Ja.gj by MatraI17.gj;
+	sub MatraI.gj' PhaHalf_alt.gj Ja.gj by MatraI17.gj;
+	sub MatraI.gj' LaHalf_alt.gj Ja.gj by MatraI17.gj;
+	sub MatraI.gj' NnaHalf.gj Sa.gj by MatraI17.gj;
+	sub MatraI.gj' JaHalf_alt.gj Na.gj by MatraI17.gj;
+	sub MatraI.gj' NaHalf_alt2.gj DhaHalf.gj Va.gj by MatraI17.gj;
+	sub MatraI.gj' NaHalf.gj TaHalf_alt.gj Ya.gj by MatraI17.gj;
+	sub MatraI.gj' BhaHalf.gj La.gj by MatraI17.gj;
+	sub MatraI.gj' LaHalf.gj Bha.gj by MatraI17.gj;
+	sub MatraI.gj' KaSsaHalf.gj Nna.gj by MatraI17.gj;
+
+	sub MatraI.gj' @matraI18 by MatraI18.gj;
+	sub MatraI.gj' NaHalf_alt.gj SaHalf.gj Ta.gj by MatraI18.gj;
+	sub MatraI.gj' SsaHalf.gj MaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' KaHalf.gj Kha.gj by MatraI18.gj;
+	sub MatraI.gj' ShaHalf.gj Kha.gj by MatraI18.gj;
+	sub MatraI.gj' BaHalf_alt.gj Ja.gj by MatraI18.gj;
+	sub MatraI.gj' TaHalf.gj MaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' NaThaHalf.gj Va.gj by MatraI18.gj;
+	sub MatraI.gj' LaHalf.gj Bha.gj by MatraI18.gj;
+	sub MatraI.gj' BaHalf.gj SaKa.gj by MatraI18.gj;
+	sub MatraI.gj' KhaHalf_alt.gj Ja.gj by MatraI18.gj;
+	sub MatraI.gj' JaHalf_alt.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' GaRaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' NaHalf_alt.gj SaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' BaHalf.gj Bha.gj by MatraI18.gj;
+	sub MatraI.gj' MaHalf.gj PaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' ShaHalf.gj Bha.gj by MatraI18.gj;
+	sub MatraI.gj' NaThaHalf.gj Ya.gj by MatraI18.gj;
+	sub MatraI.gj' NaThaHalf.gj Va.gj by MatraI18.gj;
+	sub MatraI.gj' JaHalf_alt.gj Ma.gj by MatraI18.gj;
+
+	sub MatraI.gj' @matraI19 by MatraI19.gj;
+	sub MatraI.gj' PaHalf.gj TaHalf_alt.gj Ya.gj by MatraI19.gj;
+	sub MatraI.gj' TaHalf_alt.gj SaHalf.gj Na.gj by MatraI19.gj;
+	sub MatraI.gj' JaHalf_alt.gj Ja.gj by MatraI19.gj;
+	sub MatraI.gj' JaHalf_alt.gj Jha.gj by MatraI19.gj;
+	sub MatraI.gj' NaHalf_alt2.gj DhaHalf.gj Ya.gj by MatraI19.gj;
+	sub MatraI.gj' KaHalf.gj Nna.gj by MatraI19.gj;
+	sub MatraI.gj' DhaHalf.gj NaHalf_alt.gj Ya.gj by MatraI19.gj;
+	sub MatraI.gj' NnaHalf.gj Nna.gj by MatraI19.gj;
+	sub MatraI.gj' NaHalf.gj TaHalf_alt.gj Sa.gj by MatraI19.gj;
+	sub MatraI.gj' PaHalf.gj TaHalf_alt.gj Ya.gj by MatraI19.gj;
+	sub MatraI.gj' BhaHalf.gj Bha.gj by MatraI19.gj;
+	sub MatraI.gj' TaKaHalf.gj Va.gj by MatraI19.gj;
+
+	sub MatraI.gj' @matraI20 by MatraI20.gj;
+	sub MatraI.gj' JaHalf_alt.gj Ba.gj by MatraI20.gj;
+	sub MatraI.gj' BaHalf.gj SaHalf.gj Tta.gj by MatraI20.gj;
+	sub MatraI.gj' NaHalf.gj BhaHalf.gj Va.gj by MatraI20.gj;
+	sub MatraI.gj' TaHalf_alt.gj SaHalf.gj Va.gj by MatraI20.gj;
+	sub MatraI.gj' TaHalf.gj PaHalf.gj La.gj by MatraI20.gj;
+	sub MatraI.gj' KaHalf.gj TaHalf.gj Va.gj by MatraI20.gj;
+	sub MatraI.gj' GaHalf.gj DhaHalf.gj Va.gj by MatraI20.gj;
+	sub MatraI.gj' NnaHalf.gj Bha.gj by MatraI20.gj;
+	sub MatraI.gj' TaHalf.gj KhaHalf.gj Na.gj by MatraI20.gj;
+	sub MatraI.gj' LaHalf.gj PaHalf.gj Ya.gj by MatraI20.gj;
+	sub MatraI.gj' SaHalf.gj TaHalf_alt.gj Ya.gj by MatraI20.gj;
+	sub MatraI.gj' TaHalf_alt.gj SaHalf.gj Ma.gj by MatraI20.gj;
+	sub MatraI.gj' TaHalf_alt.gj SaHalf.gj Ya.gj by MatraI20.gj;
+
+	sub MatraI.gj' DaBhaYa.gj by MatraI21.gj;
+	sub MatraI.gj' NaHalf_alt2.gj KaSa.gj by MatraI21.gj;
+	sub MatraI.gj' KaHalf.gj VaHalf.gj Ya.gj by MatraI21.gj;
+	sub MatraI.gj' GaHalf.gj DhaHalf.gj Ya.gj by MatraI21.gj;
+	sub MatraI.gj' MaHalf.gj BaHalf.gj Ya.gj by MatraI21.gj;
+	sub MatraI.gj' LaHalf.gj LaHalf.gj Ya.gj by MatraI21.gj;
+	sub MatraI.gj' SsaHalf.gj TtaYa.gj by MatraI21.gj;
+	sub MatraI.gj' SsaHalf.gj NnaHalf.gj Ya.gj by MatraI21.gj;
+	sub MatraI.gj' KaSaHalf.gj PaRa.gj by MatraI21.gj;
+	sub MatraI.gj' KaSaHalf.gj Ta.gj by MatraI21.gj;
+	sub MatraI.gj' TaKaHalf.gj La.gj by MatraI21.gj;
+	sub MatraI.gj' BaDhaHalf.gj Va.gj by MatraI21.gj;
+	sub MatraI.gj' SaKaHalf.gj Va.gj by MatraI21.gj;
+
+	sub MatraI.gj' LaKaYa.gj by MatraI22.gj;
+	sub MatraI.gj' KaHalf.gj TaHalf_alt.gj Ya.gj by MatraI22.gj;
+	sub MatraI.gj' KaHalf.gj La.gj Ya.gj by MatraI22.gj;
+	sub MatraI.gj' BaHalf.gj La.gj Ya.gj by MatraI22.gj;
+	sub MatraI.gj' SsaHalf.gj TthaYa.gj by MatraI22.gj;
+
+	sub MatraI.gj' NaHalf_alt.gj Sa.gj Ma.gj Ya.gj by MatraI23.gj;
+
+	sub MatraI.gj' BaHalf_alt.gj JaHalf_alt.gj Ya.gj by MatraI24.gj;
+	sub MatraI.gj' JaHalf_alt.gj JaHalf_alt.gj Va.gj by MatraI24.gj;	
+
+	sub MatraI.gj' JaHalf_alt.gj JaHalf_alt.gj Ya.gj by MatraI25.gj;
+	sub MatraI.gj' NaHalf_alt2.gj PhaHalf.gj La.gj Ya.gj by MatraI25.gj;
+
+	sub MatraI.gj' KaSaHalf.gj PaHalf.gj La.gj by MatraI26.gj;
+
+}MatraI;
+
+
+
+lookup pres6 { # Four-letter conjuncts
+	sub BaHalf.gj SaHalf.gj Tta.gj Vattu.gj by BaSaTtaRa.gj;	
+	sub NaHalf.gj TaRaHalf.gj Ya.gj by NaTaRaYa.gj;		
+} pres6;
+
+
+lookup pres5 { # Alternate Four-letter conjuncts
+	sub NaHalf.gj' SaKaRa.gj by NaHalf_alt.gj;
+	sub NaThaHalf.gj' PaRa.gj by NaHalf_alt.gj;
+} pres5;
+
+
+lookup pres4 { # Three-letter conjuncts
+
+	sub KaHalf.gj KaRa.gj by KaKaRa.gj;
+	sub KaHalf.gj TaRa.gj by KaTaRa.gj;
+	sub KaHalf.gj SaHalf.gj Dda.gj by KaSaDda.gj;
+	sub KaHalf.gj SaHalf.gj Tta.gj by KaSaTta.gj;
+	sub Cha.gj Vattu.gj Halant.gj Ya.gj by ChaRaYa.gj;
+	sub Cha.gj Halant.gj Ra.gj Halant.gj Ya.gj by ChaRaYa.gj;
+	sub Tta.gj Vattu.gj Halant.gj Ya.gj by TtaRaYa.gj;
+	sub Tta.gj Halant.gj Ra.gj Halant.gj Ya.gj by TtaRaYa.gj;
+	sub Da.gj Halant.gj BhaHalf.gj Ya.gj by DaBhaYa.gj;
+	sub Da.gj Halant.gj VaHalf.gj Ya.gj by DaVaYa.gj;
+	sub Ttha.gj Halant.gj Ttha.gj Halant.gj Ya.gj by TthaTthaYa.gj;
+	sub Tta.gj Halant.gj Tta.gj Halant.gj Ya.gj by TtaTtaYa.gj;
+	sub TaHalf.gj KaHalf.gj Ya.gj by TaKaYa.gj;
+	sub TaHalf.gj KaRa.gj by TaKaRa.gj;
+	sub TaHalf.gj KaSsa.gj by TaKaSsa.gj;
+	sub TaHalf.gj NaHalf.gj Ya.gj by TaNaYa.gj;
+	sub Da.gj Halant.gj Da.gj Halant.gj Ya.gj by DaDaYa.gj;
+	sub DaDa.gj Halant.gj Ya.gj by DaDaYa.gj;
+	sub DaRa.gj Halant.gj Ya.gj by DaRaYa.gj;
+	sub Da.gj Vattu.gj Halant.gj Ya.gj by DaRaYa.gj;
+	sub NaHalf.gj KaHalf.gj Sa.gj by NaKaSa.gj;
+	sub NaHalf.gj TaRa.gj by NaTaRa.gj;
+	sub BaHalf.gj SaHalf.gj Ka.gj by BaSaKa.gj;
+	sub LaHalf.gj PhaRa.gj by LaPhaRa.gj;
+	sub SsaHalf.gj KaRa.gj by SsaKaRa.gj;
+	sub SaHalf.gj KaRa.gj by SaKaRa.gj;
+	sub SaHalf.gj TaRa.gj by SaTaRa.gj;
+	sub SaHalf.gj ThaHalf.gj Ya.gj by SaThaYa.gj;
+	sub LaHalf.gj VaHalf.gj Da.gj by LaVaDa.gj;
+	sub LaHalf.gj KaHalf.gj Ya.gj by LaKaYa.gj;	
+} pres4;
+
+
+lookup pres3 { # Alternate Three-letter conjuncts
+	sub NaHalf.gj' Sa.gj Ya.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' SaKa.gj by NaHalf_alt.gj;
+	sub LaHalf.gj' DaRa.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Pa.gj Ya.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' ThaHalf.gj Ya.gj by LaHalf_alt2.gj;
+} pres3;
+
+
+lookup pres2 { # Two-letter conjuncts
+	sub KaHalf.gj Ka.gj by KaKa.gj;
+	sub KaHalf.gj Tha.gj by KaTha.gj;
+	sub KaHalf.gj Pha.gj by KaPha.gj;
+	sub KaHalf.gj Ma.gj by KaMa.gj;
+	sub KaHalf.gj Ya.gj by KaYa.gj;
+	sub KaHalf.gj Sha.gj by KaSha.gj;
+	sub KaHalf.gj Sa.gj by KaSa.gj;
+	sub KhaHalf.gj Sha.gj by KhaSha.gj;
+	sub Nga.gj Halant.gj Ka.gj by NgaKa.gj;
+	sub Nga.gj Halant.gj Ga.gj by NgaGa.gj;
+	sub Nga.gj Halant.gj Ma.gj by NgaMa.gj;
+	sub Nga.gj Halant.gj Ya.gj by NgaYa.gj;
+	sub CaHalf.gj Ca.gj by CaCa.gj;
+	sub Cha.gj Halant.gj Va.gj by ChaVa.gj;
+	sub Cha.gj Halant.gj Ya.gj by ChaYa.gj;
+	sub JaHalf.gj Ta.gj by JaTa.gj;
+	sub Jha.gj Halant.gj Ya.gj by JhaYa.gj;
+	sub NyaHalf.gj Ja.gj by NyaJa.gj;
+	sub NyaHalf.gj Sha.gj by NyaSha.gj;
+	sub Tta.gj Halant.gj Tta.gj by TtaTta.gj;
+	sub Tta.gj Halant.gj Ttha.gj by TtaTtha.gj;
+	sub Tta.gj Halant.gj Va.gj by TtaVa.gj;
+	sub Tta.gj Halant.gj Ya.gj by TtaYa.gj;
+	sub Ttha.gj Halant.gj Ttha.gj by TthaTtha.gj;
+	sub Ttha.gj Halant.gj Ya.gj by TthaYa.gj;
+	sub Dda.gj Halant.gj Ga.gj by DdaGa.gj;
+	sub Dda.gj Halant.gj Dda.gj by DdaDda.gj;
+	sub Dda.gj Halant.gj Ddha.gj by DdaDdha.gj;
+	sub Dda.gj Halant.gj Na.gj by DdaNa.gj;
+	sub Dda.gj Halant.gj Ya.gj by DdaYa.gj;
+	sub Dda.gj Halant.gj Va.gj by DdaVa.gj;
+	sub Ddha.gj Halant.gj Ddha.gj by DdhaDdha.gj;
+	sub Ddha.gj Halant.gj Ya.gj by DdhaYa.gj;
+	sub TaHalf.gj Ka.gj by TaKa.gj;
+	sub TaHalf.gj Ta.gj by TaTa.gj;
+	sub TaHalf.gj Pha.gj by TaPha.gj;
+	sub NaHalf.gj Ga.gj by NaGa.gj;
+	sub NaHalf.gj Ca.gj by NaCa.gj;
+	sub NaHalf.gj Tha.gj by NaTha.gj;
+	sub NaHalf.gj Na.gj by NaNa.gj;
+	sub NaHalf.gj Ma.gj by NaMa.gj;
+	sub PaHalf.gj Ka.gj by PaKa.gj;
+	sub PaHalf.gj Ca.gj by PaCa.gj;
+	sub PaHalf.gj Cha.gj by PaCha.gj;
+	sub PaHalf.gj Dda.gj by PaDda.gj;
+	sub PaHalf.gj Pha.gj by PaPha.gj;
+	sub PaHalf.gj Ma.gj by PaMa.gj;
+	sub PaHalf.gj Sha.gj by PaSha.gj;
+	sub PaHalf.gj Sa.gj by PaSa.gj;
+	sub PhaHalf.gj Tha.gj by PhaTha.gj;
+	sub PhaHalf.gj Pha.gj by PhaPha.gj;
+	sub PhaHalf.gj Ya.gj by PhaYa.gj;
+	sub PhaHalf.gj Sha.gj by PhaSha.gj;
+	sub PhaHalf.gj Sa.gj by PhaSa.gj;
+	sub BaHalf.gj Dda.gj by BaDda.gj;
+	sub BaHalf.gj Da.gj by BaDa.gj;
+	sub BaHalf.gj Dha.gj by BaDha.gj;
+	sub BaHalf.gj Sha.gj by BaSha.gj;
+	sub BaHalf.gj Ha.gj by BaHa.gj;
+	sub MaHalf.gj Ka.gj by MaKa.gj;
+	sub MaHalf.gj Da.gj by MaDa.gj;
+	sub MaHalf.gj Pha.gj by MaPha.gj;
+	sub MaHalf.gj Sha.gj by MaSha.gj;
+	sub YaHalf.gj Jha.gj by YaJha.gj;
+	sub LaHalf.gj Ka.gj by LaKa.gj;
+	sub LaHalf.gj Ga.gj by LaGa.gj;
+	sub LaHalf.gj Ca.gj by LaCa.gj;
+	sub LaHalf.gj Pha.gj by LaPha.gj;
+	sub VaHalf.gj Jha.gj by VaJha.gj;
+	sub VaHalf.gj Dda.gj by VaDda.gj;
+	sub VaHalf.gj Ha.gj by VaHa.gj;
+	sub ShaHalf.gj Ca.gj by ShaCa.gj;
+	sub ShaHalf.gj Na.gj by ShaNa.gj;
+	sub ShaHalf.gj Va.gj by ShaVa.gj;
+	sub SsaHalf.gj Ka.gj by SsaKa.gj;
+	sub SsaHalf.gj Pha.gj by SsaPha.gj;
+	sub SaHalf.gj Ka.gj by SaKa.gj;
+	sub SaHalf.gj Tha.gj by SaTha.gj;
+	sub SaHalf.gj Pha.gj by SaPha.gj;
+	sub Ha.gj Halant.gj Nna.gj by HaNna.gj;
+	sub Ha.gj Halant.gj Na.gj by HaNa.gj;
+	sub Ha.gj Halant.gj Ma.gj by HaMa.gj;
+	sub Ha.gj Halant.gj Ya.gj by HaYa.gj;
+	sub Ha.gj Halant.gj La.gj by HaLa.gj;
+	sub Ha.gj Halant.gj Va.gj by HaVa.gj;
+	sub Da.gj Halant.gj Da.gj by DaDa.gj;
+	sub Da.gj Halant.gj Ma.gj by DaMa.gj;
+	sub Da.gj Halant.gj Ba.gj by DaBa.gj;
+	sub Da.gj Halant.gj Va.gj by DaVa.gj;
+	sub Da.gj Halant.gj Na.gj by DaNa.gj;
+	sub Da.gj Halant.gj Ga.gj by DaGa.gj;
+	sub Da.gj Halant.gj Bha.gj by DaBha.gj;
+	sub Da.gj Halant.gj Gha.gj by DaGha.gj;
+	sub Da.gj Halant.gj Dha.gj by DaDha.gj;
+	sub Da.gj Halant.gj Ya.gj by DaYa.gj;
+} pres2;
+
+lookup pres1 { # ALternate Two-letter conjuncts
+	sub KaHalf.gj' Ja.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Dda.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Cha.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Da.gj by KaHalf_alt.gj;
+	sub KhaHalf.gj' Ja.gj by KhaHalf_alt.gj;
+	sub KhaHalf.gj' Ma.gj by KhaHalf_alt2.gj;
+	sub KhaHalf.gj' Sa.gj by KhaHalf_alt2.gj;
+	sub JaHalf.gj' [Ja.gj JaHalf.gj] by JaHalf_alt.gj;
+	sub JaHalf.gj' Jha.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Na.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ya.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ba.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ma.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Tta.gj by JaHalf_alt.gj;
+	sub TaHalf.gj' Tha.gj by TaHalf_alt.gj;
+	sub TaHalf.gj' Ya.gj by TaHalf_alt.gj;
+	sub TaHalf.gj' [Sa.gj SaHalf.gj] by TaHalf_alt.gj;
+	sub PhaHalf.gj' Ja.gj by PhaHalf_alt.gj;
+	sub BaHalf.gj' [Ja.gj JaHalf.gj JaHalf_alt.gj] by BaHalf_alt.gj;	
+	sub LaHalf.gj' Ja.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Dda.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Da.gj by LaHalf_alt.gj;	
+	sub LaHalf.gj' Tta.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Ttha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Tha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Sha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Sa.gj by LaHalf_alt2.gj;
+	sub SaHalf.gj' Ja.gj by SaHalf_alt.gj;
+	sub SaHalf.gj' Dda.gj by SaHalf_alt.gj;
+	sub NaHalf.gj' Sa.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Jha.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Tta.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Ya.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Sha.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' [SaHalf.gj SaKa.gj] by NaHalf_alt.gj;
+	sub NaHalf.gj' KaSa.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' Ka.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' KaRa.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Pha.gj PhaHalf.gj] by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Dha.gj DhaHalf.gj DhaRa.gj] by NaHalf_alt2.gj;
+	sub NaHalf.gj' Ha.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Pa.gj PaRa.gj] by NaHalf_alt.gj;
+	sub NaHalf.gj' Ssa.gj by NaHalf_alt.gj;
+	sub JaHalf_alt.gj JaHalf.gj' by JaHalf_alt.gj;
+	
+} pres1;
+
+
+} pres;
+
+
+#--------------------------------------------------------------------
+
+feature cjct { # Conjuncts
+
+lookup pres6;
+lookup pres5;
+lookup pres4;
+lookup pres3;
+lookup pres2;
+lookup pres1;
+} cjct;
+
+
+#--------------------------------------------------------------------
+feature abvs { # Abovebase matra substitutions
+script gjr2;
+language dflt;
+lookup abvs4 {
+	sub VowelE.gj Bindu.gj' by Bindu1.gj;
+	sub VowelAi.gj Bindu.gj' by Bindu1.gj;
+	sub VowelO.gj Bindu.gj' by Bindu1.gj;
+	sub VowelAu.gj Bindu.gj' by Bindu1.gj;
+}abvs4;
+
+lookup abvs3 {
+	sub Ja.gj' MatraA.gj' Bindu.gj by JaMatraAa.gj;
+	sub Ja.gj' MatraIi.gj' Bindu.gj by JaMatraIi.gj;
+	sub Ja.gj' MatraA.gj' Reph.gj by JaMatraAa.gj;
+	sub Ja.gj' MatraIi.gj' Reph.gj by JaMatraIi.gj;
+	sub Ja.gj' MatraA.gj' RephBindu.gj by JaMatraAa.gj;
+	sub Ja.gj' MatraIi.gj' RephBindu.gj by JaMatraIi.gj;
+	sub Ja.gj' MatraA.gj' Chandrabindu.gj by JaMatraAa.gj;
+	sub Ja.gj' MatraIi.gj' Chandrabindu.gj by JaMatraIi.gj;
+	sub Ja.gj' MatraA.gj' RephChandrabindu.gj by JaMatraAa.gj;
+	sub Ja.gj' MatraIi.gj' RephChandrabindu.gj by JaMatraIi.gj;
+}abvs3;
+
+lookup MatraShort {
+	sub @matraAboveBasealt MatraE.gj' by MatraE_alt.gj;
+	sub @matraAboveBasealt MatraAi.gj' by MatraAi_alt.gj;
+	sub @matraAboveBasealt MatraChandraE.gj' by MatraChandraE_alt.gj;
+}MatraShort;
+
+lookup abvs2 {
+	 sub MatraA.gj Reph.gj by MatraAReph.gj;
+	 sub MatraIi.gj Reph.gj by MatraIiReph.gj;
+	 sub MatraE.gj Reph.gj by MatraEReph.gj;
+	 sub MatraE_alt.gj Reph.gj by MatraEReph_alt.gj;
+	 sub MatraAi.gj Reph.gj by MatraAiReph.gj;
+	 sub MatraO.gj Reph.gj by MatraOReph.gj;
+	 sub MatraAu.gj Reph.gj by MatraAuReph.gj;
+} abvs2;
+
+lookup abvs1 {
+
+	 sub MatraA.gj Bindu.gj by MatraABindu.gj;
+	 sub MatraA.gj Chandrabindu.gj by MatraAChandrabindu.gj;
+
+	 sub MatraIi.gj Bindu.gj by MatraIiBindu.gj;
+	 sub MatraIi.gj Chandrabindu.gj by MatraIiChandrabindu.gj;
+
+	 sub MatraE.gj Bindu.gj by MatraEBindu.gj;
+	 sub MatraE.gj Chandrabindu.gj by MatraEChandrabindu.gj;
+
+	 sub MatraE_alt.gj Bindu.gj by MatraEBindu_alt.gj;
+	 sub MatraE_alt.gj Chandrabindu.gj by MatraEChandrabindu_alt.gj;
+
+	 sub MatraAi.gj Bindu.gj by MatraAiBindu.gj;
+	 sub MatraAi.gj Chandrabindu.gj by MatraAiChandrabindu.gj;
+
+	 sub MatraAi_alt.gj Bindu.gj by MatraAiBindu_alt.gj;
+	 sub MatraAi_alt.gj Chandrabindu.gj by MatraAiChandrabindu_alt.gj;
+
+	 sub MatraO.gj Bindu.gj by MatraOBindu.gj;
+	 sub MatraO.gj Chandrabindu.gj by MatraOChandrabindu.gj;
+
+	 sub MatraAu.gj Bindu.gj by MatraAuBindu.gj;
+	 sub MatraAu.gj Chandrabindu.gj by MatraAuChandrabindu.gj;
+
+	 sub Reph.gj Bindu.gj by RephBindu.gj;
+	 sub Reph.gj Chandrabindu.gj by RephChandrabindu.gj;
+
+	 sub MatraIiReph.gj Bindu.gj by MatraIiRephBindu.gj;
+	 sub MatraIiReph.gj Chandrabindu.gj by MatraIiRephChandrabindu.gj;
+
+	 sub MatraEReph.gj Bindu.gj by MatraERephBindu.gj;
+	 sub MatraEReph.gj Chandrabindu.gj by MatraERephChandrabindu.gj;
+
+	 sub MatraEReph_alt.gj Bindu.gj by MatraERephBindu_alt.gj;
+	 sub MatraEReph_alt.gj Chandrabindu.gj by MatraERephChandrabindu_alt.gj;
+
+	 sub MatraAiReph.gj Bindu.gj by MatraAiRephBindu.gj;
+	 sub MatraAiReph.gj Chandrabindu.gj by MatraAiRephChandrabindu.gj;
+
+	 sub MatraAiReph_alt.gj Bindu.gj by MatraAiRephBindu_alt.gj;
+	 sub MatraAiReph_alt.gj Chandrabindu.gj by MatraAiRephChandrabindu_alt.gj;
+
+	 sub MatraOReph.gj Bindu.gj by MatraORephBindu.gj;
+	 sub MatraOReph.gj Chandrabindu.gj by MatraORephChandrabindu.gj;
+
+	 sub MatraAuReph.gj Bindu.gj by MatraAuRephBindu.gj;
+	 sub MatraAuReph.gj Chandrabindu.gj by MatraAuRephChandrabindu.gj;
+
+	 sub MatraAReph.gj Bindu.gj by MatraARephBindu.gj;
+	 sub MatraAReph.gj Chandrabindu.gj by MatraARephChandrabindu.gj;
+
+} abvs1;
+
+lookup MatraIBindu { # Replace IkarReph matra for conjuncts
+lookupflag MarkAttachmentType @ForVattu IgnoreBaseGlyphs; 
+	sub MatraI.gj Bindu.gj by MatraIDefaultBindu.gj;
+	sub MatraI1.gj Bindu.gj by MatraI1Bindu.gj;
+	sub MatraI2.gj Bindu.gj by MatraI2Bindu.gj;
+	sub MatraI3.gj Bindu.gj by MatraI3Bindu.gj;
+	sub MatraI4.gj Bindu.gj by MatraI4Bindu.gj;
+	sub MatraI5.gj Bindu.gj by MatraI5Bindu.gj;
+	sub MatraI6.gj Bindu.gj by MatraI6Bindu.gj;
+	sub MatraI7.gj Bindu.gj by MatraI7Bindu.gj;
+	sub MatraI8.gj Bindu.gj by MatraI8Bindu.gj;
+	sub MatraI9.gj Bindu.gj by MatraI9Bindu.gj;
+	sub MatraI10.gj Bindu.gj by MatraI10Bindu.gj;
+	sub MatraI11.gj Bindu.gj by MatraI11Bindu.gj;
+	sub MatraI12.gj Bindu.gj by MatraI12Bindu.gj;
+	sub MatraI13.gj Bindu.gj by MatraI13Bindu.gj;
+	sub MatraI14.gj Bindu.gj by MatraI14Bindu.gj;
+	sub MatraI15.gj Bindu.gj by MatraI15Bindu.gj;
+	sub MatraI16.gj Bindu.gj by MatraI16Bindu.gj;
+	sub MatraI17.gj Bindu.gj by MatraI17Bindu.gj;
+	sub MatraI18.gj Bindu.gj by MatraI18Bindu.gj;
+	sub MatraI19.gj Bindu.gj by MatraI19Bindu.gj;
+	sub MatraI20.gj Bindu.gj by MatraI20Bindu.gj;
+	sub MatraI21.gj Bindu.gj by MatraI21Bindu.gj;	
+	sub MatraI22.gj Bindu.gj by MatraI22Bindu.gj;	
+	sub MatraI23.gj Bindu.gj by MatraI23Bindu.gj;
+	sub MatraI24.gj Bindu.gj by MatraI24Bindu.gj;		
+	sub MatraI25.gj Bindu.gj by MatraI25Bindu.gj;
+	sub MatraI26.gj Bindu.gj by MatraI26Bindu.gj;
+} MatraIBindu;
+
+
+lookup MatraIReph { # Replace IkarReph matra for conjuncts
+lookupflag MarkAttachmentType @ForVattu IgnoreBaseGlyphs; 
+	sub MatraI.gj Reph.gj by MatraIDefaultReph.gj;
+	sub MatraI1.gj Reph.gj by MatraI1Reph.gj;
+	sub MatraI2.gj Reph.gj by MatraI2Reph.gj;
+	sub MatraI3.gj Reph.gj by MatraI3Reph.gj;
+	sub MatraI4.gj Reph.gj by MatraI4Reph.gj;
+	sub MatraI5.gj Reph.gj by MatraI5Reph.gj;
+	sub MatraI6.gj Reph.gj by MatraI6Reph.gj;
+	sub MatraI7.gj Reph.gj by MatraI7Reph.gj;
+	sub MatraI8.gj Reph.gj by MatraI8Reph.gj;
+	sub MatraI9.gj Reph.gj by MatraI9Reph.gj;
+	sub MatraI10.gj Reph.gj by MatraI10Reph.gj;
+	sub MatraI11.gj Reph.gj by MatraI11Reph.gj;
+	sub MatraI12.gj Reph.gj by MatraI12Reph.gj;
+	sub MatraI13.gj Reph.gj by MatraI13Reph.gj;
+	sub MatraI14.gj Reph.gj by MatraI14Reph.gj;
+	sub MatraI15.gj Reph.gj by MatraI15Reph.gj;
+	sub MatraI16.gj Reph.gj by MatraI16Reph.gj;
+	sub MatraI17.gj Reph.gj by MatraI17Reph.gj;
+	sub MatraI18.gj Reph.gj by MatraI18Reph.gj;
+	sub MatraI19.gj Reph.gj by MatraI19Reph.gj;
+	sub MatraI20.gj Reph.gj by MatraI20Reph.gj;
+	sub MatraI21.gj Reph.gj by MatraI21Reph.gj;	
+	sub MatraI22.gj Reph.gj by MatraI22Reph.gj;	
+	sub MatraI23.gj Reph.gj by MatraI23Reph.gj;
+	sub MatraI24.gj Reph.gj by MatraI24Reph.gj;		
+	sub MatraI25.gj Reph.gj by MatraI25Reph.gj;
+	sub MatraI26.gj Reph.gj by MatraI26Reph.gj;
+} MatraIReph;
+
+
+
+lookup MatraIRephBindu { # Replace IkarReph matra for conjuncts
+lookupflag MarkAttachmentType @ForVattu IgnoreBaseGlyphs; 
+	sub MatraIDefaultReph.gj Bindu.gj by MatraIDefaultRephBindu.gj;
+	sub MatraI1.gj RephBindu.gj by MatraI1RephBindu.gj;
+	sub MatraI2.gj RephBindu.gj by MatraI2RephBindu.gj;
+	sub MatraI3.gj RephBindu.gj by MatraI3RephBindu.gj;
+	sub MatraI4.gj RephBindu.gj by MatraI4RephBindu.gj;
+	sub MatraI5.gj RephBindu.gj by MatraI5RephBindu.gj;
+	sub MatraI6.gj RephBindu.gj by MatraI6RephBindu.gj;
+	sub MatraI7.gj RephBindu.gj by MatraI7RephBindu.gj;
+	sub MatraI8.gj RephBindu.gj by MatraI8RephBindu.gj;
+	sub MatraI9.gj RephBindu.gj by MatraI9RephBindu.gj;
+	sub MatraI10.gj RephBindu.gj by MatraI10RephBindu.gj;
+	sub MatraI11.gj RephBindu.gj by MatraI11RephBindu.gj;
+	sub MatraI12.gj RephBindu.gj by MatraI12RephBindu.gj;
+	sub MatraI13.gj RephBindu.gj by MatraI13RephBindu.gj;
+	sub MatraI14.gj RephBindu.gj by MatraI14RephBindu.gj;
+	sub MatraI15.gj RephBindu.gj by MatraI15RephBindu.gj;
+	sub MatraI16.gj RephBindu.gj by MatraI16RephBindu.gj;
+	sub MatraI17.gj RephBindu.gj by MatraI17RephBindu.gj;
+	sub MatraI18.gj RephBindu.gj by MatraI18RephBindu.gj;
+	sub MatraI19.gj RephBindu.gj by MatraI19RephBindu.gj;
+	sub MatraI20.gj RephBindu.gj by MatraI20RephBindu.gj;
+	sub MatraI21.gj RephBindu.gj by MatraI21RephBindu.gj;	
+	sub MatraI22.gj RephBindu.gj by MatraI22RephBindu.gj;	
+	sub MatraI23.gj RephBindu.gj by MatraI23RephBindu.gj;
+	sub MatraI24.gj RephBindu.gj by MatraI24RephBindu.gj;		
+	sub MatraI25.gj RephBindu.gj by MatraI25RephBindu.gj;
+	sub MatraI26.gj RephBindu.gj by MatraI26RephBindu.gj;
+} MatraIRephBindu;
+
+
+
+lookup MatraIChandrabindu {
+lookupflag IgnoreBaseGlyphs;
+	sub @MatraI Chandrabindu.gj' by Chandrabindu2.gj;
+} MatraIChandrabindu;
+
+lookup MatraIChandrabindu_1 {
+lookupflag IgnoreBaseGlyphs;
+	sub @MatraI Vattu.gj Chandrabindu.gj' by Chandrabindu2.gj;
+} MatraIChandrabindu_1;
+
+script gujr;
+language dflt;
+lookup abvs4;
+lookup abvs3;
+lookup MatraShort;
+lookup abvs2;
+lookup abvs1;
+lookup MatraIBindu;
+lookup MatraIReph;
+lookup MatraIRephBindu;
+lookup MatraIChandrabindu;
+lookup MatraIChandrabindu_1;
+} abvs;
+
+#--------------------------------------------------------------------
+
+feature blws { # Belowbase substitution
+script gjr2;
+language dflt;
+lookup blws1 {
+	#sub Ra.gj MatraU.gj by RaMatraU.gj;
+	sub Ra.gj MatraUu.gj by RaMatraUu.gj;
+	sub Ha.gj MatraRu.gj by HaRu.gj;
+	sub Da.gj MatraRu.gj by DaMatraRu.gj;
+	sub KaSsa.gj MatraU.gj by KaSsaMatraU.gj;
+	sub JaNya.gj MatraU.gj by JaNyaMatraU.gj;
+
+} blws1;
+
+lookup blws2 {
+		sub NgaKa.gj Vattu.gj' by Vattu1.gj;
+		sub NgaGa.gj Vattu.gj' by Vattu1.gj;
+		sub NgaMa.gj Vattu.gj' by Vattu1.gj;
+		sub NgaYa.gj Vattu.gj' by Vattu1.gj;
+		sub TtaTta.gj Vattu.gj' by Vattu1.gj;
+		sub TtaTtha.gj Vattu.gj' by Vattu1.gj;
+		sub TtaVa.gj Vattu.gj' by Vattu1.gj;
+		sub TthaTtha.gj Vattu.gj' by Vattu1.gj;
+		sub DdaGa.gj Vattu.gj' by Vattu1.gj;
+		sub DdaDda.gj Vattu.gj' by Vattu1.gj;
+		sub DdaDdha.gj Vattu.gj' by Vattu1.gj;
+		sub DdaNa.gj Vattu.gj' by Vattu1.gj;
+		sub DdaVa.gj Vattu.gj' by Vattu1.gj;
+		sub DdhaDdha.gj Vattu.gj' by Vattu1.gj;
+} blws2;
+
+lookup blws_Vattumatra {
+	sub Vattu.gj Halant.gj by VattuHalant.gj;
+	sub Vattu.gj MatraU.gj by VattuMatraU.gj;
+	sub Vattu.gj MatraUu.gj by VattuMatraUu.gj;
+	sub Vattu1.gj Halant.gj by VattuHalant1.gj;
+	sub Vattu1.gj MatraU.gj by VattuMatraU1.gj;
+	sub Vattu1.gj MatraUu.gj by VattuMatraUu1.gj;
+
+} blws_Vattumatra;
+
+lookup blws_Vertical_Conjuncts {
+	sub @Vertical_Conjuncts Vattu.gj' by Vattu1.gj;
+	sub @Vertical_Conjuncts MatraU.gj' by MatraU1.gj;
+	sub @Vertical_Conjuncts MatraUu.gj' by MatraUu1.gj;
+	sub @Vertical_Conjuncts MatraRu.gj' by MatraRu1.gj;
+} blws_Vertical_Conjuncts; 
+
+script gujr;
+language dflt;
+lookup blws1;
+lookup blws2;
+lookup blws_Vattumatra;
+lookup blws_Vertical_Conjuncts;
+} blws;
+
+#--------------------------------------------------------------------
+
+feature psts { 
+script gjr2;
+language dflt;
+lookup psts3 { # Postbase matra substitutions
+	sub @Width_matraIione @matraIidefault' by @matraIione;
+	sub @Width_matraIitwo @matraIidefault' by @matraIitwo;
+	sub @Width_matraIithree @matraIidefault' by @matraIithree;
+	sub @Width_matraIione Vattu.gj @matraIidefault' by @matraIione;
+	sub @Width_matraIitwo Vattu.gj @matraIidefault' by @matraIitwo;
+	sub @Width_matraIithree Vattu.gj @matraIidefault' by @matraIithree;
+} psts3;
+
+lookup psts2 {
+	sub Ja.gj MatraIi.gj by JaMatraIi.gj;
+	sub Ja.gj MatraA.gj by JaMatraAa.gj;
+	sub Ja.gj MatraChandraO.gj by JaMatraChandraO.gj;
+	sub Ja.gj MatraO.gj by JaMatraO.gj;
+	sub Ja.gj MatraAu.gj by JaMatraAu.gj;
+	sub Ja.gj MatraOBindu.gj by JaMatraOBindu.gj;
+	sub Ja.gj MatraOReph.gj by JaMatraOReph.gj;
+	sub Ja.gj MatraORephBindu.gj by JaMatraORephBindu.gj;
+	sub Ja.gj MatraORephChandrabindu.gj by JaMatraORephChandrabindu.gj;
+	sub Ja.gj MatraAuBindu.gj by JaMatraAuBindu.gj;
+	sub Ja.gj MatraAuReph.gj by JaMatraAuReph.gj;
+	sub Ja.gj MatraAuRephBindu.gj by JaMatraAuRephBindu.gj;
+	sub Ja.gj MatraAuRephChandrabindu.gj by JaMatraAuRephChandrabindu.gj;
+} psts2;
+script gujr;
+language dflt;
+lookup psts3;
+lookup psts2;
+} psts;
+
+#--------------------------------------------------------------------
