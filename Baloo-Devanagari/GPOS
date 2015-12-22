@@ -2851,7 +2851,6 @@ lookupflag IgnoreMarks;
 
 
 
-
 feature abvm {
 
 
@@ -2997,11 +2996,8 @@ pos base KamatraLruu.dv <anchor 495 0> mark @AboveBaseMark;
 } abvm1;
 
 
-
-
-lookup abvm2 { # chandrabindu to small ikar matra
-
-pos base @matraIdefault <anchor 760 0> mark @AboveBaseMark1;
+lookup abvm2 { # bindu chandrabindu to small ikar matra
+pos base @matraIdefault <anchor 683 80> mark @AboveBaseMark1;
 pos base @matraIone <anchor 545 80> mark @AboveBaseMark1;
 pos base @matraItwo <anchor 655 80> mark @AboveBaseMark1;
 pos base @matraIthree <anchor 685 80> mark @AboveBaseMark1;
@@ -3391,15 +3387,9 @@ pos base SaTta.dv <anchor 845 0> mark @BelowBaseMark4;
 
 
 
-
-
-
-
-
 lookup blwm5 {
-	pos mark Vattu.dv <anchor 60 -140> mark @BelowBaseMark2;
+	pos mark Vattu.dv <anchor 60 -140> mark @BelowBaseMark3;
 } blwm5;
-
 
 
 } blwm;

@@ -232,6 +232,11 @@
 #----------------------------------
 
 
+@allmatraI_Reph_Bindu = [matraI.dv Reph.dv Bindu.dv matraIone.dv matraItwo.dv matraIthree.dv matraIfour.dv matraIfive.dv matraIsix.dv matraIseven.dv matraIeight.dv matraInine.dv matraIten.dv matraIeleven.dv matraItwelve.dv matraIthirteen.dv matraIfourteen.dv matraIfifteen.dv matraIsixteen.dv matraIseventeen.dv matraIeighteen.dv matraInineteen.dv matraItwenty.dv matraItwentyone.dv matraItwentytwo.dv matraItwentythree.dv matraIReph.dv matraIRephone.dv matraIRephtwo.dv matraIRephthree.dv matraIRephfour.dv matraIRephfive.dv matraIRephsix.dv matraIRephseven.dv matraIRepheight.dv matraIRephnine.dv matraIRephten.dv matraIRepheleven.dv matraIRephtwelve.dv matraIRephthirteen.dv matraIRephfourteen.dv matraIRephfifteen.dv matraIRephsixteen.dv matraIRephseventeen.dv matraIRepheighteen.dv matraIRephnineteen.dv matraIRephtwenty.dv matraIRephtwentyone.dv matraIRephtwentytwo.dv matraIRephtwentythree.dv];
+
+
+
+
 @AboveBaseMark=[Chandrabindu.dv Bindu.dv Chandra.dv matraShortE.dv matraE.dv matraAi.dv uni093A uni0900 uni0955 Reph.dv RephBindu.dv matraEBindu.dv matraEReph.dv matraERephBindu.dv matraAiBindu.dv matraAiReph.dv matraAiRephBindu.dv RephChandrabindu.dv matraEChandrabindu.dv matraERephChandrabindu.dv matraAiChandrabindu.dv matraAiRephChandrabindu.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephChandrabindu.dv matraShortERephBindu.dv];
 
 @AboveBaseMark1=[Chandrabinduone.dv Binduone.dv];

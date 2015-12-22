@@ -924,9 +924,6 @@ feature cjct {
 	sub Ha.dv Halant.dv MaHalant.dv Ya.dv by HaMaYa.dv;
 	sub Ha.dv Halant.dv Ma.dv Halant.dv Ya.dv by HaMaYa.dv;
 
-
-
-
 	sub Ddha.dv Halant.dv Ya.dv by DdhaYa.dv;
 	sub Ddha.dv Halant.dv Ddha.dv by DdhaDdha.dv;
 
@@ -976,7 +973,38 @@ feature cjct {
 
 feature abvs { # Abovebase matra substitutions
 
-lookup abvs9 {
+
+lookup abvs6 {
+	sub matraI.dv @matraIdefault Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIone.dv @matraIone Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwo.dv @matraItwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIthree.dv @matraIthree Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfour.dv @matraIfour Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfive.dv @matraIfive Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIsix.dv @matraIsix Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIseven.dv @matraIseven Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeight.dv @matraIeight Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraInine.dv @matraInine Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIten.dv @matraIten Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeleven.dv @matraIeleven Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwelve.dv @matraItwelve Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIthirteen.dv @matraIthirteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfourteen.dv @matraIfourteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfifteen.dv @matraIfifteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIsixteen.dv @matraIsixteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIseventeen.dv @matraIseventeen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeighteen.dv @matraIeighteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraInineteen.dv @matraInineteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwenty.dv @matraItwenty Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentyone.dv @matraItwenty Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentytwo.dv @matraItwentytwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentythree.dv @matraItwentythree Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+} abvs6;
+
+
+
+
+lookup abvs5 {
 	sub vowelAi.dv Chandrabindu.dv' by Chandrabinduone.dv;
 	sub vowelO.dv Chandrabindu.dv' by Chandrabinduone.dv;
 	sub vowelAu.dv Chandrabindu.dv' by Chandrabinduone.dv;
@@ -1006,10 +1034,38 @@ lookup abvs9 {
 	sub matraItwentyone.dv @matraItwenty Chandrabindu.dv' by Chandrabinduone.dv;
 	sub matraItwentytwo.dv @matraItwentytwo Chandrabindu.dv' by Chandrabinduone.dv;
 	sub matraItwentythree.dv @matraItwentythree Chandrabindu.dv' by Chandrabinduone.dv;
-} abvs9;
+} abvs5;
 
 
-lookup abvs8 {
+lookup abvs4 {
+	sub matraI.dv @matraIdefault Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIone.dv @matraIone Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwo.dv @matraItwo Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIthree.dv @matraIthree Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIfour.dv @matraIfour Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIfive.dv @matraIfive Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIsix.dv @matraIsix Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIseven.dv @matraIseven Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIeight.dv @matraIeight Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraInine.dv @matraInine Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIten.dv @matraIten Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIeleven.dv @matraIeleven Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwelve.dv @matraItwelve Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIthirteen.dv @matraIthirteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIfourteen.dv @matraIfourteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIfifteen.dv @matraIfifteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIsixteen.dv @matraIsixteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIseventeen.dv @matraIseventeen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraIeighteen.dv @matraIeighteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraInineteen.dv @matraInineteen Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwenty.dv @matraItwenty Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwentyone.dv @matraItwenty Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwentytwo.dv @matraItwentytwo Vattu.dv Bindu.dv' by Binduone.dv;
+	sub matraItwentythree.dv @matraItwentythree Vattu.dv Bindu.dv' by Binduone.dv;	
+} abvs4;
+
+
+lookup abvs3 {
 	sub vowelAi.dv Bindu.dv' by Binduone.dv;
 	sub vowelO.dv Bindu.dv' by Binduone.dv;
 	sub vowelAu.dv Bindu.dv' by Binduone.dv;
@@ -1039,12 +1095,11 @@ lookup abvs8 {
 	sub matraItwentyone.dv @matraItwenty Bindu.dv' by Binduone.dv;
 	sub matraItwentytwo.dv @matraItwentytwo Bindu.dv' by Binduone.dv;
 	sub matraItwentythree.dv @matraItwentythree Bindu.dv' by Binduone.dv;
-} abvs8;
+} abvs3;
 
 
-
-lookup abvs7 { 
-lookupflag IgnoreBaseGlyphs;
+lookup abvs2 { 
+lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs ;
 	sub matraI.dv Reph.dv by matraIReph.dv;
 	sub matraIone.dv Reph.dv by matraIRephone.dv;
 	sub matraItwo.dv Reph.dv by matraIRephtwo.dv;
@@ -1064,15 +1119,16 @@ lookupflag IgnoreBaseGlyphs;
 	sub matraIsixteen.dv Reph.dv by matraIRephsixteen.dv;
 	sub matraIseventeen.dv Reph.dv by matraIRephseventeen.dv;
 	sub matraIeighteen.dv Reph.dv by matraIRepheighteen.dv;
+	sub matraInineteen.dv Reph.dv by matraIRephnineteen.dv;
 	sub matraItwenty.dv Reph.dv by matraIRephtwenty.dv;
 	sub matraItwentyone.dv Reph.dv by matraIRephtwentyone.dv;
 	sub matraItwentytwo.dv Reph.dv by matraIRephtwentytwo.dv;
 	sub matraItwentythree.dv Reph.dv by matraIRephtwentythree.dv;
-} abvs7;
+} abvs2;
 
 
-lookup abvs6 { 
-lookupflag IgnoreBaseGlyphs;
+lookup abvs1 { 
+lookupflag MarkAttachmentType @allmatraI_Reph_Bindu IgnoreBaseGlyphs;
 	sub matraIReph.dv Bindu.dv by matraIRephBindu.dv;
 	sub matraIRephone.dv Bindu.dv by matraIRephBinduone.dv;
 	sub matraIRephtwo.dv Bindu.dv by matraIRephBindutwo.dv;
@@ -1092,64 +1148,12 @@ lookupflag IgnoreBaseGlyphs;
 	sub matraIRephsixteen.dv Bindu.dv by matraIRephBindusixteen.dv;
 	sub matraIRephseventeen.dv Bindu.dv by matraIRephBinduseventeen.dv;
 	sub matraIRepheighteen.dv Bindu.dv by matraIRephBindueighteen.dv;
+	sub matraIRephnineteen.dv Bindu.dv by matraIRephBindunineteen.dv;
 	sub matraIRephtwenty.dv Bindu.dv by matraIRephBindutwenty.dv;
 	sub matraIRephtwentyone.dv Bindu.dv by matraIRephBindutwentyone.dv;
 	sub matraIRephtwentytwo.dv Bindu.dv by matraIRephBindutwentytwo.dv;
 	sub matraIRephtwentythree.dv Bindu.dv by matraIRephBindutwentythree.dv;
-} abvs6;
-
-
-
-
-
-lookup abvs4 {
-	 sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
-	 sub matraIi.dv Chandrabindu.dv by matraIiChandrabindu.dv;
-	 sub matraShortE.dv Chandrabindu.dv by matraShortEChandrabindu.dv;
-	 sub matraE.dv Chandrabindu.dv by matraEChandrabindu.dv;
-	 sub matraAi.dv Chandrabindu.dv by matraAiChandrabindu.dv;
-	 sub matraShortO.dv Chandrabindu.dv by matraShortOChandrabindu.dv;
-	 sub matraO.dv Chandrabindu.dv by matraOChandrabindu.dv;
-	 sub matraAu.dv Chandrabindu.dv by matraAuChandrabindu.dv;
-
-} abvs4;
-
-
-
-lookup abvs2 {
-
-	 sub matraA.dv Bindu.dv by matraABindu.dv;
-	 sub Chandra.dv Bindu.dv by Chandrabindu.dv;
-	 sub matraShortE.dv Bindu.dv by matraShortEBindu.dv;
-	 sub matraE.dv Bindu.dv by matraEBindu.dv;
-	 sub matraAi.dv Bindu.dv by matraAiBindu.dv;
-} abvs2;
-
-
-
-lookup abvs5 {
-	 sub matraA.dv Reph.dv by matraAReph.dv;
-	 sub matraShortE.dv Reph.dv by matraShortEReph.dv;
-	 sub matraE.dv Reph.dv by matraEReph.dv;
-	 sub matraAi.dv Reph.dv by matraAiReph.dv;
-
-} abvs5;
-
-lookup abvs1 {
-
-	 sub matraEReph.dv Bindu.dv by matraERephBindu.dv;
-	 sub matraAiReph.dv Bindu.dv by matraAiRephBindu.dv;
-	 sub matraAReph.dv Bindu.dv by matraARephBindu.dv;
-	 sub Reph.dv Bindu.dv by RephBindu.dv;
 } abvs1;
-
-lookup abvs3 {
-	 sub Reph.dv Chandrabindu.dv by RephChandrabindu.dv;
-	 sub matraEReph.dv Chandrabindu.dv by matraERephChandrabindu.dv;
-	 sub matraAiReph.dv Chandrabindu.dv by matraAiRephChandrabindu.dv;
-	 sub matraShortEReph.dv Chandrabindu.dv by matraShortERephChandrabindu.dv;
-
-} abvs3;
 
 
 } abvs;
@@ -1185,8 +1189,6 @@ lookup blws_Vertical_Conjuncts {
 	sub @Vertical_Conjuncts matraRu.dv' by matraRusmall.dv;
 } blws_Vertical_Conjuncts;
 
-
-
 } blws;
 
 
@@ -1195,16 +1197,56 @@ lookup blws_Vertical_Conjuncts {
 
 feature psts { 
 
-#lookup psts2 {
+#lookup psts6 { #Remove hashtag if needed
 #	sub [Ra.dv RaNukta.dv] matraE.dv' by matraEone.dv;
 #	sub [Ra.dv RaNukta.dv] matraEBindu.dv' by matraEoneBindu.dv;
 #	sub [Ra.dv RaNukta.dv] matraEReph.dv' by matraEoneReph.dv;
 #	sub [Ra.dv RaNukta.dv] matraERephBindu.dv' by matraEoneRephBindu.dv;
 #	sub [Ra.dv RaNukta.dv] matraAi.dv' by matraAione.dv;
 #	sub [Ra.dv RaNukta.dv] matraAiBindu.dv' by matraAioneBindu.dv;
-#} psts2;
+#} psts6;
 
 
+lookup psts5 {
+	 sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
+	 sub matraIi.dv Chandrabindu.dv by matraIiChandrabindu.dv;
+	 sub matraShortE.dv Chandrabindu.dv by matraShortEChandrabindu.dv;
+	 sub matraE.dv Chandrabindu.dv by matraEChandrabindu.dv;
+	 sub matraAi.dv Chandrabindu.dv by matraAiChandrabindu.dv;
+	 sub matraShortO.dv Chandrabindu.dv by matraShortOChandrabindu.dv;
+	 sub matraO.dv Chandrabindu.dv by matraOChandrabindu.dv;
+	 sub matraAu.dv Chandrabindu.dv by matraAuChandrabindu.dv;
+
+	 sub matraA.dv Bindu.dv by matraABindu.dv;
+	 sub Chandra.dv Bindu.dv by Chandrabindu.dv;
+	 sub matraShortE.dv Bindu.dv by matraShortEBindu.dv;
+	 sub matraE.dv Bindu.dv by matraEBindu.dv;
+	 sub matraAi.dv Bindu.dv by matraAiBindu.dv;
+} psts5;
+
+
+lookup psts4 {
+	 sub matraA.dv Reph.dv by matraAReph.dv;
+	 sub matraShortE.dv Reph.dv by matraShortEReph.dv;
+	 sub matraE.dv Reph.dv by matraEReph.dv;
+	 sub matraAi.dv Reph.dv by matraAiReph.dv;
+} psts4;
+
+
+lookup psts3 {
+	 sub matraEReph.dv Bindu.dv by matraERephBindu.dv;
+	 sub matraAiReph.dv Bindu.dv by matraAiRephBindu.dv;
+	 sub matraAReph.dv Bindu.dv by matraARephBindu.dv;
+	 sub Reph.dv Bindu.dv by RephBindu.dv;
+
+	 sub Reph.dv Chandrabindu.dv by RephChandrabindu.dv;
+	 sub matraEReph.dv Chandrabindu.dv by matraERephChandrabindu.dv;
+	 sub matraAiReph.dv Chandrabindu.dv by matraAiRephChandrabindu.dv;
+	 sub matraShortEReph.dv Chandrabindu.dv by matraShortERephChandrabindu.dv;
+} psts3;
+
+
+lookup psts2 {
 	 sub matraIi.dv RephChandrabindu.dv by matraIiRephChandrabindu.dv;
 	 sub matraO.dv RephChandrabindu.dv by matraORephChandrabindu.dv;
 	 sub matraAu.dv RephChandrabindu.dv by matraAuRephChandrabindu.dv;
@@ -1232,6 +1274,7 @@ feature psts {
 	 sub matraShortO.dv Reph.dv by matraShortOReph.dv;
 	 sub matraO.dv Reph.dv by matraOReph.dv;
 	 sub matraAu.dv Reph.dv by matraAuReph.dv;
+} psts2;
 
 
 lookup psts1 { # Postbase matra substitutions
