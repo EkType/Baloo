@@ -1,0 +1,8 @@
+InputFontPath	.\BalooTamma.ttf
+OutputFontPath	.\BalooTamma.otf
+Renumber	5
+ReleaseMode	true
+DoSubroutinization	true
+FeaturePath	.\features
+FontMenuDBPath	.\FontMenuNameDB
+GlyphAliasDBPath	.\GlyphOrderAndAliasDB
