@@ -1,7 +1,7 @@
 InputFontPath	.\Baloo.ttf
 OutputFontPath	.\Baloo.otf
-Renumber	5
 ReleaseMode	true
+Renumber	5
 DoSubroutinization	true
 FeaturePath	.\features
 FontMenuDBPath	.\FontMenuNameDB
