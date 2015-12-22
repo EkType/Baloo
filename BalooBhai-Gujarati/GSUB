@@ -265,11 +265,226 @@ feature vatu { # Vattu
 
 #--------------------------------------------------------------------
 
+
+feature cjct { # Pre-base Substitutions
+script gjr2;
+language dflt;
+lookup pres6 { # Four-letter conjuncts
+	sub BaHalf.gj SaHalf.gj Tta.gj Vattu.gj by BaSaTtaRa.gj;	
+	sub NaHalf.gj TaRaHalf.gj Ya.gj by NaTaRaYa.gj;		
+} pres6;
+
+
+lookup pres5 { # Alternate Four-letter conjuncts
+	sub NaHalf.gj' SaKaRa.gj by NaHalf_alt.gj;
+	sub NaThaHalf.gj' PaRa.gj by NaHalf_alt.gj;
+} pres5;
+	
+	sub Da.gj Halant.gj Da.gj Halant.gj Ya.gj by DaDaYa.gj;
+
+lookup pres4 { # Three-letter conjuncts
+	sub KaHalf.gj KaRa.gj by KaKaRa.gj;
+	sub KaHalf.gj TaRa.gj by KaTaRa.gj;
+	sub KaHalf.gj SaHalf.gj Dda.gj by KaSaDda.gj;
+	sub DaRa.gj Halant.gj Ya.gj by DaRaYa.gj;
+	sub Da.gj Vattu.gj Halant.gj Ya.gj by DaRaYa.gj;
+	sub Da.gj Halant.gj Ra.gj Halant.gj Ya.gj by DaRaYa.gj;
+	sub KaHalf.gj SaHalf.gj Tta.gj by KaSaTta.gj;
+	sub Cha.gj Vattu.gj Halant.gj Ya.gj by ChaRaYa.gj;
+	sub Cha.gj Halant.gj Ra.gj Halant.gj Ya.gj by ChaRaYa.gj;
+	sub Tta.gj Vattu.gj Halant.gj Ya.gj by TtaRaYa.gj;
+	sub Tta.gj Halant.gj Ra.gj Halant.gj Ya.gj by TtaRaYa.gj;
+	sub Da.gj Halant.gj BhaHalf.gj Ya.gj by DaBhaYa.gj;
+	sub Da.gj Halant.gj VaHalf.gj Ya.gj by DaVaYa.gj;
+	sub Ttha.gj Halant.gj Ttha.gj Halant.gj Ya.gj by TthaTthaYa.gj;
+	sub Tta.gj Halant.gj Tta.gj Halant.gj Ya.gj by TtaTtaYa.gj;
+	sub TaHalf.gj KaHalf.gj Ya.gj by TaKaYa.gj;
+	sub TaHalf.gj KaRa.gj by TaKaRa.gj;
+	sub TaHalf.gj KaSsa.gj by TaKaSsa.gj;
+	sub TaHalf.gj NaHalf.gj Ya.gj by TaNaYa.gj;
+
+	sub NaHalf.gj KaHalf.gj Sa.gj by NaKaSa.gj;
+	sub NaHalf.gj TaRa.gj by NaTaRa.gj;
+	sub BaHalf.gj SaHalf.gj Ka.gj by BaSaKa.gj;
+	sub LaHalf.gj PhaRa.gj by LaPhaRa.gj;
+	sub SsaHalf.gj KaRa.gj by SsaKaRa.gj;
+	sub SaHalf.gj KaRa.gj by SaKaRa.gj;
+	sub SaHalf.gj TaRa.gj by SaTaRa.gj;
+	sub SaHalf.gj ThaHalf.gj Ya.gj by SaThaYa.gj;
+	sub LaHalf.gj VaHalf.gj Da.gj by LaVaDa.gj;
+	sub LaHalf.gj KaHalf.gj Ya.gj by LaKaYa.gj;	
+} pres4;
+
+
+lookup pres3 { # Alternate Three-letter conjuncts
+	sub NaHalf.gj' Sa.gj Ya.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' SaKa.gj by NaHalf_alt.gj;
+	sub LaHalf.gj' DaRa.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Pa.gj Ya.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' ThaHalf.gj Ya.gj by LaHalf_alt2.gj;
+} pres3;
+
+
+lookup pres2 { # Two-letter conjuncts
+	sub KaHalf.gj Ka.gj by KaKa.gj;
+	sub KaHalf.gj Tha.gj by KaTha.gj;
+	sub KaHalf.gj Pha.gj by KaPha.gj;
+	sub KaHalf.gj Ma.gj by KaMa.gj;
+	sub KaHalf.gj Ya.gj by KaYa.gj;
+	sub KaHalf.gj Sha.gj by KaSha.gj;
+	sub KaHalf.gj Sa.gj by KaSa.gj;
+	sub KhaHalf.gj Sha.gj by KhaSha.gj;
+	sub Nga.gj Halant.gj Ka.gj by NgaKa.gj;
+	sub Nga.gj Halant.gj Ga.gj by NgaGa.gj;
+	sub Nga.gj Halant.gj Ma.gj by NgaMa.gj;
+	sub Nga.gj Halant.gj Ya.gj by NgaYa.gj;
+	sub CaHalf.gj Ca.gj by CaCa.gj;
+	sub Cha.gj Halant.gj Va.gj by ChaVa.gj;
+	sub Cha.gj Halant.gj Ya.gj by ChaYa.gj;
+	sub JaHalf.gj Ta.gj by JaTa.gj;
+	sub Jha.gj Halant.gj Ya.gj by JhaYa.gj;
+	sub NyaHalf.gj Ja.gj by NyaJa.gj;
+	sub NyaHalf.gj Sha.gj by NyaSha.gj;
+	sub Tta.gj Halant.gj Tta.gj by TtaTta.gj;
+	sub Tta.gj Halant.gj Ttha.gj by TtaTtha.gj;
+	sub Tta.gj Halant.gj Va.gj by TtaVa.gj;
+	sub Tta.gj Halant.gj Ya.gj by TtaYa.gj;
+	sub Ttha.gj Halant.gj Ttha.gj by TthaTtha.gj;
+	sub Ttha.gj Halant.gj Ya.gj by TthaYa.gj;
+	sub Dda.gj Halant.gj Ga.gj by DdaGa.gj;
+	sub Dda.gj Halant.gj Dda.gj by DdaDda.gj;
+	sub Dda.gj Halant.gj Ddha.gj by DdaDdha.gj;
+	sub Dda.gj Halant.gj Na.gj by DdaNa.gj;
+	sub Dda.gj Halant.gj Ya.gj by DdaYa.gj;
+	sub Dda.gj Halant.gj Va.gj by DdaVa.gj;
+	sub Ddha.gj Halant.gj Ddha.gj by DdhaDdha.gj;
+	sub Ddha.gj Halant.gj Ya.gj by DdhaYa.gj;
+	sub TaHalf.gj Ka.gj by TaKa.gj;
+	sub TaHalf.gj Ta.gj by TaTa.gj;
+	sub TaHalf.gj Pha.gj by TaPha.gj;
+	sub NaHalf.gj Ga.gj by NaGa.gj;
+	sub NaHalf.gj Ca.gj by NaCa.gj;
+	sub NaHalf.gj Tha.gj by NaTha.gj;
+	sub NaHalf.gj Na.gj by NaNa.gj;
+	sub NaHalf.gj Ma.gj by NaMa.gj;
+	sub PaHalf.gj Ka.gj by PaKa.gj;
+	sub PaHalf.gj Ca.gj by PaCa.gj;
+	sub PaHalf.gj Cha.gj by PaCha.gj;
+	sub PaHalf.gj Dda.gj by PaDda.gj;
+	sub PaHalf.gj Pha.gj by PaPha.gj;
+	sub PaHalf.gj Ma.gj by PaMa.gj;
+	sub PaHalf.gj Sha.gj by PaSha.gj;
+	sub PaHalf.gj Sa.gj by PaSa.gj;
+	sub PhaHalf.gj Tha.gj by PhaTha.gj;
+	sub PhaHalf.gj Pha.gj by PhaPha.gj;
+	sub PhaHalf.gj Ya.gj by PhaYa.gj;
+	sub PhaHalf.gj Sha.gj by PhaSha.gj;
+	sub PhaHalf.gj Sa.gj by PhaSa.gj;
+	sub BaHalf.gj Dda.gj by BaDda.gj;
+	sub BaHalf.gj Da.gj by BaDa.gj;
+	sub BaHalf.gj Dha.gj by BaDha.gj;
+	sub BaHalf.gj Sha.gj by BaSha.gj;
+	sub BaHalf.gj Ha.gj by BaHa.gj;
+	sub MaHalf.gj Ka.gj by MaKa.gj;
+	sub MaHalf.gj Da.gj by MaDa.gj;
+	sub MaHalf.gj Pha.gj by MaPha.gj;
+	sub MaHalf.gj Sha.gj by MaSha.gj;
+	sub YaHalf.gj Jha.gj by YaJha.gj;
+	sub LaHalf.gj Ka.gj by LaKa.gj;
+	sub LaHalf.gj Ga.gj by LaGa.gj;
+	sub LaHalf.gj Ca.gj by LaCa.gj;
+	sub LaHalf.gj Pha.gj by LaPha.gj;
+	sub VaHalf.gj Jha.gj by VaJha.gj;
+	sub VaHalf.gj Dda.gj by VaDda.gj;
+	sub VaHalf.gj Ha.gj by VaHa.gj;
+	sub ShaHalf.gj Ca.gj by ShaCa.gj;
+	sub ShaHalf.gj Na.gj by ShaNa.gj;
+	sub ShaHalf.gj Va.gj by ShaVa.gj;
+	sub SsaHalf.gj Ka.gj by SsaKa.gj;
+	sub SsaHalf.gj Pha.gj by SsaPha.gj;
+	sub SaHalf.gj Ka.gj by SaKa.gj;
+	sub SaHalf.gj Tha.gj by SaTha.gj;
+	sub SaHalf.gj Pha.gj by SaPha.gj;
+	sub Ha.gj Halant.gj Nna.gj by HaNna.gj;
+	sub Ha.gj Halant.gj Na.gj by HaNa.gj;
+	sub Ha.gj Halant.gj Ma.gj by HaMa.gj;
+	sub Ha.gj Halant.gj Ya.gj by HaYa.gj;
+	sub Ha.gj Halant.gj La.gj by HaLa.gj;
+	sub Ha.gj Halant.gj Va.gj by HaVa.gj;
+	sub Da.gj Halant.gj Da.gj by DaDa.gj;
+	sub Da.gj Halant.gj Ma.gj by DaMa.gj;
+	sub Da.gj Halant.gj Ba.gj by DaBa.gj;
+	sub Da.gj Halant.gj Va.gj by DaVa.gj;
+	sub Da.gj Halant.gj Na.gj by DaNa.gj;
+	sub Da.gj Halant.gj Ga.gj by DaGa.gj;
+	sub Da.gj Halant.gj Bha.gj by DaBha.gj;
+	sub Da.gj Halant.gj Gha.gj by DaGha.gj;
+	sub Da.gj Halant.gj Dha.gj by DaDha.gj;
+	sub Da.gj Halant.gj Ya.gj by DaYa.gj;
+} pres2;
+
+lookup pres1 { # ALternate Two-letter conjuncts
+	sub KaHalf.gj' Ja.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Dda.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Cha.gj by KaHalf_alt.gj;
+	sub KaHalf.gj' Da.gj by KaHalf_alt.gj;
+	sub KhaHalf.gj' Ja.gj by KhaHalf_alt.gj;
+	sub KhaHalf.gj' Ma.gj by KhaHalf_alt2.gj;
+	sub KhaHalf.gj' Sa.gj by KhaHalf_alt2.gj;
+	sub JaHalf.gj' [Ja.gj JaHalf.gj] by JaHalf_alt.gj;
+	sub JaHalf.gj' Jha.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Na.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ya.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ba.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Ma.gj by JaHalf_alt.gj;
+	sub JaHalf.gj' Tta.gj by JaHalf_alt.gj;
+	sub TaHalf.gj' Tha.gj by TaHalf_alt.gj;
+	sub TaHalf.gj' Ya.gj by TaHalf_alt.gj;
+	sub TaHalf.gj' [Sa.gj SaHalf.gj] by TaHalf_alt.gj;
+	sub PhaHalf.gj' Ja.gj by PhaHalf_alt.gj;
+	sub BaHalf.gj' [Ja.gj JaHalf.gj JaHalf_alt.gj] by BaHalf_alt.gj;	
+	sub LaHalf.gj' Ja.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Dda.gj by LaHalf_alt.gj;
+	sub LaHalf.gj' Da.gj by LaHalf_alt.gj;	
+	sub LaHalf.gj' Tta.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Ttha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Tha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Sha.gj by LaHalf_alt2.gj;
+	sub LaHalf.gj' Sa.gj by LaHalf_alt2.gj;
+	sub SaHalf.gj' Ja.gj by SaHalf_alt.gj;
+	sub SaHalf.gj' Dda.gj by SaHalf_alt.gj;
+	sub NaHalf.gj' Sa.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Jha.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Tta.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Ya.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' Sha.gj by NaHalf_alt.gj;
+	sub NaHalf.gj' [SaHalf.gj SaKa.gj] by NaHalf_alt.gj;
+	sub NaHalf.gj' KaSa.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' Ka.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' KaRa.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Pha.gj PhaHalf.gj] by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Dha.gj DhaHalf.gj DhaRa.gj] by NaHalf_alt2.gj;
+	sub NaHalf.gj' Ha.gj by NaHalf_alt2.gj;
+	sub NaHalf.gj' [Pa.gj PaRa.gj] by NaHalf_alt.gj;
+	sub NaHalf.gj' Ssa.gj by NaHalf_alt.gj;
+	sub JaHalf_alt.gj JaHalf.gj' by JaHalf_alt.gj;
+	
+} pres1;
+script gujr;
+language dflt;
+lookup pres6;
+lookup pres5;
+lookup pres4;
+lookup pres3;
+lookup pres2;
+lookup pres1;
+} cjct;
+
 #--------------------------------------------------------------------
 
 feature pres {
-
-
+script gjr2;
+language dflt;
 lookup presHalf {
 		sub KaHalf.gj SaHalf.gj by KaSaHalf.gj;
 		sub NaHalf.gj ThaHalf.gj by NaThaHalf.gj;
@@ -285,6 +500,7 @@ lookup presHalf {
 
 
 lookup MatraI { # Replace Ikar matra for conjuncts
+
 
 	sub MatraI.gj' @matraI1 by MatraI1.gj;
 	sub MatraI.gj' @matraI2 by MatraI2.gj;
@@ -358,6 +574,7 @@ lookup MatraI { # Replace Ikar matra for conjuncts
 	sub MatraI.gj' TaHalf.gj Na.gj by MatraI10.gj;
 	sub MatraI.gj' SaHalf.gj Tta.gj by MatraI10.gj;
 
+
 	sub MatraI.gj' @matraI11 by MatraI11.gj;
 	sub MatraI.gj' TaHalf.gj Ma.gj by MatraI11.gj;
 	sub MatraI.gj' TaHalf.gj Pa.gj by MatraI11.gj;
@@ -420,6 +637,7 @@ lookup MatraI { # Replace Ikar matra for conjuncts
 	sub MatraI.gj' LaHalf.gj Ta.gj by MatraI12.gj;
 	sub MatraI.gj' KaHalf.gj Tta.gj by MatraI12.gj;
 	sub MatraI.gj' NnaHalf.gj Dda.gj by MatraI12.gj;
+
 
 	sub MatraI.gj' @matraI13 by MatraI13.gj;
 	sub MatraI.gj' TaHalf.gj Ba.gj by MatraI13.gj;
@@ -659,226 +877,25 @@ lookup MatraI { # Replace Ikar matra for conjuncts
 
 }MatraI;
 
-
-
-lookup pres6 { # Four-letter conjuncts
-	sub BaHalf.gj SaHalf.gj Tta.gj Vattu.gj by BaSaTtaRa.gj;	
-	sub NaHalf.gj TaRaHalf.gj Ya.gj by NaTaRaYa.gj;		
-} pres6;
-
-
-lookup pres5 { # Alternate Four-letter conjuncts
-	sub NaHalf.gj' SaKaRa.gj by NaHalf_alt.gj;
-	sub NaThaHalf.gj' PaRa.gj by NaHalf_alt.gj;
-} pres5;
-
-
-lookup pres4 { # Three-letter conjuncts
-
-	sub KaHalf.gj KaRa.gj by KaKaRa.gj;
-	sub KaHalf.gj TaRa.gj by KaTaRa.gj;
-	sub KaHalf.gj SaHalf.gj Dda.gj by KaSaDda.gj;
-	sub KaHalf.gj SaHalf.gj Tta.gj by KaSaTta.gj;
-	sub Cha.gj Vattu.gj Halant.gj Ya.gj by ChaRaYa.gj;
-	sub Cha.gj Halant.gj Ra.gj Halant.gj Ya.gj by ChaRaYa.gj;
-	sub Tta.gj Vattu.gj Halant.gj Ya.gj by TtaRaYa.gj;
-	sub Tta.gj Halant.gj Ra.gj Halant.gj Ya.gj by TtaRaYa.gj;
-	sub Da.gj Halant.gj BhaHalf.gj Ya.gj by DaBhaYa.gj;
-	sub Da.gj Halant.gj VaHalf.gj Ya.gj by DaVaYa.gj;
-	sub Ttha.gj Halant.gj Ttha.gj Halant.gj Ya.gj by TthaTthaYa.gj;
-	sub Tta.gj Halant.gj Tta.gj Halant.gj Ya.gj by TtaTtaYa.gj;
-	sub TaHalf.gj KaHalf.gj Ya.gj by TaKaYa.gj;
-	sub TaHalf.gj KaRa.gj by TaKaRa.gj;
-	sub TaHalf.gj KaSsa.gj by TaKaSsa.gj;
-	sub TaHalf.gj NaHalf.gj Ya.gj by TaNaYa.gj;
-	sub Da.gj Halant.gj Da.gj Halant.gj Ya.gj by DaDaYa.gj;
-	sub DaDa.gj Halant.gj Ya.gj by DaDaYa.gj;
-	sub DaRa.gj Halant.gj Ya.gj by DaRaYa.gj;
-	sub Da.gj Vattu.gj Halant.gj Ya.gj by DaRaYa.gj;
-	sub NaHalf.gj KaHalf.gj Sa.gj by NaKaSa.gj;
-	sub NaHalf.gj TaRa.gj by NaTaRa.gj;
-	sub BaHalf.gj SaHalf.gj Ka.gj by BaSaKa.gj;
-	sub LaHalf.gj PhaRa.gj by LaPhaRa.gj;
-	sub SsaHalf.gj KaRa.gj by SsaKaRa.gj;
-	sub SaHalf.gj KaRa.gj by SaKaRa.gj;
-	sub SaHalf.gj TaRa.gj by SaTaRa.gj;
-	sub SaHalf.gj ThaHalf.gj Ya.gj by SaThaYa.gj;
-	sub LaHalf.gj VaHalf.gj Da.gj by LaVaDa.gj;
-	sub LaHalf.gj KaHalf.gj Ya.gj by LaKaYa.gj;	
-} pres4;
-
-
-lookup pres3 { # Alternate Three-letter conjuncts
-	sub NaHalf.gj' Sa.gj Ya.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' SaKa.gj by NaHalf_alt.gj;
-	sub LaHalf.gj' DaRa.gj by LaHalf_alt.gj;
-	sub LaHalf.gj' Pa.gj Ya.gj by LaHalf_alt.gj;
-	sub LaHalf.gj' ThaHalf.gj Ya.gj by LaHalf_alt2.gj;
-} pres3;
-
-
-lookup pres2 { # Two-letter conjuncts
-	sub KaHalf.gj Ka.gj by KaKa.gj;
-	sub KaHalf.gj Tha.gj by KaTha.gj;
-	sub KaHalf.gj Pha.gj by KaPha.gj;
-	sub KaHalf.gj Ma.gj by KaMa.gj;
-	sub KaHalf.gj Ya.gj by KaYa.gj;
-	sub KaHalf.gj Sha.gj by KaSha.gj;
-	sub KaHalf.gj Sa.gj by KaSa.gj;
-	sub KhaHalf.gj Sha.gj by KhaSha.gj;
-	sub Nga.gj Halant.gj Ka.gj by NgaKa.gj;
-	sub Nga.gj Halant.gj Ga.gj by NgaGa.gj;
-	sub Nga.gj Halant.gj Ma.gj by NgaMa.gj;
-	sub Nga.gj Halant.gj Ya.gj by NgaYa.gj;
-	sub CaHalf.gj Ca.gj by CaCa.gj;
-	sub Cha.gj Halant.gj Va.gj by ChaVa.gj;
-	sub Cha.gj Halant.gj Ya.gj by ChaYa.gj;
-	sub JaHalf.gj Ta.gj by JaTa.gj;
-	sub Jha.gj Halant.gj Ya.gj by JhaYa.gj;
-	sub NyaHalf.gj Ja.gj by NyaJa.gj;
-	sub NyaHalf.gj Sha.gj by NyaSha.gj;
-	sub Tta.gj Halant.gj Tta.gj by TtaTta.gj;
-	sub Tta.gj Halant.gj Ttha.gj by TtaTtha.gj;
-	sub Tta.gj Halant.gj Va.gj by TtaVa.gj;
-	sub Tta.gj Halant.gj Ya.gj by TtaYa.gj;
-	sub Ttha.gj Halant.gj Ttha.gj by TthaTtha.gj;
-	sub Ttha.gj Halant.gj Ya.gj by TthaYa.gj;
-	sub Dda.gj Halant.gj Ga.gj by DdaGa.gj;
-	sub Dda.gj Halant.gj Dda.gj by DdaDda.gj;
-	sub Dda.gj Halant.gj Ddha.gj by DdaDdha.gj;
-	sub Dda.gj Halant.gj Na.gj by DdaNa.gj;
-	sub Dda.gj Halant.gj Ya.gj by DdaYa.gj;
-	sub Dda.gj Halant.gj Va.gj by DdaVa.gj;
-	sub Ddha.gj Halant.gj Ddha.gj by DdhaDdha.gj;
-	sub Ddha.gj Halant.gj Ya.gj by DdhaYa.gj;
-	sub TaHalf.gj Ka.gj by TaKa.gj;
-	sub TaHalf.gj Ta.gj by TaTa.gj;
-	sub TaHalf.gj Pha.gj by TaPha.gj;
-	sub NaHalf.gj Ga.gj by NaGa.gj;
-	sub NaHalf.gj Ca.gj by NaCa.gj;
-	sub NaHalf.gj Tha.gj by NaTha.gj;
-	sub NaHalf.gj Na.gj by NaNa.gj;
-	sub NaHalf.gj Ma.gj by NaMa.gj;
-	sub PaHalf.gj Ka.gj by PaKa.gj;
-	sub PaHalf.gj Ca.gj by PaCa.gj;
-	sub PaHalf.gj Cha.gj by PaCha.gj;
-	sub PaHalf.gj Dda.gj by PaDda.gj;
-	sub PaHalf.gj Pha.gj by PaPha.gj;
-	sub PaHalf.gj Ma.gj by PaMa.gj;
-	sub PaHalf.gj Sha.gj by PaSha.gj;
-	sub PaHalf.gj Sa.gj by PaSa.gj;
-	sub PhaHalf.gj Tha.gj by PhaTha.gj;
-	sub PhaHalf.gj Pha.gj by PhaPha.gj;
-	sub PhaHalf.gj Ya.gj by PhaYa.gj;
-	sub PhaHalf.gj Sha.gj by PhaSha.gj;
-	sub PhaHalf.gj Sa.gj by PhaSa.gj;
-	sub BaHalf.gj Dda.gj by BaDda.gj;
-	sub BaHalf.gj Da.gj by BaDa.gj;
-	sub BaHalf.gj Dha.gj by BaDha.gj;
-	sub BaHalf.gj Sha.gj by BaSha.gj;
-	sub BaHalf.gj Ha.gj by BaHa.gj;
-	sub MaHalf.gj Ka.gj by MaKa.gj;
-	sub MaHalf.gj Da.gj by MaDa.gj;
-	sub MaHalf.gj Pha.gj by MaPha.gj;
-	sub MaHalf.gj Sha.gj by MaSha.gj;
-	sub YaHalf.gj Jha.gj by YaJha.gj;
-	sub LaHalf.gj Ka.gj by LaKa.gj;
-	sub LaHalf.gj Ga.gj by LaGa.gj;
-	sub LaHalf.gj Ca.gj by LaCa.gj;
-	sub LaHalf.gj Pha.gj by LaPha.gj;
-	sub VaHalf.gj Jha.gj by VaJha.gj;
-	sub VaHalf.gj Dda.gj by VaDda.gj;
-	sub VaHalf.gj Ha.gj by VaHa.gj;
-	sub ShaHalf.gj Ca.gj by ShaCa.gj;
-	sub ShaHalf.gj Na.gj by ShaNa.gj;
-	sub ShaHalf.gj Va.gj by ShaVa.gj;
-	sub SsaHalf.gj Ka.gj by SsaKa.gj;
-	sub SsaHalf.gj Pha.gj by SsaPha.gj;
-	sub SaHalf.gj Ka.gj by SaKa.gj;
-	sub SaHalf.gj Tha.gj by SaTha.gj;
-	sub SaHalf.gj Pha.gj by SaPha.gj;
-	sub Ha.gj Halant.gj Nna.gj by HaNna.gj;
-	sub Ha.gj Halant.gj Na.gj by HaNa.gj;
-	sub Ha.gj Halant.gj Ma.gj by HaMa.gj;
-	sub Ha.gj Halant.gj Ya.gj by HaYa.gj;
-	sub Ha.gj Halant.gj La.gj by HaLa.gj;
-	sub Ha.gj Halant.gj Va.gj by HaVa.gj;
-	sub Da.gj Halant.gj Da.gj by DaDa.gj;
-	sub Da.gj Halant.gj Ma.gj by DaMa.gj;
-	sub Da.gj Halant.gj Ba.gj by DaBa.gj;
-	sub Da.gj Halant.gj Va.gj by DaVa.gj;
-	sub Da.gj Halant.gj Na.gj by DaNa.gj;
-	sub Da.gj Halant.gj Ga.gj by DaGa.gj;
-	sub Da.gj Halant.gj Bha.gj by DaBha.gj;
-	sub Da.gj Halant.gj Gha.gj by DaGha.gj;
-	sub Da.gj Halant.gj Dha.gj by DaDha.gj;
-	sub Da.gj Halant.gj Ya.gj by DaYa.gj;
-} pres2;
-
-lookup pres1 { # ALternate Two-letter conjuncts
-	sub KaHalf.gj' Ja.gj by KaHalf_alt.gj;
-	sub KaHalf.gj' Dda.gj by KaHalf_alt.gj;
-	sub KaHalf.gj' Cha.gj by KaHalf_alt.gj;
-	sub KaHalf.gj' Da.gj by KaHalf_alt.gj;
-	sub KhaHalf.gj' Ja.gj by KhaHalf_alt.gj;
-	sub KhaHalf.gj' Ma.gj by KhaHalf_alt2.gj;
-	sub KhaHalf.gj' Sa.gj by KhaHalf_alt2.gj;
-	sub JaHalf.gj' [Ja.gj JaHalf.gj] by JaHalf_alt.gj;
-	sub JaHalf.gj' Jha.gj by JaHalf_alt.gj;
-	sub JaHalf.gj' Na.gj by JaHalf_alt.gj;
-	sub JaHalf.gj' Ya.gj by JaHalf_alt.gj;
-	sub JaHalf.gj' Ba.gj by JaHalf_alt.gj;
-	sub JaHalf.gj' Ma.gj by JaHalf_alt.gj;
-	sub JaHalf.gj' Tta.gj by JaHalf_alt.gj;
-	sub TaHalf.gj' Tha.gj by TaHalf_alt.gj;
-	sub TaHalf.gj' Ya.gj by TaHalf_alt.gj;
-	sub TaHalf.gj' [Sa.gj SaHalf.gj] by TaHalf_alt.gj;
-	sub PhaHalf.gj' Ja.gj by PhaHalf_alt.gj;
-	sub BaHalf.gj' [Ja.gj JaHalf.gj JaHalf_alt.gj] by BaHalf_alt.gj;	
-	sub LaHalf.gj' Ja.gj by LaHalf_alt.gj;
-	sub LaHalf.gj' Dda.gj by LaHalf_alt.gj;
-	sub LaHalf.gj' Da.gj by LaHalf_alt.gj;	
-	sub LaHalf.gj' Tta.gj by LaHalf_alt2.gj;
-	sub LaHalf.gj' Ttha.gj by LaHalf_alt2.gj;
-	sub LaHalf.gj' Tha.gj by LaHalf_alt2.gj;
-	sub LaHalf.gj' Sha.gj by LaHalf_alt2.gj;
-	sub LaHalf.gj' Sa.gj by LaHalf_alt2.gj;
-	sub SaHalf.gj' Ja.gj by SaHalf_alt.gj;
-	sub SaHalf.gj' Dda.gj by SaHalf_alt.gj;
-	sub NaHalf.gj' Sa.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' Jha.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' Tta.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' Ya.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' Sha.gj by NaHalf_alt.gj;
-	sub NaHalf.gj' [SaHalf.gj SaKa.gj] by NaHalf_alt.gj;
-	sub NaHalf.gj' KaSa.gj by NaHalf_alt2.gj;
-	sub NaHalf.gj' Ka.gj by NaHalf_alt2.gj;
-	sub NaHalf.gj' KaRa.gj by NaHalf_alt2.gj;
-	sub NaHalf.gj' [Pha.gj PhaHalf.gj] by NaHalf_alt2.gj;
-	sub NaHalf.gj' [Dha.gj DhaHalf.gj DhaRa.gj] by NaHalf_alt2.gj;
-	sub NaHalf.gj' Ha.gj by NaHalf_alt2.gj;
-	sub NaHalf.gj' [Pa.gj PaRa.gj] by NaHalf_alt.gj;
-	sub NaHalf.gj' Ssa.gj by NaHalf_alt.gj;
-	sub JaHalf_alt.gj JaHalf.gj' by JaHalf_alt.gj;
-	
-} pres1;
-
-
-} pres;
-
-
-#--------------------------------------------------------------------
-
-feature cjct { # Conjuncts
-
 lookup pres6;
 lookup pres5;
 lookup pres4;
 lookup pres3;
 lookup pres2;
 lookup pres1;
-} cjct;
 
+script gujr;
+language dflt;
+lookup presHalf;
+lookup MatraI;
+lookup pres6;
+lookup pres5;
+lookup pres4;
+lookup pres3;
+lookup pres2;
+lookup pres1;
+
+} pres;
 
 #--------------------------------------------------------------------
 feature abvs { # Abovebase matra substitutions
