@@ -8,5 +8,6 @@
 *.afm
 *.pfm
 *.bak
+*.fpr
 #OTF Folder
 OTF/
