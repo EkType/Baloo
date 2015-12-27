@@ -1,7 +1,0 @@
-InputFontPath	.\BalooPaaji.ttf
-OutputFontPath	.\BalooPaaji.otf
-ReleaseMode	true
-Renumber	5
-FeaturePath	.\features
-FontMenuDBPath	.\FontMenuNameDB
-GlyphAliasDBPath	.\GlyphOrderAndAliasDB
