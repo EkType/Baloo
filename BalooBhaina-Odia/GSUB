@@ -117,6 +117,7 @@ lookup akhn2 {
   sub Ja.or Virama.or Ja.or Virama.or Wa.or by JaJaVa.or;
   sub Ta.or Virama.or Ta.or Virama.or Ra.or by TaTaRa.or;
   sub Ta.or Virama.or Sa.or Virama.or Na.or by TaSaNa.or;
+  sub Ta.or Virama.or Ka.or Virama.or Ssa.or by TaKaSsa.or;
   sub Da.or Virama.or Dha.or Virama.or Va.or by DaDhaVa.or;
   sub Da.or Virama.or Dha.or Virama.or Wa.or by DaDhaVa.or;
   sub Na.or Virama.or Ta.or Virama.or Va.or by NaTaVa.or;
@@ -132,6 +133,8 @@ lookup akhn2 {
   sub Ssa.or Virama.or Ka.or Virama.or Ra.or by SsaKaRa.or;
   sub Na.or Virama.or Ta.or Virama.or Ra.or by NaTaRa.or;
   sub Sa.or Virama.or Ta.or Virama.or Ra.or by SaTaRa.or;
+  sub Sa.or Virama.or Tta.or Virama.or Ra.or by SaTtaRa.or;
+  sub Ssa.or Virama.or Tta.or Virama.or Ra.or by SsaTtaRa.or;
 } akhn2;
 
 lookup akhn3 {
@@ -267,10 +270,13 @@ lookup akhn3 {
   sub Sa.or Virama.or Kha.or by SaKha.or;
   sub Sa.or Virama.or Ta.or by SaTa.or;
   sub Sa.or Virama.or Tha.or by SaTha.or;
+  sub Sa.or Virama.or Tta.or by SaTta.or;
   sub Sa.or Virama.or Na.or by SaNa.or;
   sub Sa.or Virama.or Pa.or by SaPa.or;
   sub Sa.or Virama.or Pha.or by SaPha.or;
   sub Sa.or Virama.or Ma.or by SaMa.or;
+  sub Sa.or Virama.or La.or by SaLa.or;
+  sub Sa.or Virama.or Lla.or by SaLla.or;
   sub Sa.or Virama.or Va.or by SaVa.or;
   sub Sa.or Virama.or Wa.or by SaVa.or;
   sub Ha.or Virama.or Ra.or by HaRa.or;

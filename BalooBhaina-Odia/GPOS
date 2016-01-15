@@ -267,13 +267,19 @@ pos base TaTaVa.or <anchor 830 -285> mark @BottomMatra;
 pos base SsaTtaRa.or <anchor 824 -502> mark @BottomMatra;
 pos base SsaTtha.or <anchor 805 -305> mark @BottomMatra;
 pos base SsaPaRa.or <anchor 750 -532> mark @BottomMatra;
+pos base SaTtaRa.or <anchor 860 -560> mark @BottomMatra;
+pos base SaTta.or <anchor 750 -400> mark @BottomMatra;
+pos base TaKaSsa.or <anchor 864 -350> mark @BottomMatra;
+pos base SaLla.or <anchor 831 -320> mark @BottomMatra;
+pos base SaLa.or <anchor 839 -320> mark @BottomMatra;
+
 }blwm1;
 
 
 lookup blwm2 {
 pos base Ka.or <anchor 767 0> mark @BottomMatra;
 pos base Nga.or <anchor 650 0> mark @BottomMatra;
-pos base Ca.or <anchor 608 0> mark @BottomMatra;
+pos base Ca.or <anchor 530 0> mark @BottomMatra;
 pos base Cha.or <anchor 733 -76> mark @BottomMatra;
 pos base Ja.or <anchor 747 0> mark @BottomMatra;
 pos base Jha.or <anchor 511 0> mark @BottomMatra;
@@ -404,6 +410,9 @@ pos base SaMa.or <anchor 810 -313> mark @RaSmall;
 pos base HaNa.or <anchor 870 -323> mark @RaSmall;
 pos base HaMa.or <anchor 690 -423> mark @RaSmall;
 pos base HaLa.or <anchor 890 -383> mark @RaSmall;
+pos base TaKaSsa.or <anchor 840 -300> mark @RaSmall;
+pos base SaLla.or <anchor 810 -270> mark @RaSmall;
+pos base SaLa.or <anchor 930 -270> mark @RaSmall;
 }blwm3;
 
 
@@ -524,33 +533,6 @@ pos base HaSmall.or.alt <anchor 269 -922> mark @BottomMatra;
 
 
 feature kern {
-
-
-lookup kern2 {
-   enum pos space @_VowelAleft 75;
-   enum pos space @_VowelliLeft 75;
-   enum pos space @_VowelUleft 75;
-   enum pos space @_VowelL 75;
-   enum pos space @_VowelEleft 75;
-   enum pos space @_KhaLeft 75;
-   enum pos space @_Kaleft 75;
-   enum pos space @_LlaLeft 75;
-   enum pos space @_NadaLeft 75;
-   enum pos space @_Nnaleft 75;
-   enum pos space @_ThaLeft 75;
-   enum pos space @_Dhaleft 75;
-   enum pos space @_Ya_left 75;
-   enum pos space @_Paleft 75;
-   enum pos space @_Jaleft 75;
-   enum pos space @_Da_left 75;
-   enum pos space @_Na_left 75;
-   enum pos space @_Ma_left 75;
-   enum pos space @_Sa_left 75;
-   enum pos space @_Cha_left 75;
-   enum pos space @_Nya_left 75;
-} kern2;
-
-
 
 lookup kern1 useExtension {
    pos numbersign one 10;
@@ -2603,7 +2585,7 @@ lookup kern1 useExtension {
    pos @_vertical_conjunct_SmallTta @_Sa_left 60;
    pos @_vertical_conjunct_SmallTta @_Cha_left 70;
    pos @_vertical_conjunct_SmallTta @_Nya_left 70;
-   pos @_vertical_conjunct_SmallTta @_period_comma 150;
+   pos @_vertical_conjunct_SmallTta @_period_comma 50;
    pos @_vertical_conjunct_SmallTta @_colon 134;
    pos @_vertical_conjunct_SmallTta @_brackets_Left 130;
    pos @_vertical_conjunct_SmallVa @_VowelAleft 80;
@@ -3274,6 +3256,16 @@ lookup kern1 useExtension {
    pos @_COPYRIGHT @_LlaLeft 20;
    pos @_COPYRIGHT @_Sa_left 10;
    pos @_COPYRIGHT @_VowelL 20;
+   pos @_vertical_conjunct_SmallBha MatraAa.or 30;
+   pos @_vertical_conjunct_SmallVa MatraAa.or 135;
+   pos @_vertical_conjunct_SmallPha MatraAa.or 120;
+   pos @_vertical_conjunct_SmallKa MatraAa.or 20;
+   pos @_vertical_conjunct_SmallMa MatraAa.or 10;
+   
  }kern1;
+
+lookup kern2 {
+   pos space @forspace 75;
+} kern2;
 
 } kern;
