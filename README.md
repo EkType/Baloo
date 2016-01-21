@@ -1,4 +1,4 @@
-![Baloo](http://www.idc.iitb.ac.in/~girish/Baloo.jpg?raw=true "Baloo")
+![Baloo](http://www.idc.iitb.ac.in/~girish/Baloo_header.jpg?raw=true "Baloo")
 
 A perfect blend of pointy paws in a coat of fur, Baloo is an affable display typeface by Ek Type. Available in nine Indian scripts along with a Latin counterpart, the family is unicode compliant and libre licensed.
 
@@ -17,7 +17,7 @@ The Baloo family contains separate fonts with unique local names for each of the
 
 Well fed and thoroughly nourished across every script, it took a team of committed type-designers to rear Baloo and raise it to be the typeface we love. Baloo (Devanagari) is designed by Sarang Kulkarni, Gurmukhi by Shuchita Grover, Bangla by Noopur Datye, Odia by Manish Minz and Shuchita Grover, Gujarati by Supriya Tembe and Noopur Datye, Kannada by Divya Kowshik, Telugu by Omkar Shende, Malayalam by Maithili Shingre and Tamil by Aadarsh Rajan. Baloo (Latin) is collaboratively designed by Ek Type. Type Design assistance and Font engineering by Girish Dalvi.
 
-Baloo is grateful to Sulekha Rajkumar, Vaishnavi Murthy, Gangadharan Menon, Vinay Saynekar and others for their involvement, suggestions and feedback. 
+Baloo is grateful to Sulekha Rajkumar, Vaishnavi Murthy, Gangadharan Menon, Vinay Saynekar, Dave Crossland and others for their involvement, suggestions and feedback. 
 
 ### License
 Baloo is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>). To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/girish-dalvi/Baloo/blob/master/OFL.txt)
