@@ -1,4 +1,4 @@
-![Baloo](http://www.idc.iitb.ac.in/~girish/Baloo_header.jpg?raw=true "Baloo")
+![Baloo](http://rawgit.com/girish-dalvi/Baloo/master/Promotion/Baloo_header.jpg "Baloo")
 
 A perfect blend of pointy paws in a coat of fur, Baloo is an affable display typeface by Ek Type. Available in nine Indian scripts along with a Latin counterpart, the family is unicode compliant and libre licensed.
 
