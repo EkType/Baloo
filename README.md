@@ -44,3 +44,36 @@ Send us bug reports, feature enhancements or glyph requests, using the [Github I
 Here are a few tips:
 - Bugs must be isolated and reproducible problems that we can fix. This means telling us step by step how we can produce the bug.
 - Share as much information as possible. Include your operating system and its version, what application(s) you found the problem with and their version, etc. 
+
+## Building the font from source
+   
+This requires the following programs:
+
+- **[Fontlab Studio](http://www.fontlab.com/font-editor/fontlab-studio/):** `.vfb` design files are used by this font editor, for Windows and Mac from the Fontlab company with a proprietary license and requiring a license fee from each user. 
+
+- **[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html):** A set of command line tools for generating OpenType fonts from Adobe
+
+The build process used by Ek Type is as follows:
+
+1. Make changes in FontLab `.vfb` file
+
+2. Generate the `.ttf` file
+
+3. Make changes in AFDKO feature files. 
+
+4. Type the following commands in the Command prompt window. Make sure that the AFDKO directory is included in your path.
+
+Use `maketof -h` to view the options available to you; choose the options you want as per your needs. We generally use  
+`makeotf -f Baloo.ttf -o Baloo.otf -r -S -rev`
+
+to generate the release version of the font. 
+
+### Branches and Pull Requests
+
+To learn more about Pull Requests, see Github's great article on [using pull requests](https://help.github.com/articles/using-pull-requests) and play the [interactive learning game](http://try.github.com) that takes around 15 minutes to complete.
+
+- `master` is the latest, stable, tested version 
+
+- Add your name to the contributors file
+
+- Explain in the pull request how you have tested your contribution
