@@ -1,6 +1,6 @@
 
 table head {
-	FontRevision 1.000;
+	FontRevision 1.006;
 } head;
 
 table hhea {
@@ -35,7 +35,7 @@ table OS/2 {
   	winAscent 1130;
   	winDescent 532;
 
-	WeightClass 800;
+	WeightClass 400;
 	WidthClass 5;
 	Vendor "EKTF";
 

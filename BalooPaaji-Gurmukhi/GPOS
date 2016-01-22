@@ -2385,6 +2385,22 @@ feature abvm {
 
 script guru;
 
+lookup abvm2{
+pos base Ba.gm
+   <anchor 670 0> mark @AboveBaseMatra;
+pos base Sha.gm
+   <anchor 690 0> mark @AboveBaseMatra;
+pos base Kha.gm
+   <anchor 637 0> mark @AboveBaseMatra;
+pos base Gha.gm
+   <anchor 854 0> mark @AboveBaseMatra;
+pos base Pa.gm
+   <anchor 637 0> mark @AboveBaseMatra;
+pos base Ma.gm
+   <anchor 636 0> mark @AboveBaseMatra;
+}abvm2;
+
+
 lookup abvm1{
 pos base Ka.gm
    <anchor 680 0> mark @AboveBaseMatra
@@ -2454,21 +2470,6 @@ pos base Fa.gm
    <anchor 465 0> mark @AboveBaseMarks;
 }abvm1;
 
-lookup abvm2{
-pos base Ba.gm
-   <anchor 670 0> mark @AboveBaseMatra;
-pos base Sha.gm
-   <anchor 690 0> mark @AboveBaseMatra;
-pos base Kha.gm
-   <anchor 637 0> mark @AboveBaseMatra;
-pos base Gha.gm
-   <anchor 854 0> mark @AboveBaseMatra;
-pos base Pa.gm
-   <anchor 637 0> mark @AboveBaseMatra;
-pos base Ma.gm
-   <anchor 636 0> mark @AboveBaseMatra;
-}abvm2;
-
 lookup abvm3{
 pos base Ura.gm
    <anchor 940 0> mark @AboveBaseMarks;
@@ -2479,19 +2480,19 @@ pos base Na.gm
 lookup abvm4{
 pos base VowelIi.gm
    <anchor 880 75> mark @AboveBaseMarkAlt
-   <anchor 880 75> mark @AboveBaseMarks;
+   <anchor 1070 140> mark @AboveBaseMarks;
 pos base VowelEe.gm
    <anchor 540 0> mark @AboveBaseMarkAlt
-      <anchor 540 0> mark @AboveBaseMarks;
+      <anchor 700 100> mark @AboveBaseMarks;
 pos base VowelAi.gm 
    <anchor 882 70> mark @AboveBaseMarkAlt
-   <anchor 882 70> mark  @AboveBaseMarks;
+   <anchor 1050 140> mark  @AboveBaseMarks;
 pos base VowelOo.gm
    <anchor 798 170> mark @AboveBaseMarkAlt 
    <anchor 798 170> mark @AboveBaseMarks;
 pos base VowelAu.gm 
    <anchor 900 60> mark @AboveBaseMarkAlt
-   <anchor 900 60> mark  @AboveBaseMarks;
+   <anchor 980 210> mark  @AboveBaseMarks;
 pos base MatraIi.gm
    <anchor 320 50> mark @AboveBaseMarkAlt
    <anchor 320 50> mark @AboveBaseMarks;

@@ -2189,42 +2189,42 @@ lookup dist2 useExtension {
 
 lookup dist3 useExtension {
 
-   enum pos @_shiro_right zero 40;
-   enum pos @_shiro_right one 60;
-   enum pos @_shiro_right two 55;
-   enum pos @_shiro_right three 55;
-   enum pos @_shiro_right five 40;
-   enum pos @_shiro_right six 40;
-   enum pos @_shiro_right seven 70;
-   enum pos @_shiro_right eight 40;
-   enum pos @_shiro_right nine 40;
+   pos @_shiro_right zero 40;
+   pos @_shiro_right one 60;
+   pos @_shiro_right two 55;
+   pos @_shiro_right three 55;
+   pos @_shiro_right five 40;
+   pos @_shiro_right six 40;
+   pos @_shiro_right seven 70;
+   pos @_shiro_right eight 40;
+   pos @_shiro_right nine 40;
 
-   enum pos zero @_shiro_left 40;
-   enum pos one @_shiro_left 60;
-   enum pos two @_shiro_left 45;
-   enum pos three @_shiro_left 45;
-   enum pos four @_shiro_left 40;
-   enum pos five @_shiro_left 40;
-   enum pos six @_shiro_left 45;
-   enum pos seven @_shiro_left 70;
-   enum pos eight @_shiro_left 40;
-   enum pos nine @_shiro_left 40;
+   pos zero @_shiro_left 40;
+   pos one @_shiro_left 60;
+   pos two @_shiro_left 45;
+   pos three @_shiro_left 45;
+   pos four @_shiro_left 40;
+   pos five @_shiro_left 40;
+   pos six @_shiro_left 45;
+   pos seven @_shiro_left 70;
+   pos eight @_shiro_left 40;
+   pos nine @_shiro_left 40;
 
-   enum pos cent @_shiro_left 40;
-   enum pos sterling @_shiro_left 50;
-   enum pos yen @_shiro_left 60;
-   enum pos copyright @_shiro_left 15;
-   enum pos registered @_shiro_left 25;
-   enum pos Euro @_shiro_left 60;
-   enum pos uni20B9 @_shiro_left 60;
-   enum pos trademark @_shiro_left 60;
+   pos cent @_shiro_left 40;
+   pos sterling @_shiro_left 50;
+   pos yen @_shiro_left 60;
+   pos copyright @_shiro_left 15;
+   pos registered @_shiro_left 25;
+   pos Euro @_shiro_left 60;
+   pos uni20B9 @_shiro_left 60;
+   pos trademark @_shiro_left 60;
 
-   enum pos dollar @_shiro_left 35;
-   enum pos asterisk @_shiro_left 75;
-   enum pos numbersign @_shiro_left 45;
-   enum pos slash @_shiro_left 110;
-   enum pos exclam @_shiro_left 60;
-   enum pos question @_shiro_left 75;
+   pos dollar @_shiro_left 35;
+   pos asterisk @_shiro_left 75;
+   pos numbersign @_shiro_left 45;
+   pos slash @_shiro_left 110;
+   pos exclam @_shiro_left 60;
+   pos question @_shiro_left 75;
 
 } dist3;
 

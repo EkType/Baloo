@@ -2134,7 +2134,7 @@ lookup kern1 {
 
 
 lookup kern2 {
-   enum pos space @everything 50;
+   pos space @everything 50;
 } kern2;
 
 
