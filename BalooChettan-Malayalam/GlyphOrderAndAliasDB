@@ -623,7 +623,8 @@ capacute	capacute
 caphungarumlaut	caphungarumlaut	
 capring	capring	
 capcircumflex	capcircumflex	
-capcaron	capcaron		
+capcaron	capcaron
+uni0D01	uni0D01	
 Anuswara.mlm 	Anuswara.mlm 	uni0D02
 Visarga.mlm 	Visarga.mlm 	uni0D03
 vowelA.mlm 	vowelA.mlm 	uni0D05
@@ -695,8 +696,9 @@ matraAu.mlm 	matraAu.mlm 	uni0D4C
 Virama.mlm 	Virama.mlm 	uni0D4D
 uni0D4E 	uni0D4E 	
 lengthAu.mlm 	lengthAu.mlm 	uni0D57
-vowelRuu.mlm 	vowelRuu.mlm 	uni0D61
-vowelLruu.mlm 	vowelLruu.mlm 	uni0D60
+uni0D5F	uni0D5F
+vowelRuu.mlm 	vowelRuu.mlm 	uni0D60
+vowelLruu.mlm 	vowelLruu.mlm 	uni0D61
 uni0D62 	uni0D62 	
 uni0D63 	uni0D63 	
 uni0D66 	uni0D66 	

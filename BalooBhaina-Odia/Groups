@@ -17,14 +17,14 @@
 
 @Ukaralt= [Ka.or Nga.or Ca.or Cha.or Ja.or Jha.or Nya.or Tta.or Ttha.or Dda.or Ddha.or Ta.or Dda.or Ddha.or Ta.or Da.or Na.or Ba.or Bha.or Ra.or La.or Lla.or Ha.or Va.or NgaKa.or CaCa.or NyaCa.or NyaCha.or NaDa.or NyaJha.or TtaTta.or DaDa.or DaDha.or NaDha.or BaBa.or BaDa.or ];
 
-@Ukaralt1= [PaSa.or BaJa.or PaPa.or PaLla.or DaGha.or DhaVa.or NaDaRa.or NaTaRa.or NaNa.or NaTaVa.or NaDhaVa.or DaVa.or NaTa.or NaDaVa.or NaTha.or DaDhaVa.or PaTa.or NaDhaRa.or TaNa.or KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or BaDha.or TaPa.or KaLla.or KaSsaNna.or KaSsaMa.or MaBa.or TaVa.or KaSa.or KhaLla.or GaDha.or GaNa.or TaMa.or GaLla.or GhaNa.or NgaKaSsa.or JaNya.or NyaJa.or TaTha.or TaSa.or CaCha.or JaJa.or JaJaVa.or JaJha.or JaVa.or DaYa.or DaBa.or TaSaNa.or DdaGa.or DdaDda.or NnaTtha.or NnaTta.or NnaDda.or DaGa.or NnaDdaRa.or MaPaRa.or NnaDdha.or NnaNna.or KaSsaRa.or TaKa.or TaTaRa.or SaPha.or SaVa.or MaBha.or MaBhaRa.or SaNa.or MaLla.or LlaKa.or LlaLla.or LlaBha.or ShaCa.or MaMa.or SaPa.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or ShaCha.or SaTa.or ShaVa.or ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaTta.or HaLa.or SsaPa.or SaMa.or SsaPha.or SaKa.or SaKha.or SaTaRa.or HaNa.or HaMa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or  TaTaVa.or SsaTtha.or KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DhaSmall.or NaSmall.or PaSmall.or PhaSmall.or BhaSmall.or MaSmall.or YaSmall.or RaSmall.or LaSmall.or LlaSmall.or ShaSmall.or SsaSmall.or SaSmall.or HaSmall.or VaSmall.or KaSsaSmall.or SaTta.or TaKaSsa.or SaLla.or SaLa.or];
+@Ukaralt1= [PaSa.or BaJa.or PaPa.or PaLla.or DaGha.or DhaVa.or NaDaRa.or NaTaRa.or NaNa.or NaTaVa.or NaDhaVa.or DaVa.or NaTa.or NaDaVa.or NaTha.or DaDhaVa.or PaTa.or NaDhaRa.or TaNa.or KaKa.or KaCa.or KaTa.or KaVa.or BaDha.or TaPa.or KaLla.or KaSsaNna.or KaSsaMa.or MaBa.or TaVa.or KaSa.or KhaLla.or GaDha.or GaNa.or TaMa.or GaLla.or GhaNa.or NgaKaSsa.or JaNya.or NyaJa.or TaTha.or TaSa.or CaCha.or JaJa.or JaJaVa.or JaJha.or JaVa.or DaYa.or DaBa.or TaSaNa.or DdaGa.or DdaDda.or NnaTtha.or NnaTta.or NnaDda.or DaGa.or  MaPaRa.or NnaDdha.or NnaNna.or KaSsaRa.or TaKa.or TaTaRa.or SaPha.or SaVa.or MaBha.or MaBhaRa.or SaNa.or MaLla.or LlaKa.or LlaLla.or LlaBha.or ShaCa.or MaMa.or SaPa.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or ShaCha.or SaTa.or ShaVa.or ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaTta.or HaLa.or SsaPa.or SaMa.or SsaPha.or SaKa.or SaKha.or SaTaRa.or HaNa.or HaMa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or  TaTaVa.or SsaTtha.or KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DhaSmall.or NaSmall.or PaSmall.or PhaSmall.or BhaSmall.or MaSmall.or YaSmall.or RaSmall.or LaSmall.or LlaSmall.or ShaSmall.or SsaSmall.or SaSmall.or HaSmall.or VaSmall.or KaSsaSmall.or SaTta.or TaKaSsa.or SaLla.or SaLa.or KaMa.or KaTta.or ShaLa.or BaLa.or BaLla.or GaLa.or NaVa.or ShaNa.or];
 
-@Ukaralt2= [GaDa.or NgaKaTa.or SsaTtaRa.or SsaPaRa.or DaSmall.or BaSmall.or SaTtaRa.or];
+@Ukaralt2= [GaDa.or NgaKaTa.or SsaTtaRa.or SsaPaRa.or DaSmall.or BaSmall.or SaTtaRa.or ShaTtaRa.or SaKaRa.or RaSmall.or.alt KaTaRa.or NnaDdaRa.or];
 
-@KaMatraI=[Ka.or KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or KaSa.or KaRa.or TaKa.or];
+@KaMatraI=[Ka.or KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or KaSa.or KaRa.or TaKa.or KaMa.or KaTta.or];
 @KaSsaMatraI= [ KaSsa.or KaSsaNna.or KaSsaMa.or KaSsaRa.or];
 @KhaMatraI= [ Kha.or KhaLla.or KhaRa.or];
-@GaMatraI= [ Ga.or GaDa.or GaDha.or GaNa.or GaLla.or GaRa.or];
+@GaMatraI= [ Ga.or GaDa.or GaDha.or GaNa.or GaLla.or GaRa.or GaLa.or];
 @GhaMatraI= [ Gha.or GhaNa.or GhaRa.or NgaGha.or];
 @NgaMatraI= [ Nga.or NgaKaTa.or NgaKaSsa.or NgaRa.or];
 @CaMatraI= [ Ca.or CaRa.or];
@@ -45,11 +45,11 @@
 @DaMatraI= [ Da.or DaBa.or DaYa.or DaGa.or DaGha.or DaRa.or];
 @DhaMatraI= [ Dha.or DhaVa.or DhaRa.or];
 @DaDaMatraI= [ DaDa.or DaDha.or DaDhaVa.or];
-@NaMatraI= [ Na.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaNa.or NaRa.or];
+@NaMatraI= [ Na.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaNa.or NaRa.or NaVa.or];
 @NaDaMatraI =[ NaDa.or NaDaRa.or NaDaVa.or NaDha.or NaDhaVa.or NaDhaRa.or];
 @PaMatraI= [ Pa.or TaPa.or PaTa.or PaPa.or PaLla.or PaSa.or PaRa.or];
 @PhaMatraI= [ Pha.or PhaRa.or];
-@BaMatraI= [ Ba.or BaJa.or BaDha.or BaRa.or];
+@BaMatraI= [ Ba.or BaJa.or BaDha.or BaRa.or BaLa.or BaLla.or];
 @BhaMatraI= [ Bha.or BhaRa.or];
 @MaMatraI= [ Ma.or TaMa.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaLla.or MaRa.or];
 @MaPaMatraI= [ MaPa.or MaPaRa.or MaPha.or];
@@ -57,14 +57,14 @@
 @RaMatraI= [ Ra.or RaRa.or];
 @LaMatraI= [ La.or LaKa.or LaLa.or LaGa.or LaRa.or];
 @LlaMatraI= [ Lla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LlaRa.or];
-@ShaMatraI= [ Sha.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or ShaRa.or];
+@ShaMatraI= [ Sha.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or ShaRa.or ShaNa.or ShaLa.or ShaTta.or ShaTtaRa.or];
 @SsaMatraI= [ Ssa.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or SsaPha.or SsaRa.or SsaTtaRa.or SsaTtha.or SsaPaRa.or];
-@SaMatraI= [ Sa.or TaSa.or TaSaNa.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or SaRa.or SaLla.or SaLa.or SaTta.or SaTtaRa.or];
+@SaMatraI= [ Sa.or TaSa.or TaSaNa.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or SaRa.or SaLla.or SaLa.or SaTta.or SaTtaRa.or SaKaRa.or];
 @HaMatraI=[ Ha.or HaNa.or HaMa.or HaLa.or HaRa.or];
 @VaMatraI= [ Va.or VaRa.or];
 
 
-@all = [ KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DaSmall.or DhaSmall.or NaSmall.or PaSmall.or PhaSmall.or BaSmall.or BhaSmall.or MaSmall.or YaSmall.or RaSmall.or LaSmall.or LlaSmall.or VaSmall.or ShaSmall.or SsaSmall.or SaSmall.or HaSmall.or KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt YaSmall.or.alt RaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt  KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or KaSsaNna.or KaSsaMa.or KaSsaRa.or KaSa.or KhaLla.or GaDa.or GaDha.or GaNa.or GaLla.or GhaNa.or  NgaKaTa.or NgaKaSsa.or CaCha.or JaJa.or JaJaVa.or JaJha.or JaVa.or NyaCha.or DaBa.or DaYa.or DdaGa.or DdaDda.or NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or TaTaRa.or TaTha.or TaNa.or TaPa.or TaVa.or TaMa.or TaSa.or TaSaNa.or DaGa.or DaGha.or DaDhaVa.or DaVa.or DhaVa.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaDaRa.or NaDaVa.or NaDhaVa.or NaDhaRa.or NaNa.or PaTa.or PaPa.or PaLla.or PaSa.or BaJa.or BaDa.or BaDha.or MaPaRa.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaLla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or SsaPha.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or HaNa.or HaMa.or HaLa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or TaTaVa.or SsaTtaRa.or SsaTtha.or SsaPaRa.or SaTta.or SaLa.or SaLla.or];
+@all = [ KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DaSmall.or DhaSmall.or NaSmall.or PaSmall.or PhaSmall.or BaSmall.or BhaSmall.or MaSmall.or YaSmall.or RaSmall.or LaSmall.or LlaSmall.or VaSmall.or ShaSmall.or SsaSmall.or SaSmall.or HaSmall.or KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt YaSmall.or.alt RaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt  KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or KaSsaNna.or KaSsaMa.or KaSsaRa.or KaSa.or KhaLla.or GaDa.or GaDha.or GaNa.or GaLla.or GhaNa.or  NgaKaTa.or NgaKaSsa.or CaCha.or JaJa.or JaJaVa.or JaJha.or JaVa.or NyaCha.or DaBa.or DaYa.or DdaGa.or DdaDda.or NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or TaTaRa.or TaTha.or TaNa.or TaPa.or TaVa.or TaMa.or TaSa.or TaSaNa.or DaGa.or DaGha.or DaDhaVa.or DaVa.or DhaVa.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaDaRa.or NaDaVa.or NaDhaVa.or NaDhaRa.or NaNa.or PaTa.or PaPa.or PaLla.or PaSa.or BaJa.or BaDa.or BaDha.or MaPaRa.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaLla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or SsaPha.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or HaNa.or HaMa.or HaLa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or TaTaVa.or SsaTtaRa.or SsaTtha.or SsaPaRa.or SaTta.or SaLa.or SaLla.or KaMa.or SaKaRa.or ShaNa.or BaLa.or BaLla.or ShaLa.or ShaTta.or GaLa.or KaTta.or NaVa.or ShaTta.or];
 
 
 @small1=  [KaSmall.or KhaSmall.or GaSmall.or GhaSmall.or NgaSmall.or CaSmall.or ChaSmall.or JaSmall.or JhaSmall.or TtaSmall.or TthaSmall.or DdaSmall.or DdhaSmall.or NnaSmall.or TaSmall.or ThaSmall.or DaSmall.or DhaSmall.or NaSmall.or PaSmall.or PhaSmall.or BaSmall.or BhaSmall.or MaSmall.or YaSmall.or RaSmall.or LaSmall.or LlaSmall.or VaSmall.or ShaSmall.or SsaSmall.or SaSmall.or HaSmall.or];
@@ -72,11 +72,14 @@
 
 @small2=  [KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt YaSmall.or.alt RaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt];
 
+@small2_alt=  [KaSmall.or.alt KhaSmall.or.alt GaSmall.or.alt GhaSmall.or.alt NgaSmall.or.alt CaSmall.or.alt ChaSmall.or.alt JaSmall.or.alt JhaSmall.or.alt TtaSmall.or.alt TthaSmall.or.alt DdaSmall.or.alt DdhaSmall.or.alt NnaSmall.or.alt TaSmall.or.alt ThaSmall.or.alt DaSmall.or.alt DhaSmall.or.alt NaSmall.or.alt PaSmall.or.alt PhaSmall.or.alt BaSmall.or.alt BhaSmall.or.alt MaSmall.or.alt YaSmall.or.alt LaSmall.or.alt LlaSmall.or.alt VaSmall.or.alt ShaSmall.or.alt SsaSmall.or.alt SaSmall.or.alt HaSmall.or.alt];
+
+
 
 @BottomMatra= [MatraVocalicR.or MatraRu.or.alt MatraVocalicRr.or MatraU.or MatraU.or.alt MatraU.or.alt1 MatraU.or.alt2 MatraU.or.alt3 MatraUu.or MatraUu.or.alt MatraUu.or.alt1 MatraUu.or.alt2 MatraUu.or.alt3 MatraVocalicL.or MatraVocalicLl.or Virama.or Virama.or.alt];
 
 
-@RaSmall= [RaSmall.or RaSmall.or.alt RaSmallMatraU.or RaSmallMatraUu.or RaSmallMatraU.or.alt RaSmallMatraUu.or.alt];
+@RaSmall= [RaSmall.or RaSmall.or.alt];
 
 @TopMark= [chandrabindu.or reph.or];
 
@@ -98,14 +101,14 @@
 @_VowelUleft=[VowelU.or  VowelUu.or Nga.or Dda.or Bha.or NgaKaTa.or NgaKaSsa.or DdaGa.or DdaDda.or DdaRa.or BhaRa.or RraRa.or TaTa.or TaTaRa.or DaBha.or TaTaVa.or Rra.or];
 @_VowelL=[VowelVocalicL.or  VocalicLl.or];
 @_VowelEleft=[VowelE.or  VowelAi.or];
-@_KhaLeft=[Kha.or  Ga.or Ca.or Tta.or Ra.or Sha.or GaDa.or GaDha.or GaNa.or GaLla.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or KhaRa.or GaRa.or CaRa.or JhaRa.or TtaRa.or RaRa.or ShaRa.or];
+@_KhaLeft=[Kha.or  Ga.or Ca.or Tta.or Ra.or Sha.or GaDa.or GaDha.or GaNa.or GaLla.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or KhaRa.or GaRa.or CaRa.or JhaRa.or TtaRa.or RaRa.or ShaRa.or ShaNa.or ShaLa.or ShaTta.or ShaTtaRa.or];
 @_NgaRight=[Nga.or  Jha.or Pha.or NgaKa.or NgaKaTa.or NgaKaSsa.or NgaKha.or NgaGa.or NgaGha.or MaPha.or NgaRa.or];
-@_KaRight=[Ka.or  Ca.or Ja.or Dda.or Ddha.or Ta.or Da.or Na.or Ba.or Lla.or Ha.or Va.or Rra.or Rha.or KaTa.or CaCa.or CaCha.or TaKa.or DaDa.or DaDha.or NaTa.or NaTaRa.or NaTha.or NaDa.or NaDha.or NaNa.or BaDa.or RraRa.or RhaRa.or KaKa.or KaCa.or KaVa.or KaLla.or JaJa.or JaJha.or JaVa.or DdaGa.or DdaDda.or LlaKa.or LlaLla.or LlaPa.or LlaPha.or KaRa.or CaRa.or ChaRa.or JaRa.or DdaRa.or DdhaRa.or TaRa.or DaRa.or NaRa.or BaRa.or LlaRa.or VaRa.or KaSa.or DaDhaVa.or DaVa.or NaDaRa.or NaDaVa.or NaDhaVa.or NaDhaRa.or TaKaSsa.or];
-@_Kaleft=[Ka.or  KaKa.or KaCa.or KaTa.or SaTtaRa.or KaTaRa.or KaVa.or KaLla.or KaSa.or NgaKa.or TaKa.or KaRa.or];
-@_VowelUright=[VowelUu.or  VowelVocalicR.or VocalicRr.or];
+@_KaRight=[Ka.or  Ca.or Ja.or Dda.or Ddha.or Ta.or Da.or Na.or Ba.or Lla.or Ha.or Va.or Rra.or Rha.or KaTa.or CaCa.or CaCha.or TaKa.or DaDa.or DaDha.or NaTa.or NaTaRa.or NaTha.or NaDa.or NaDha.or NaNa.or BaDa.or RraRa.or RhaRa.or KaKa.or KaCa.or KaVa.or KaLla.or JaJa.or JaJha.or JaVa.or DdaGa.or DdaDda.or LlaKa.or LlaLla.or LlaPa.or LlaPha.or KaRa.or CaRa.or ChaRa.or JaRa.or DdaRa.or DdhaRa.or TaRa.or DaRa.or NaRa.or BaRa.or LlaRa.or VaRa.or KaSa.or DaDhaVa.or DaVa.or NaDaRa.or NaDaVa.or NaDhaVa.or NaDhaRa.or TaKaSsa.or KaMa.or];
+@_Kaleft=[Ka.or  KaKa.or KaCa.or KaTa.or SaTtaRa.or KaTaRa.or KaVa.or KaLla.or KaSa.or NgaKa.or TaKa.or KaRa.or KaMa.or];
+@_VowelUright=[VowelUu.or VowelVocalicR.or VocalicRr.or];
 @_LlaLeft=[Lla.or  La.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or LaRa.or LlaRa.or];
 @_NadaLeft=[NaDa.or  NaDaRa.or NaDaVa.or NaDha.or NaDhaVa.or NaDhaRa.or];
-@_VowelIright=[VowelI.or  VowelIi.or VowelU.or Bha.or Ra.or La.or TaTa.or TaTaRa.or DaBha.or BhaRa.or RaRa.or LaRa.or TaTaVa.or LaKa.or SaLa.or LaLa.or LaGa.or];
+@_VowelIright=[VowelI.or  VowelIi.or VowelU.or Bha.or Ra.or La.or TaTa.or TaTaRa.or DaBha.or BhaRa.or RaRa.or LaRa.or TaTaVa.or LaKa.or SaLa.or LaLa.or LaGa.or BaLa.or ShaLa.or GaLa.or];
 @_Nnaleft=[Nna.or NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or NnaRa.or];
 @_ThaLeft=[Tha.or  ThaRa.or];
 @_Dhaleft=[Dha.or DhaRa.or];
@@ -115,25 +118,27 @@
 @_Da_left=[Da.or  Ba.or Ha.or Va.or DaGa.or DaGha.or DaDa.or DaDha.or DaDhaVa.or DaVa.or BaDha.or BaBa.or];
 @_Na_left=[Na.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaNa.or NaRa.or];
 @_Ma_left=[Ma.or TaMa.or MaPa.or MaPaRa.or MaPha.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaRa.or];
-@_Sa_left=[Sa.or TaSa.or TaSaNa.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaRa.or SaTta.or SaLla.or SaLa.or];
-@_vertical_conjunct_SmallNa=[GaNa.or  GhaNa.or SaTaRa.or SaNa.or];
-@_vertical_conjunct_SmallLla=[GaLla.or SaLla.or PaLla.or ShaLla.or KhaLla.or MaLla.or];
+@_Sa_left=[Sa.or TaSa.or TaSaNa.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaRa.or SaTta.or SaLla.or SaLa.or SaKaRa.or];
+@_vertical_conjunct_SmallNa=[GaNa.or  GhaNa.or SaTaRa.or SaNa.or ShaNa.or];
+@_vertical_conjunct_SmallLla=[GaLla.or SaLla.or PaLla.or ShaLla.or KhaLla.or MaLla.or BaLla.or];
 @_vertical_conjunct_SmallBha=[MaBha.or  MaBhaRa.or];
-@_vertical_conjunct_SmallTta=[SsaTta.or SaTtaRa.or NnaTta.or SaTta.or SsaTtaRa.or];
-@_vertical_conjunct_SmallVa=[ShaVa.or  MaBa.or DhaVa.or SaVa.or SaKha.or];
+@_vertical_conjunct_SmallTta=[SsaTta.or SaTtaRa.or NnaTta.or SaTta.or SsaTtaRa.or ShaTta.or ShaTtaRa.or KaTta.or];
+@_vertical_conjunct_SmallVa=[ShaVa.or MaBa.or DhaVa.or SaVa.or SaKha.or NaVa.or];
 @_vertical_conjunct_SmallPha=[SsaPha.or  SaPha.or];
 @_vertical_conjunct_SmallMa=[SaMa.or  KaSsaMa.or];
 @_vertical_conjunct_SmallPa=[SaPa.or  PaPa.or SsaPa.or MaMa.or PaSa.or PaTa.or NnaDda.or SaTa.or NnaNna.or SsaNna.or KaSsaNna.or NnaDdaRa.or GaDa.or NnaDdha.or ShaCa.or NnaTtha.or];
-@_vertical_conjunct_SmallKa=[SaKa.or  SsaKa.or SsaKaRa.or];
+@_vertical_conjunct_SmallKa=[SaKa.or SsaKa.or SsaKaRa.or SaKaRa.or];
 @_Cha_left=[Cha.or ChaRa.or];
 @_Nya_left=[Nya.or NyaRa.or];
 @_MaPaRight=[MaPa.or  MaPaRa.or];
 @_Tta_right=[Tta.or TtaTta.or];
 
+
+
 @_A_Left_Right=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
 @_C_Right=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
 @_O_Left=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut G Gbreve Gcommaaccent Oslash Gcircumflex Gdotaccent Ohorn uni01D1 Gcaron uni1E20 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 C Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
-@_O_Right=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Eth Dcaron Dcroat Oslash uni01D1 uni1E0C uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1E0E];
+@_O_Right=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Eth Dcaron Dcroat Oslash uni01D1 uni1E0C uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1E0E uni018F];
 @_E_Right=[E  AE Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron OE Ebreve uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6];
 @_G_Right=[G  Gbreve Gcommaaccent Gcircumflex Gdotaccent Gcaron uni1E20];
 @_K_Right=[K  Kcommaaccent];
@@ -196,5 +201,6 @@
 @_TM=[trademark  uni2120];
 @_COPYRIGHT=[copyright  uni2117];
 @_VowelO_left=[VowelO.or  VowelAu.or];
+
 @forspace = [anusvara.or visarga.or VowelA.or VowelAa.or VowelI.or VowelIi.or VowelU.or VowelUu.or VowelVocalicR.or VowelVocalicL.or VowelE.or VowelAi.or VowelO.or VowelAu.or Ka.or Kha.or Ga.or Gha.or Nga.or Ca.or Cha.or Ja.or Jha.or Nya.or Tta.or Ttha.or Dda.or Ddha.or Nna.or Ta.or Tha.or Da.or Dha.or Na.or Pa.or Pha.or Ba.or Bha.or Ma.or Ya.or Ra.or La.or Lla.or Sha.or Ssa.or Sa.or Ha.or Va.or MatraE.or MatraAi.or MatraO.or MatraAu.or Rra.or Rha.or Yya.or VocalicRr.or VocalicLl.or zero.or one.or two.or three.or four.or five.or six.or seven.or eight.or nine.or Isshar.or Wa.or onequarter.or onehalf.or threequarter.or onesixteenth.or oneeigth.or threesixteenth.or KaKa.or KaCa.or KaTa.or KaTaRa.or KaVa.or KaLla.or KaSsa.or KaSsaNna.or KaSsaMa.or KaSsaRa.or KaSa.or KhaLla.or GaDa.or GaDha.or GaNa.or GaLla.or GhaNa.or NgaKa.or NgaKaTa.or NgaKaSsa.or NgaKha.or NgaGa.or NgaGha.or CaCa.or CaCha.or JaJa.or JaJaVa.or JaJha.or JaNya.or JaVa.or NyaCa.or NyaCha.or NyaJa.or NyaJha.or TtaTta.or DaBa.or DaYa.or DdaGa.or DdaDda.or NnaTta.or NnaTtha.or NnaDda.or NnaDdaRa.or NnaDdha.or NnaNna.or TaKa.or TaTa.or TaTaRa.or TaTha.or TaNa.or TaPa.or TaVa.or TaMa.or TaSa.or TaSaNa.or DaGa.or DaGha.or DaDa.or DaDha.or DaDhaVa.or DaVa.or DaBha.or DhaVa.or DhaYya.or NaTa.or NaTaRa.or NaTaVa.or NaTha.or NaDa.or NaDaRa.or NaDaVa.or NaDha.or NaDhaVa.or NaDhaRa.or NaNa.or PaTa.or PaPa.or PaLla.or PaSa.or BaJa.or BaDa.or BaDha.or BaBa.or MaPa.or MaPaRa.or MaPha.or MaBa.or MaBha.or MaBhaRa.or MaMa.or MaLla.or LlaKa.or LlaLla.or LlaBha.or LlaPa.or LlaPha.or LaKa.or LaLa.or LaGa.or ShaCa.or ShaCha.or ShaVa.or ShaLla.or SsaKa.or SsaKaRa.or SsaTta.or SsaNna.or SsaPa.or SsaPha.or SaKa.or SaKha.or SaTa.or SaTaRa.or SaTha.or SaNa.or SaPa.or SaPha.or SaVa.or SaMa.or HaNa.or HaMa.or HaLa.or KaRa.or KhaRa.or GaRa.or GhaRa.or NgaRa.or CaRa.or ChaRa.or JaRa.or JhaRa.or NyaRa.or TtaRa.or TthaRa.or DdaRa.or DdhaRa.or NnaRa.or TaRa.or ThaRa.or DaRa.or DhaRa.or NaRa.or PaRa.or PhaRa.or BaRa.or BhaRa.or MaRa.or YaRa.or RaRa.or LaRa.or LlaRa.or VaRa.or ShaRa.or SsaRa.or SaRa.or HaRa.or RraRa.or RhaRa.or YyaRa.or TaTaVa.or SsaTtaRa.or SsaTtha.or SsaPaRa.or YyaSmall.or KhaI.or ThaI.or DhaI.or Danda.or DoubleDanda.or SaTtaRa.or SaTta.or TaKaSsa.or SaLla.or SaLa.or];
 

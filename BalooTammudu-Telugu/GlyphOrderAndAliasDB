@@ -1173,6 +1173,7 @@ HaHalant.te	HaHalant.te
 RasmallAlt1.te	RasmallAlt1.te	
 RasmallAlt2.te	RasmallAlt2.te	
 RasmallAlt3.te	RasmallAlt3.te	
+RasmallAlt4.te	RasmallAlt4.te	
 Kasmall2.te	Kasmall2.te	
 Khasmall2.te	Khasmall2.te	
 Gasmall2.te	Gasmall2.te	
@@ -1208,6 +1209,7 @@ Shasmall2.te	Shasmall2.te
 Ssasmall2.te	Ssasmall2.te	
 Sasmall2.te	Sasmall2.te	
 Hasmall2.te	Hasmall2.te	
+KaSsasmall.te 	KaSsasmall.te
 VocalicLsmall3.te	VocalicLsmall3.te	
 VocalicLlsmall3.te	VocalicLlsmall3.te	
 matraAiLengthmarkKa.te	matraAiLengthmarkKa.te	
@@ -1223,7 +1225,9 @@ matraAiLengthmarkGha1.te	matraAiLengthmarkGha1.te
 matraAiLengthmarkCa1.te	matraAiLengthmarkCa1.te	
 matraAiLengthmarkJha1.te	matraAiLengthmarkJha1.te	
 matraAiLengthmarkYa1.te	matraAiLengthmarkYa1.te	
-matraAiLengthmarkNya1.te	matraAiLengthmarkNya1.te	
+matraAiLengthmarkNya1.te	matraAiLengthmarkNya1.te
+matraVocalicR1.te 	matraVocalicR1.te
+matraVocalicRr1.te	matraVocalicRr1.te
  Kha2.te	 Kha2.te
  Gha2.te	 Gha2.te
  Cha2.te	 Cha2.te

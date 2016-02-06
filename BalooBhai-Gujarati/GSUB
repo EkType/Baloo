@@ -1120,7 +1120,7 @@ feature blws { # Belowbase substitution
 script gjr2;
 language dflt;
 lookup blws1 {
-	#sub Ra.gj MatraU.gj by RaMatraU.gj;
+	sub Ra.gj MatraU.gj by RaMatraU.gj;
 	sub Ra.gj MatraUu.gj by RaMatraUu.gj;
 	sub Ha.gj MatraRu.gj by HaRu.gj;
 	sub Da.gj MatraRu.gj by DaMatraRu.gj;

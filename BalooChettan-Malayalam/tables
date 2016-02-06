@@ -1,11 +1,13 @@
 
+#BalooChettan Malayalam
+
 table head {
-	FontRevision 1.007;
+	FontRevision 1.10;
 } head;
 
 table hhea {
-	Ascender 1130;
-	Descender -532;
+	Ascender 1050;
+	Descender -390;
 	LineGap 0;
 } hhea;
 
@@ -20,28 +22,22 @@ table OS/2 {
 	1	# Latin-1 Supplement
 	2	# Latin Extended-A
 	3	# Latin Extended-B
-	4	# IPA Extensions
 	5	# Spacing Modifier Letters
-	6	# Combining Diacritical Marks
 	23 	# Malayalam
-	29	# Latin Extended Additional
 	31	# General Punctuation
-	32	# Superscripts And Subscripts
 	33	# Currency Symbol
 	35	# Letterlike Symbols
-	36	# Number Forms
-	37	# Arrows, Supplementary Arrows A, Supplementary Arrows B
 	38	# Mathematical Operators
 	45	# Geometric Shapes
 	62	# Alphabetic Presentation Forms
 ;
-  	TypoAscender 1130;
-  	TypoDescender -532;
+  	TypoAscender 1050;
+  	TypoDescender -390;
   	TypoLineGap 0;
-  	winAscent 1130;
-  	winDescent 532;
+  	winAscent 1050;
+  	winDescent 390;
 
-	WeightClass 800;
+	WeightClass 400;
 	WidthClass 5;
 	Vendor "EKTF";
 

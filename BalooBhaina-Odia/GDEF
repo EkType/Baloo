@@ -5,8 +5,7 @@
 
 
 
-@GDEF_mark = [IChandrabindu.or RephI.or RephAilengthmark.or RephIChandrabindu.or AilengthmarkChandrabindu.or RephAilengthmarkChandrabindu.or MatraU.or.alt MatraUu.or.alt MatraRu.or.alt Chandrabindu.or.alt reph.or reph.or.alt MatraU.or.alt1 MatraU.or.alt2 MatraU.or.alt3 MatraUu.or.alt1 MatraUu.or.alt2 MatraUu.or.alt3 MatraI.or chandrabindu.or MatraU.or MatraUu.or MatraVocalicR.or MatraVocalicRr.or MatraVocalicL.or MatraVocalicLl.or RaSmallMatraU.or RaSmallMatraUu.or RaSmallMatraU.or.alt RaSmallMatraUu.or.alt Virama.or Virama.or.alt Nukta.or LengthmarkAi.or
-RaSmall.or RaSmall.or.alt];
+@GDEF_mark = [IChandrabindu.or RephI.or RephAilengthmark.or RephIChandrabindu.or AilengthmarkChandrabindu.or RephAilengthmarkChandrabindu.or MatraU.or.alt MatraUu.or.alt MatraRu.or.alt Chandrabindu.or.alt reph.or reph.or.alt MatraU.or.alt1 MatraU.or.alt2 MatraU.or.alt3 MatraUu.or.alt1 MatraUu.or.alt2 MatraUu.or.alt3 MatraI.or chandrabindu.or MatraU.or MatraUu.or MatraVocalicR.or MatraVocalicRr.or MatraVocalicL.or MatraVocalicLl.or Virama.or Virama.or.alt Nukta.or LengthmarkAi.or RaSmall.or RaSmall.or.alt];
 
 
 

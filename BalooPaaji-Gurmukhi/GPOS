@@ -1,13 +1,13 @@
 feature kern {
 
-lookup kern0 {
+lookup kern1 {
 lookupflag IgnoreMarks;
    pos exclam Lla.gm 30;
    pos numbersign one 10;
    pos numbersign three -5;
    pos numbersign seven 5;
    pos numbersign nine 5;
-   pos dollar Lla.gm 20;
+   pos dollar Lla.gm 40;
    pos ampersand one -30;
    pos ampersand two 15;
    pos ampersand four 5;
@@ -63,23 +63,36 @@ lookupflag IgnoreMarks;
    pos three seven -5;
    pos three nine 4;
    pos four three 4;
-   pos four zero 5;
-   pos four seven -5;
+   pos four zero 10;
+   pos four seven -25;
    pos four degree -50;
-   pos four asterisk -35;
+   pos four asterisk -20;
    pos four backslash -30;
    pos four underscore -10;
    pos four exclam -5;
-   pos four ampersand 10;
+   pos four ampersand 20;
    pos four registered -8;
    pos four twosuperior -20;
    pos four threesuperior -20;
    pos four onesuperior -30;
    pos four pi -15;
    pos four summation -15;
-   pos four V -30;
-   pos four eight 5;
-   pos four six 5;
+   pos four V -10;
+   pos four eight 15;
+   pos four six 10;
+   pos four one -20;
+   pos four four 20;
+   pos four five -15;
+   pos four nine -15;
+   pos four numbersign 15;
+   pos four slash 20;
+   pos four cent 30;
+   pos four uni20BA 10;
+   pos four uni20BD 20;
+   pos four uni20B5 10;
+   pos four uni20B2 10;
+   pos four Euro 20;
+   pos four uni20A6 20;
    pos five three 10;
    pos five four 5;
    pos five nine -10;
@@ -295,7 +308,12 @@ lookupflag IgnoreMarks;
    pos pi one 10;
    pos zero.superior onesuperior -8;
    pos zero.superior seven.superior -5;
-   pos four.superior five.superior -4;
+   pos four.superior five.superior -10;
+   pos four.superior four.superior 15;
+   pos four.superior eight.superior 5;
+   pos four.superior nine.superior -10;
+   pos four.superior seven.superior -10;
+   pos four.superior onesuperior -10;
    pos five.superior seven.superior -6;
    pos six.superior seven.superior -11;
    pos six.superior onesuperior -8;
@@ -310,7 +328,12 @@ lookupflag IgnoreMarks;
    pos zero.inferior one.inferior -8;
    pos zero.inferior nine.inferior -4;
    pos zero.inferior seven.inferior -5;
-   pos four.inferior five.inferior -4;
+   pos four.inferior five.inferior -10;
+   pos four.inferior one.inferior -10;
+   pos four.inferior four.inferior 15;
+   pos four.inferior seven.inferior -10;
+   pos four.inferior eight.inferior 5;
+   pos four.inferior nine.inferior -10;
    pos five.inferior seven.inferior -6;
    pos six.inferior seven.inferior -11;
    pos six.inferior one.inferior -8;
@@ -939,8 +962,8 @@ lookupflag IgnoreMarks;
    enum pos numbersign @_Z_Left_Right -10;
    enum pos numbersign @_Ka_Left_Right 20;
    enum pos numbersign @_VowelU_Left_Right 20;
-   enum pos dollar @_VowelU_Left_Right 40;
-   enum pos dollar @_Ka_Left_Right 30;
+   enum pos dollar @_VowelU_Left_Right 50;
+   enum pos dollar @_Ka_Left_Right 40;
    enum pos ampersand @_v_Left_Right -20;
    enum pos ampersand @_w_Left_Right -5;
    enum pos ampersand @_z_Left_right 5;
@@ -1005,21 +1028,26 @@ lookupflag IgnoreMarks;
    enum pos three @_W_Left_Right -5;
    enum pos three @_Y_Left_Right -8;
    enum pos four @_brackets_Left -5;
-   enum pos four @_quote -35;
-   enum pos four @_dashes 10;
-   enum pos four @_percent -20;
+   enum pos four @_quote -20;
+   enum pos four @_dashes 20;
+   enum pos four @_percent -30;
    enum pos four @_colon -15;
    enum pos four @_fractions1 -20;
    enum pos four @_quoteleft -15;
    enum pos four @_quoteright_Left -5;
-   enum pos four @_TM -40;
+   enum pos four @_TM -20;
    enum pos four @_T_Left_Right -15;
    enum pos four @_W_Left_Right -30;
-   enum pos four @_Y_Left_Right -25;
+   enum pos four @_Y_Left_Right -15;
    enum pos four @_Z_Left_Right 10;
-   enum pos four @_a_Left 5;
+   enum pos four @_a_Left 20;
    enum pos four @_v_Left_Right -20;
    enum pos four @_w_Left_Right -15;
+   enum pos four @_o_Left 20;
+   enum pos four @_g_Left 20;
+   enum pos four @_less 30;
+   enum pos four @_A_Left_Right 15;
+   enum pos four @_O_Left 15;
    enum pos five @_brackets_Left -4;
    enum pos five @_quote -18;
    enum pos five @_T_Left_Right -10;
@@ -1313,7 +1341,8 @@ lookupflag IgnoreMarks;
    enum pos imacron @_l_Left 8;
    enum pos imacron [i igrave iacute iogonek dotlessi uni01D0 uni1EC9 uni1ECB] 5;
    enum pos imacron @_j_Left_Right 5;
-   enum pos iogonek @_j_Left_Right 5;
+   enum pos Iogonek @_j_Left_Right 20;
+   enum pos iogonek @_j_Left_Right 25;
    enum pos seven.superior @_T_Left_Right 10;
    enum pos seven.superior @_W_Left_Right 15;
    enum pos seven.superior @_Y_Left_Right 20;
@@ -1872,7 +1901,6 @@ lookupflag IgnoreMarks;
    pos @_quoteright_Right @_z_Left_right -20;
    pos @_quoteright_Right @_A_Left_Right -60;
    pos @_quoteright_Right @_O_Left -20;
-subtable;
    pos @_quoteright_Right @_T_Left_Right 15;
    pos @_quoteright_Right @_J_Left -70;
    pos @_quoteright_Right @_period_comma -100;
@@ -2094,7 +2122,6 @@ subtable;
    pos @_Cha_Left_Right @_Bha_Left_Right 4;
    pos @_Cha_Left_Right @_Ma_Left 10;
    pos @_Cha_Left_Right @_period_comma 20;
-subtable;
    pos @_Jha_Left_Right @_Ka_Left_Right 15;
    pos @_Jha_Left_Right @_Kha_Left 13;
    pos @_Jha_Left_Right @_vowelA_Left 8;
@@ -2217,7 +2244,6 @@ subtable;
    pos @_VowelEe_Right @_Ma_Left 10;
    pos @_VowelEe_Right @_Kha_Left 3;
    pos @_VowelEe_Right @_Ja_Left 4;
-subtable;
    pos @_VowelEe_Right @_period_comma 10;
    pos @_Tta_Right @_Ka_Left_Right 5;
    pos @_Tta_Right @_vowelA_Left 5;
@@ -2255,15 +2281,13 @@ subtable;
    pos @_Danda @_Ka_Left_Right 20;
    pos @_Danda @_VowelU_Left_Right 40;
 
-
-
-} kern0 ;
+} kern1 ;
 
 
 
 # Kerning- characters with punctuations
 
-lookup kern1 useExtension {
+lookup kern2 useExtension {
 
    enum pos @_for_Punctuation1 one.gm 50;
    enum pos @_for_Punctuation1 two.gm 50;
@@ -2301,9 +2325,7 @@ subtable;
    enum pos @_for_Punctuation1 twosuperior 40;
    enum pos @_for_Punctuation Danda.gm 20;
    enum pos @_for_Punctuation Doubledanda.gm 20;
-
 subtable;
-
    enum pos exclam @_for_Punctuation 40;
    enum pos numbersign @_for_Punctuation 30;
    enum pos dollar @_for_Punctuation 40;
@@ -2344,7 +2366,6 @@ subtable;
    enum pos Danda.gm @_for_Punctuation 20;
    enum pos Doubledanda.gm @_for_Punctuation 20;
 subtable;
-
    pos @_brackets_Right @_for_Punctuation 70;
    pos @_percent @_for_Punctuation 30;
    pos @_bar @_for_Punctuation 40;
@@ -2357,7 +2378,7 @@ subtable;
    pos @_for_Punctuation1 @_brackets_Left 70;
    pos @_for_Punctuation1 @_bar 40;
 
-} kern1;
+} kern2;
 
 } kern;
 

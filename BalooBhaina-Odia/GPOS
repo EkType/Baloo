@@ -272,7 +272,17 @@ pos base SaTta.or <anchor 750 -400> mark @BottomMatra;
 pos base TaKaSsa.or <anchor 864 -350> mark @BottomMatra;
 pos base SaLla.or <anchor 831 -320> mark @BottomMatra;
 pos base SaLa.or <anchor 839 -320> mark @BottomMatra;
-
+pos base KaMa.or <anchor 832 -380> mark @BottomMatra;
+pos base SaKaRa.or <anchor 850 -470> mark @BottomMatra;
+pos base ShaNa.or <anchor 877 -320> mark @BottomMatra;
+pos base BaLa.or <anchor 748 -340> mark @BottomMatra;
+pos base BaLla.or <anchor 748 -340> mark @BottomMatra;
+pos base ShaLa.or <anchor 876 -320> mark @BottomMatra;
+pos base ShaTtaRa.or <anchor 800 -520> mark @BottomMatra;
+pos base GaLa.or <anchor 901 -320> mark @BottomMatra;
+pos base KaTta.or <anchor 800 -350> mark @BottomMatra;
+pos base NaVa.or <anchor 829 -300> mark @BottomMatra;
+pos base ShaTta.or <anchor 755 -330> mark @BottomMatra;
 }blwm1;
 
 
@@ -413,6 +423,14 @@ pos base HaLa.or <anchor 890 -383> mark @RaSmall;
 pos base TaKaSsa.or <anchor 840 -300> mark @RaSmall;
 pos base SaLla.or <anchor 810 -270> mark @RaSmall;
 pos base SaLa.or <anchor 930 -270> mark @RaSmall;
+pos base KaMa.or <anchor 820 -340> mark @RaSmall;
+pos base ShaNa.or <anchor 860 -300> mark @RaSmall;
+pos base BaLa.or <anchor 820 -310> mark @RaSmall;
+pos base BaLla.or <anchor 720 -310> mark @RaSmall;
+pos base ShaLa.or <anchor 950 -290> mark @RaSmall;
+pos base GaLa.or <anchor 960 -290> mark @RaSmall;
+pos base KaTta.or <anchor 820 -320> mark @RaSmall;
+pos base NaVa.or <anchor 810 -290> mark @RaSmall;
 }blwm3;
 
 
@@ -481,7 +499,6 @@ pos base BaSmall.or <anchor 74 -368> mark @BottomMatra;
 pos base BhaSmall.or <anchor 43 -368> mark @BottomMatra;
 pos base MaSmall.or <anchor 66 -373> mark @BottomMatra;
 pos base YaSmall.or <anchor 165 -368> mark @BottomMatra;
-pos base RaSmall.or <anchor 51 -235> mark @BottomMatra;
 pos base LaSmall.or <anchor 218 -328> mark @BottomMatra;
 pos base LlaSmall.or <anchor 220 -313> mark @BottomMatra;
 pos base ShaSmall.or <anchor 124 -360> mark @BottomMatra;
@@ -515,7 +532,6 @@ pos base BaSmall.or.alt <anchor 157 -807> mark @BottomMatra;
 pos base BhaSmall.or.alt <anchor 245 -812> mark @BottomMatra;
 pos base MaSmall.or.alt <anchor 372 -745> mark @BottomMatra;
 pos base YaSmall.or.alt <anchor 275 -802> mark @BottomMatra;
-pos base RaSmall.or.alt <anchor -25 -276> mark @BottomMatra;
 pos base LaSmall.or.alt <anchor 293 -772> mark @BottomMatra;
 pos base LlaSmall.or.alt <anchor 391 -741> mark @BottomMatra;
 pos base VaSmall.or.alt <anchor 297 -749> mark @BottomMatra;
@@ -526,10 +542,15 @@ pos base HaSmall.or.alt <anchor 269 -922> mark @BottomMatra;
 } blwm5;
 
 
-#-------------------------------------------------------------
+lookup blwm6 {
+pos mark RaSmall.or.alt <anchor 70 -200> mark @BottomMatra;
+pos mark RaSmall.or <anchor 51 -235> mark @BottomMatra;
+}blwm6;
 
 } blwm;
 
+
+#-------------------------------------------------------------
 
 
 feature kern {
@@ -623,23 +644,36 @@ lookup kern1 useExtension {
    pos three nine 4;
    pos three Ttha.or 5;
    pos four three 4;
-   pos four zero 5;
-   pos four seven -5;
+   pos four zero 10;
+   pos four seven -25;
    pos four degree -50;
-   pos four asterisk -35;
+   pos four asterisk -20;
    pos four backslash -30;
    pos four underscore -10;
    pos four exclam -5;
-   pos four ampersand 10;
+   pos four ampersand 20;
    pos four registered -8;
    pos four twosuperior -20;
    pos four threesuperior -20;
    pos four onesuperior -30;
    pos four pi -15;
    pos four summation -15;
-   pos four V -30;
-   pos four eight 5;
-   pos four six 5;
+   pos four V -10;
+   pos four eight 15;
+   pos four six 10;
+   pos four one -20;
+   pos four four 20;
+   pos four five -15;
+   pos four nine -15;
+   pos four numbersign 15;
+   pos four slash 20;
+   pos four cent 30;
+   pos four uni20BA 10;
+   pos four uni20BD 20;
+   pos four uni20B5 10;
+   pos four uni20B2 10;
+   pos four Euro 20;
+   pos four uni20A6 20;
    pos five three 10;
    pos five four 5;
    pos five nine -10;
@@ -870,7 +904,12 @@ lookup kern1 useExtension {
    pos pi one 10;
    pos zero.superior onesuperior -8;
    pos zero.superior seven.superior -5;
-   pos four.superior five.superior -4;
+   pos four.superior five.superior -10;
+   pos four.superior four.superior 15;
+   pos four.superior eight.superior 5;
+   pos four.superior nine.superior -10;
+   pos four.superior seven.superior -10;
+   pos four.superior onesuperior -10;
    pos five.superior seven.superior -6;
    pos six.superior seven.superior -11;
    pos six.superior onesuperior -8;
@@ -885,7 +924,12 @@ lookup kern1 useExtension {
    pos zero.inferior one.inferior -8;
    pos zero.inferior nine.inferior -4;
    pos zero.inferior seven.inferior -5;
-   pos four.inferior five.inferior -4;
+   pos four.inferior five.inferior -10;
+   pos four.inferior one.inferior -10;
+   pos four.inferior four.inferior 15;
+   pos four.inferior seven.inferior -10;
+   pos four.inferior eight.inferior 5;
+   pos four.inferior nine.inferior -10;
    pos five.inferior seven.inferior -6;
    pos six.inferior seven.inferior -11;
    pos six.inferior one.inferior -8;
@@ -1413,9 +1457,9 @@ lookup kern1 useExtension {
    enum pos @_R_Right V -16;
    enum pos @_R_Right at -5;
    enum pos @_R_Right slash 15;
+   subtable;
    enum pos @_R_Right numbersign -10;
    enum pos @_R_Right onesuperior -10;
-   subtable;
    enum pos @_R_Right question -5;
    enum pos @_R_Right yen -15;
    enum pos @_R_Right Euro -10;
@@ -1887,33 +1931,36 @@ lookup kern1 useExtension {
    enum pos three @_Ya_left 10;
    enum pos three @_Sa_left 13;
    enum pos four @_brackets_Left -5;
-   enum pos four @_quote -35;
-   enum pos four @_dashes 10;
-   enum pos four @_percent -20;
+   enum pos four @_quote -20;
+   enum pos four @_dashes 20;
+   enum pos four @_percent -30;
    enum pos four @_colon -15;
    enum pos four @_fractions1 -20;
    enum pos four @_quoteleft -15;
    enum pos four @_quoteright_Left -5;
-   enum pos four @_TM -40;
+   enum pos four @_TM -20;
    enum pos four @_T_Left_Right -15;
    enum pos four @_W_Left_Right -30;
-   enum pos four @_Y_Left_Right -25;
+   enum pos four @_Y_Left_Right -15;
    enum pos four @_Z_Left_Right 10;
-   enum pos four @_a_Left 5;
+   enum pos four @_a_Left 20;
    enum pos four @_v_Left_Right -20;
    enum pos four @_w_Left_Right -15;
-   enum pos four @_VowelAleft 6;
-   enum pos four @_VowelL 10;
-   enum pos four @_VowelO_left 10;
+   enum pos four @_VowelAleft 20;
+   enum pos four @_VowelL 20;
    enum pos four @_Nya_left 20;
    enum pos four @_Sa_left 10;
-   enum pos four @_Da_left 13;
    enum pos four @_LlaLeft 15;
-   enum pos four @_Ma_left 13;
-   enum pos four @_Paleft 10;
    enum pos four @_Na_left 10;
-   enum pos four @_Dhaleft 10;
-   enum pos four @_Nnaleft 7;
+   enum pos four @_Dhaleft 15;
+   enum pos four @_Nnaleft 15;
+   enum pos four @_VowelEleft -20;
+   enum pos four @_Ya_left 30;
+   enum pos four @_o_Left 20;
+   enum pos four @_g_Left 20;
+   enum pos four @_less 30;
+   enum pos four @_A_Left_Right 15;
+   enum pos four @_O_Left 15;
    enum pos five @_brackets_Left -4;
    enum pos five @_quote -18;
    enum pos five @_T_Left_Right -10;
@@ -1993,6 +2040,7 @@ lookup kern1 useExtension {
    enum pos seven @_Paleft 30;
    enum pos seven @_Ma_left 40;
    enum pos seven @_Sa_left 30;
+   subtable;
    enum pos seven @_LlaLeft 10;
    enum pos seven @_Dhaleft 10;
    enum pos eight @_period_comma 2;
@@ -2011,7 +2059,6 @@ lookup kern1 useExtension {
    enum pos eight @_Nnaleft 10;
    enum pos eight @_Dhaleft 10;
    enum pos eight @_Na_left 10;
-   subtable;
    enum pos eight @_Ma_left 10;
    enum pos eight @_Ya_left 10;
    enum pos eight @_Sa_left 10;
@@ -2279,7 +2326,8 @@ lookup kern1 useExtension {
    enum pos imacron @_l_Left 8;
    enum pos imacron [i igrave iacute iogonek dotlessi uni01D0 uni1EC9 uni1ECB] 5;
    enum pos imacron @_j_Left_Right 5;
-   enum pos iogonek @_j_Left_Right 5;
+   enum pos Iogonek @_j_Left_Right 20;
+   enum pos iogonek @_j_Left_Right 25;
    enum pos seven.superior @_T_Left_Right 10;
    enum pos seven.superior @_W_Left_Right 15;
    enum pos seven.superior @_Y_Left_Right 20;
@@ -2479,7 +2527,7 @@ lookup kern1 useExtension {
    enum pos NyaJa.or @_VowelAleft 20;
    enum pos TtaTta.or @_VowelAleft 40;
    enum pos NnaTtha.or @_VowelAleft -35;
-   enum pos TaTha.or [Cha.or ChaRa.or] 10;
+   enum pos TaTha.or @_Cha_left 10;
    enum pos NaTaVa.or [Na.or NaTa.or NaTaRa.or NaTha.or NaNa.or NaRa.or] 10;
    enum pos MaPaRa.or @_VowelAleft 25;
    enum pos LlaBha.or @_VowelAleft -10;
@@ -2490,6 +2538,8 @@ lookup kern1 useExtension {
    enum pos SsaTtaRa.or @_VowelEleft -25;
    enum pos SsaTtaRa.or @_KhaLeft -35;
    enum pos SsaTtaRa.or @_NadaLeft 20;
+   enum pos SsaTtaRa.or @_period_comma 100;
+   subtable;
    enum pos SsaTtaRa.or @_Kaleft -40;
    enum pos SsaTtaRa.or @_VowelUleft -60;
    subtable;
@@ -2585,7 +2635,7 @@ lookup kern1 useExtension {
    pos @_vertical_conjunct_SmallTta @_Sa_left 60;
    pos @_vertical_conjunct_SmallTta @_Cha_left 70;
    pos @_vertical_conjunct_SmallTta @_Nya_left 70;
-   pos @_vertical_conjunct_SmallTta @_period_comma 50;
+   pos @_vertical_conjunct_SmallTta @_period_comma 150;
    pos @_vertical_conjunct_SmallTta @_colon 134;
    pos @_vertical_conjunct_SmallTta @_brackets_Left 130;
    pos @_vertical_conjunct_SmallVa @_VowelAleft 80;
@@ -3261,7 +3311,6 @@ lookup kern1 useExtension {
    pos @_vertical_conjunct_SmallPha MatraAa.or 120;
    pos @_vertical_conjunct_SmallKa MatraAa.or 20;
    pos @_vertical_conjunct_SmallMa MatraAa.or 10;
-   
  }kern1;
 
 lookup kern2 {

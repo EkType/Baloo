@@ -111,6 +111,7 @@ script tel2; # Telugu v.2
 		sub Halant.te Tta.te Halant.te Ra.te by TtRasmall.te;
 		sub Halant.te Ssa.te Halant.te Ra.te by SsRasmall.te;
 		sub Halant.te Ga.te Halant.te Ra.te by GRasmall.te;
+		sub Halant.te Ka.te Halant.te Ssa.te by KaSsasmall.te;
 
 
 
@@ -155,7 +156,7 @@ script telu; # Telugu
 		sub Tta.te Halant.te Ra.te Halant.te by TtRasmall.te;
 		sub Ssa.te Halant.te Ra.te Halant.te by SsRasmall.te;
 		sub Ga.te Halant.te Ra.te Halant.te by GRasmall.te;
-
+		sub Ka.te Halant.te Ssa.te Halant.te by KaSsasmall.te;
 } blwf;
 
 #--------------------------------------------------------------------
@@ -610,14 +611,14 @@ lookup blws_RaSmallAlt {
 } blws_RaSmallAlt;
 
 lookup blws_SmallFormAiSub {
-	sub [@AiFor1] matraAiLengthmark.te' [@small3] by matraAiLengthmarkKa1.te;
-	sub [@AiFor2] matraAiLengthmark.te' [@small3] by matraAiLengthmarkKha1.te;
-	sub [@AiFor3] matraAiLengthmark.te' [@small3] by matraAiLengthmarkGha1.te;
-	sub [@AiFor4] matraAiLengthmark.te' [@small3] by matraAiLengthmarkCa1.te;
-	sub JhamatraE.te matraAiLengthmark.te' [@small3] by matraAiLengthmarkJha1.te;
-	sub JhamatraE2.te matraAiLengthmark.te' [@small3] by matraAiLengthmarkJha1.te;
-	sub YamatraE.te matraAiLengthmark.te' [@small3] by matraAiLengthmarkYa1.te;
-	sub NyamatraE.te matraAiLengthmark.te' [@small3] by matraAiLengthmarkNya1.te;
+	sub [@AiFor1] matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkKa1.te;
+	sub [@AiFor2] matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkKha1.te;
+	sub [@AiFor3] matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkGha1.te;
+	sub [@AiFor4] matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkCa1.te;
+	sub JhamatraE.te matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkJha1.te;
+	sub JhamatraE2.te matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkJha1.te;
+	sub YamatraE.te matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkYa1.te;
+	sub NyamatraE.te matraAiLengthmark.te' [@smallbelow1] by matraAiLengthmarkNya1.te;
 } blws_SmallFormAiSub;
 
 lookup blws_RaSmallAlt2 {
@@ -661,12 +662,26 @@ lookup blws_AiLengthMark7 {
 } blws_AiLengthMark7;
 
 lookup blws_small2 {
-	sub [@small1] @small1' by @small2;
+	sub [@small1] @small1' by @small3;
 } blws_small2;
 
 lookup blws_RaSmallAlt3 {
-	sub [@small1] [@small2] RasmallAlt1.te' by RasmallAlt3.te;
+	sub [@small1] [@smallbelow2] RasmallAlt1.te' by RasmallAlt3.te;
 } blws_RaSmallAlt3;
+
+lookup blws_RaSmallAlt4 {
+	sub [@small1] [@small2] RasmallAlt1.te' by RasmallAlt4.te;
+} blws_RaSmallAlt4;
+
+lookup blws_vowelRU1 {
+	sub [@small1] [@small3] matraVocalicR.te' by matraVocalicR1.te;
+	sub [@small1] [@small3] matraVocalicRr1.te' by matraVocalicRr1.te;
+} blws_vowelRU1;
+
+lookup blws_vowelRU {
+	sub [@small1] matraVocalicR.te' by matraVocalicR1.te;
+	sub [@small1] matraVocalicRr1.te' by matraVocalicRr1.te;
+} blws_vowelRU;
 
 } blws;
 

@@ -715,9 +715,11 @@ onesixteenth.or		onesixteenth.or		uni0B75
 oneeigth.or			oneeigth.or			uni0B76
 threesixteenth.or	threesixteenth.or	uni0B77	
 KaKa.or			KaKa.or		
-KaCa.or			KaCa.or		
+KaCa.or			KaCa.or	
+KaTta.or 		KaTta.or	
 KaTa.or			KaTa.or		
-KaTaRa.or		KaTaRa.or		
+KaTaRa.or		KaTaRa.or
+KaMa.or 		KaMa.or		
 KaVa.or			KaVa.or		
 KaLla.or		KaLla.or		
 KaSsa.or		KaSsa.or		
@@ -728,7 +730,8 @@ KaSa.or			KaSa.or
 KhaLla.or 		KhaLla.or	
 GaDa.or			GaDa.or		
 GaDha.or		GaDha.or		
-GaNa.or			GaNa.or		
+GaNa.or			GaNa.or	
+GaLa.or 		GaLa.or	
 GaLla.or		GaLla.or		
 GhaNa.or		GhaNa.or		
 NgaKa.or		NgaKa.or		
@@ -788,7 +791,8 @@ NaDaVa.or	NaDaVa.or
 NaDha.or	NaDha.or		
 NaDhaVa.or	NaDhaVa.or		
 NaDhaRa.or	NaDhaRa.or		
-NaNa.or		NaNa.or		
+NaNa.or		NaNa.or
+NaVa.or 	NaVa.or		
 PaTa.or		PaTa.or		
 PaPa.or		PaPa.or		
 PaLla.or	PaLla.or		
@@ -796,7 +800,9 @@ PaSa.or		PaSa.or
 BaJa.or		BaJa.or		
 BaDa.or		BaDa.or		
 BaDha.or	BaDha.or		
-BaBa.or		BaBa.or		
+BaBa.or		BaBa.or	
+BaLla.or 	BaLla.or
+BaLa.or 	BaLa.or	
 MaPa.or		MaPa.or		
 MaPaRa.or	MaPaRa.or		
 MaPha.or	MaPha.or		
@@ -816,14 +822,19 @@ LaGa.or		LaGa.or
 ShaCa.or	ShaCa.or		
 ShaCha.or	ShaCha.or		
 ShaVa.or	ShaVa.or		
-ShaLla.or	ShaLla.or		
+ShaLla.or	ShaLla.or
+ShaLa.or 	ShaLa.or
+ShaNa.or 	ShaNa.or
+ShaTta.or 	ShaTta.or
+ShaTtaRa.or ShaTtaRa.or		
 SsaKa.or	SsaKa.or		
 SsaKaRa.or	SsaKaRa.or		
 SsaTta.or	SsaTta.or		
 SsaNna.or	SsaNna.or		
 SsaPa.or	SsaPa.or		
 SsaPha.or	SsaPha.or		
-SaKa.or		SaKa.or		
+SaKa.or		SaKa.or	
+SaKaRa.or   SaKaRa.or	
 SaKha.or	SaKha.or		
 SaTa.or		SaTa.or		
 SaTaRa.or	SaTaRa.or		
@@ -955,10 +966,6 @@ HaSmall.or.alt		HaSmall.or.alt
 IChandrabindu.or	IChandrabindu.or		
 RephI.or			RephI.or		
 RephAilengthmark.or		RephAilengthmark.or	
-RaSmallMatraU.or	RaSmallMatraU.or
-RaSmallMatraUu.or	RaSmallMatraUu.or
-RaSmallMatraU.or.alt	RaSmallMatraU.or.alt
-RaSmallMatraUu.or.alt	RaSmallMatraUu.or.alt
 KhaI.or		KhaI.or		
 ThaI.or		ThaI.or		
 DhaI.or		DhaI.or		

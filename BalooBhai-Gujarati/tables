@@ -1,11 +1,14 @@
 
+#BalooBhai Gujarati
+
 table head {
-	FontRevision 1.007;
+	FontRevision 1.10;
 } head;
 
+
 table hhea {
-	Ascender 1130;
-	Descender -532;
+	Ascender 1050;
+	Descender -544;
 	LineGap 0;
 } hhea;
 
@@ -35,13 +38,13 @@ table OS/2 {
 	45	# Geometric Shapes
 	62	# Alphabetic Presentation Forms
 ;
-  	TypoAscender 1130;
-  	TypoDescender -532;
+  	TypoAscender 1050;
+  	TypoDescender -544;
   	TypoLineGap 0;
-  	winAscent 1130;
-  	winDescent 532;
+  	winAscent 1050;
+  	winDescent 544;
 
-	WeightClass 800;
+	WeightClass 400;
 	WidthClass 5;
 	Vendor "EKTF";
 
