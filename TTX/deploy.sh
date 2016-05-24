@@ -3,6 +3,9 @@
 # github.com/google/fonts.git when locally cloned to
 # ~/fonts
 
+# This script is not for execution, just for manually running :)
+exit;
+
 # copy license
 mkdir ~/fonts/ofl/baloo/; cp ../OFL.txt ~/fonts/ofl/baloo/;
 mkdir ~/fonts/ofl/baloobhai/; cp ../OFL.txt ~/fonts/ofl/baloobhai/;
@@ -86,18 +89,17 @@ python compare_font.py ~/fonts/ofl/baloopaaji/OLD/BalooPaaji-Regular.ttf ~/fonts
 python compare_font.py ~/fonts/ofl/balootamma/OLD/BalooTamma-Regular.ttf ~/fonts/ofl/balootamma/BalooTamma-Regular.ttf;
 python compare_font.py ~/fonts/ofl/balootammudu/OLD/BalooTammudu-Regular.ttf ~/fonts/ofl/balootammudu/BalooTammudu-Regular.ttf;
 python compare_font.py ~/fonts/ofl/baloothambi/OLD/BalooThambi-Regular.ttf ~/fonts/ofl/baloothambi/BalooThambi-Regular.ttf;
-python compare_font.py ~/fonts/ofl/baloothambi/OLD/BalooThambi-Regular.ttf ~/fonts/ofl/baloothambi/BalooThambi-Regular.ttf;
 
 # remove old files
-rm -rf ~/fonts/ofl/baloo/OLD;
-rm -rf ~/fonts/ofl/baloobhai/OLD;
-rm -rf ~/fonts/ofl/baloobhaina/OLD;
-rm -rf ~/fonts/ofl/baloochettan/OLD;
-rm -rf ~/fonts/ofl/balooda/OLD;
-rm -rf ~/fonts/ofl/baloopaaji/OLD;
-rm -rf ~/fonts/ofl/balootamma/OLD;
-rm -rf ~/fonts/ofl/balootammudu/OLD;
-rm -rf ~/fonts/ofl/baloothambi/OLD;
+mv ~/fonts/ofl/baloo/OLD /tmp/OLDbaloo;
+mv ~/fonts/ofl/baloobhai/OLD /tmp/OLDbaloobhai;
+mv ~/fonts/ofl/baloobhaina/OLD /tmp/OLDbaloobhaina;
+mv ~/fonts/ofl/baloochettan/OLD /tmp/OLDbaloochettan;
+mv ~/fonts/ofl/balooda/OLD /tmp/OLDbalooda;
+mv ~/fonts/ofl/baloopaaji/OLD /tmp/OLDbaloopaaji;
+mv ~/fonts/ofl/balootamma/OLD /tmp/OLDbalootamma;
+mv ~/fonts/ofl/balootammudu/OLD /tmp/OLDbalootammudu;
+mv ~/fonts/ofl/baloothambi/OLD /tmp/OLDbaloothambi;
 
 # sanity check
 cd ~/fonts/tools/;
@@ -123,7 +125,6 @@ ot-sanitise ~/fonts/ofl/balootammudu/BalooTammudu-Regular.ttf;
 ot-sanitise ~/fonts/ofl/baloothambi/BalooThambi-Regular.ttf;
 
 # check into git (but exit first so this is never automatic)
-exit;
 git add ~/fonts/ofl/baloo;
 git add ~/fonts/ofl/baloobhai;
 git add ~/fonts/ofl/baloobhaina;
@@ -133,12 +134,12 @@ git add ~/fonts/ofl/baloopaaji;
 git add ~/fonts/ofl/balootamma;
 git add ~/fonts/ofl/balootammudu;
 git add ~/fonts/ofl/baloothambi;
-git commit ~/fonts/ofl/baloo -m "Adding ofl/baloo";
-git commit ~/fonts/ofl/baloobhai -m "Adding ofl/baloobhai";
-git commit ~/fonts/ofl/baloobhaina -m "Adding ofl/baloobhaina";
-git commit ~/fonts/ofl/baloochettan -m "Adding ofl/baloochettan";
-git commit ~/fonts/ofl/balooda -m "Adding ofl/balooda";
-git commit ~/fonts/ofl/baloopaaji -m "Adding ofl/baloopaaji";
-git commit ~/fonts/ofl/balootamma -m "Adding ofl/balootamma";
-git commit ~/fonts/ofl/balootammudu -m "Adding ofl/balootammudu";
-git commit ~/fonts/ofl/baloothambi -m "Adding ofl/baloothambi";
+git commit ~/fonts/ofl/baloo -m "Updating ofl/baloo";
+git commit ~/fonts/ofl/baloobhai -m "Updating ofl/baloobhai";
+git commit ~/fonts/ofl/baloobhaina -m "Updating ofl/baloobhaina";
+git commit ~/fonts/ofl/baloochettan -m "Updating ofl/baloochettan";
+git commit ~/fonts/ofl/balooda -m "Updating ofl/balooda";
+git commit ~/fonts/ofl/baloopaaji -m "Updating ofl/baloopaaji";
+git commit ~/fonts/ofl/balootamma -m "Updating ofl/balootamma";
+git commit ~/fonts/ofl/balootammudu -m "Updating ofl/balootammudu";
+git commit ~/fonts/ofl/baloothambi -m "Updating ofl/baloothambi";
