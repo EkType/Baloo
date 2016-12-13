@@ -1,13 +1,13 @@
 ![Baloo](http://rawgit.com/girish-dalvi/Baloo/master/Promotion/Baloo_header.png "Baloo")
 
 A perfect blend of pointy paws in a coat of fur, Baloo is an affable display typeface by Ek Type. 
-Available in nine Indian scripts along with a Latin counterpart, the family is Unicode compliant and libre licensed.
+Available in ten Indian scripts along with a Latin counterpart, the family is Unicode compliant and libre licensed.
 
 Baloo is a distinctive heavy spurless design with a subtle tinge of playfulness and all the bare necessities of type. 
 Snuggling several scripts under a single weight, the typeface focuses on giving equal justice to every act of this gentle jungle affair to secure single and multi-script use. 
 Carefree yet confident, warm yet entertaining, sprightly yet intelligible, Baloo infuses life everywhere it goes.
 
-The Baloo project develops nine separate fonts with unique local names for each of the nine Indic Scripts. 
+The Baloo project develops ten separate fonts with unique local names for each of the ten Indic Scripts. 
 Each font supports one Indic subset plus Latin, Latin Extended, and Vietnamese.
 
 - Baloo for Devanagari
@@ -23,7 +23,7 @@ Each font supports one Indic subset plus Latin, Latin Extended, and Vietnamese.
 
 Well fed and thoroughly nourished across every script, it took a team of committed type designers to rear Baloo and raise it to be the typeface we love. 
 Baloo Devanagari is designed by Sarang Kulkarni, Gurmukhi by Shuchita Grover, Bangla by Noopur Datye, Oriya by Manish Minz and Shuchita Grover, Gujarati by Supriya Tembe and Noopur Datye, Kannada by Divya Kowshik, Telugu by Omkar Shende, Malayalam by Maithili Shingre, Urdu by Devika Bhansali and Tamil by Aadarsh Rajan. 
-Baloo Latin is collaboratively designed by Ek Type. Type design assistance and font engineering by Girish Dalvi.
+Baloo Latin is collaboratively designed by Ek Type. Font engineering and type design assistance by Girish Dalvi.
 
 Baloo is grateful to Sulekha Rajkumar, Vaishnavi Murthy, Gangadharan Menon, Vinay Saynekar, Dave Crossland and others for their involvement, suggestions and feedback. 
 
