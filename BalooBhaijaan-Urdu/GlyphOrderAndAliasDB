@@ -1,0 +1,847 @@
+.notdef	.notdef	
+NULL	NULL	uni0000
+CR	uni000D	uni000D
+space	space	uni0020
+exclam	exclam	
+quotedbl	quotedbl	
+numbersign	numbersign	
+dollar	dollar	
+percent	percent	
+ampersand	ampersand	
+quotesingle	quotesingle	
+parenleft	parenleft	
+parenright	parenright	
+asterisk	asterisk	
+plus	plus	
+comma	comma	
+hyphen	hyphen	
+period	period	
+slash	slash	
+zero	zero	
+one	one	
+two	two	
+three	three	
+four	four	
+five	five	
+six	six	
+seven	seven	
+eight	eight	
+nine	nine	
+colon	colon	
+semicolon	semicolon	
+less	less	
+equal	equal	
+greater	greater	
+question	question	
+at	at	
+A	A	
+B	B	
+C	C	
+D	D	
+E	E	
+F	F	
+G	G	
+H	H	
+I	I	
+J	J	
+K	K	
+L	L	
+M	M	
+N	N	
+O	O	
+P	P	
+Q	Q	
+R	R	
+S	S	
+T	T	
+U	U	
+V	V	
+W	W	
+X	X	
+Y	Y	
+Z	Z	
+bracketleft	bracketleft	
+backslash	backslash	
+bracketright	bracketright	
+asciicircum	asciicircum	
+underscore	underscore	
+grave	grave	
+a	a	
+b	b	
+c	c	
+d	d	
+e	e	
+f	f	
+g	g	
+h	h	
+i	i	
+j	j	
+k	k	
+l	l	
+m	m	
+n	n	
+o	o	
+p	p	
+q	q	
+r	r	
+s	s	
+t	t	
+u	u	
+v	v	
+w	w	
+x	x	
+y	y	
+z	z	
+braceleft	braceleft	
+bar	bar	
+braceright	braceright	
+asciitilde	asciitilde	
+uni00A0	uni00A0	
+exclamdown	exclamdown	
+cent	cent	
+sterling	sterling	
+currency	currency	
+yen	yen	
+brokenbar	brokenbar	
+section	section	
+dieresis	dieresis	
+copyright	copyright	
+ordfeminine	ordfeminine	
+guillemotleft	guillemotleft	
+logicalnot	logicalnot	
+uni00AD	uni00AD	
+registered	registered	
+macron	macron	
+degree	degree	
+plusminus	plusminus	
+twosuperior	twosuperior	
+threesuperior	threesuperior	
+acute	acute	
+mu	mu	
+paragraph	paragraph	
+periodcentered	periodcentered	
+cedilla	cedilla	
+onesuperior	onesuperior	
+ordmasculine	ordmasculine	
+guillemotright	guillemotright	
+onequarter	onequarter	
+onehalf	onehalf	
+threequarters	threequarters	
+questiondown	questiondown	
+Agrave	Agrave	
+Aacute	Aacute	
+Acircumflex	Acircumflex	
+Atilde	Atilde	
+Adieresis	Adieresis	
+Aring	Aring	
+AE	AE	
+Ccedilla	Ccedilla	
+Egrave	Egrave	
+Eacute	Eacute	
+Ecircumflex	Ecircumflex	
+Edieresis	Edieresis	
+Igrave	Igrave	
+Iacute	Iacute	
+Icircumflex	Icircumflex	
+Idieresis	Idieresis	
+Eth	Eth	
+Ntilde	Ntilde	
+Ograve	Ograve	
+Oacute	Oacute	
+Ocircumflex	Ocircumflex	
+Otilde	Otilde	
+Odieresis	Odieresis	
+multiply	multiply	
+Oslash	Oslash	
+Ugrave	Ugrave	
+Uacute	Uacute	
+Ucircumflex	Ucircumflex	
+Udieresis	Udieresis	
+Yacute	Yacute	
+Thorn	Thorn	
+germandbls	germandbls	
+agrave	agrave	
+aacute	aacute	
+acircumflex	acircumflex	
+atilde	atilde	
+adieresis	adieresis	
+aring	aring	
+ae	ae	
+ccedilla	ccedilla	
+egrave	egrave	
+eacute	eacute	
+ecircumflex	ecircumflex	
+edieresis	edieresis	
+igrave	igrave	
+iacute	iacute	
+icircumflex	icircumflex	
+idieresis	idieresis	
+eth	eth	
+ntilde	ntilde	
+ograve	ograve	
+oacute	oacute	
+ocircumflex	ocircumflex	
+otilde	otilde	
+odieresis	odieresis	
+divide	divide	
+oslash	oslash	
+ugrave	ugrave	
+uacute	uacute	
+ucircumflex	ucircumflex	
+udieresis	udieresis	
+yacute	yacute	
+thorn	thorn	
+ydieresis	ydieresis	
+Amacron	Amacron	
+amacron	amacron	
+Abreve	Abreve	
+abreve	abreve	
+Aogonek	Aogonek	
+aogonek	aogonek	
+Cacute	Cacute	
+cacute	cacute	
+Ccircumflex	Ccircumflex	
+ccircumflex	ccircumflex	
+Cdotaccent	Cdotaccent	
+cdotaccent	cdotaccent	
+Ccaron	Ccaron	
+ccaron	ccaron	
+Dcaron	Dcaron	
+dcaron	dcaron	
+Dcroat	Dcroat	
+dcroat	dcroat	
+Emacron	Emacron	
+emacron	emacron	
+Ebreve	Ebreve	
+ebreve	ebreve	
+Edotaccent	Edotaccent	
+edotaccent	edotaccent	
+Eogonek	Eogonek	
+eogonek	eogonek	
+Ecaron	Ecaron	
+ecaron	ecaron	
+Gcircumflex	Gcircumflex	
+gcircumflex	gcircumflex	
+Gbreve	Gbreve	
+gbreve	gbreve	
+Gdotaccent	Gdotaccent	
+gdotaccent	gdotaccent	
+Gcommaaccent	Gcommaaccent	
+gcommaaccent	gcommaaccent	
+Hcircumflex	Hcircumflex	
+hcircumflex	hcircumflex	
+Hbar	Hbar	
+hbar	hbar	
+Itilde	Itilde	
+itilde	itilde	
+Imacron	Imacron	
+imacron	imacron	
+Iogonek	Iogonek	
+iogonek	iogonek	
+Idotaccent	Idotaccent	
+dotlessi	dotlessi	
+Jcircumflex	Jcircumflex	
+jcircumflex	jcircumflex	
+Kcommaaccent	Kcommaaccent	
+kcommaaccent	kcommaaccent	
+kgreenlandic	kgreenlandic	
+Lacute	Lacute	
+lacute	lacute	
+Lcommaaccent	Lcommaaccent	
+lcommaaccent	lcommaaccent	
+Lcaron	Lcaron	
+lcaron	lcaron	
+Ldot	Ldot	
+ldot	ldot	
+Lslash	Lslash	
+lslash	lslash	
+Nacute	Nacute	
+nacute	nacute	
+Ncommaaccent	Ncommaaccent	
+ncommaaccent	ncommaaccent	
+Ncaron	Ncaron	
+ncaron	ncaron	
+napostrophe	napostrophe	
+Omacron	Omacron	
+omacron	omacron	
+Ohungarumlaut	Ohungarumlaut	
+ohungarumlaut	ohungarumlaut	
+OE	OE	
+oe	oe	
+Racute	Racute	
+racute	racute	
+Rcommaaccent	Rcommaaccent	
+rcommaaccent	rcommaaccent	
+Rcaron	Rcaron	
+rcaron	rcaron	
+Sacute	Sacute	
+sacute	sacute	
+Scircumflex	Scircumflex	
+scircumflex	scircumflex	
+Scedilla	Scedilla	
+scedilla	scedilla	
+Scaron	Scaron	
+scaron	scaron	
+Tcommaaccent	Tcommaaccent	
+tcommaaccent	tcommaaccent	
+Tcaron	Tcaron	
+tcaron	tcaron	
+Utilde	Utilde	
+utilde	utilde	
+Umacron	Umacron	
+umacron	umacron	
+Ubreve	Ubreve	
+ubreve	ubreve	
+Uring	Uring	
+uring	uring	
+Uhungarumlaut	Uhungarumlaut	
+uhungarumlaut	uhungarumlaut	
+Uogonek	Uogonek	
+uogonek	uogonek	
+Wcircumflex	Wcircumflex	
+wcircumflex	wcircumflex	
+Ycircumflex	Ycircumflex	
+ycircumflex	ycircumflex	
+Ydieresis	Ydieresis	
+Zacute	Zacute	
+zacute	zacute	
+Zdotaccent	Zdotaccent	
+zdotaccent	zdotaccent	
+Zcaron	Zcaron	
+zcaron	zcaron	
+uni018F	uni018F	
+florin	florin	
+Ohorn	Ohorn	
+ohorn	ohorn	
+Uhorn	Uhorn	
+uhorn	uhorn	
+uni01CD	uni01CD	
+uni01CE	uni01CE	
+uni01CF	uni01CF	
+uni01D0	uni01D0	
+uni01D1	uni01D1	
+uni01D2	uni01D2	
+uni01D3	uni01D3	
+uni01D4	uni01D4	
+uni01D5	uni01D5	
+uni01D6	uni01D6	
+uni01D7	uni01D7	
+uni01D8	uni01D8	
+uni01D9	uni01D9	
+uni01DA	uni01DA	
+uni01DB	uni01DB	
+uni01DC	uni01DC	
+Gcaron	Gcaron	
+gcaron	gcaron	
+Scommaaccent	Scommaaccent	
+scommaaccent	scommaaccent	
+uni021A	uni021A	
+uni021B	uni021B	
+uni0237	uni0237	
+uni0251	uni0251	
+uni0259	uni0259	
+uni0261	uni0261	
+uni02BB	uni02BB	
+uni02BC	uni02BC	
+uni02BE	uni02BE	
+uni02BF	uni02BF	
+circumflex	circumflex	
+caron	caron	
+uni02C8	uni02C8	
+uni02C9	uni02C9	
+uni02CA	uni02CA	
+uni02CB	uni02CB	
+uni02CC	uni02CC	
+breve	breve	
+dotaccent	dotaccent	
+ring	ring	
+ogonek	ogonek	
+tilde	tilde	
+hungarumlaut	hungarumlaut	
+gravecomb	gravecomb	
+acutecomb	acutecomb	
+uni0302	uni0302	
+tildecomb	tildecomb	
+uni0304	uni0304	
+uni0306	uni0306	
+uni0307	uni0307	
+uni0308	uni0308	
+hookabovecomb	hookabovecomb	
+uni030A	uni030A	
+uni030B	uni030B	
+uni030C	uni030C	
+uni031B	uni031B	
+dotbelowcomb	dotbelowcomb	
+uni0324	uni0324	
+uni0326	uni0326	
+uni0327	uni0327	
+uni0328	uni0328	
+uni032E	uni032E	
+uni0331	uni0331	
+pi	pi	
+uni1E0C	uni1E0C	
+uni1E0D	uni1E0D	
+uni1E0E	uni1E0E	
+uni1E0F	uni1E0F	
+uni1E20	uni1E20	
+uni1E21	uni1E21	
+uni1E24	uni1E24	
+uni1E25	uni1E25	
+uni1E2A	uni1E2A	
+uni1E2B	uni1E2B	
+uni1E36	uni1E36	
+uni1E37	uni1E37	
+uni1E38	uni1E38	
+uni1E39	uni1E39	
+uni1E3A	uni1E3A	
+uni1E3B	uni1E3B	
+uni1E42	uni1E42	
+uni1E43	uni1E43	
+uni1E44	uni1E44	
+uni1E45	uni1E45	
+uni1E46	uni1E46	
+uni1E47	uni1E47	
+uni1E48	uni1E48	
+uni1E49	uni1E49	
+uni1E5A	uni1E5A	
+uni1E5B	uni1E5B	
+uni1E5C	uni1E5C	
+uni1E5D	uni1E5D	
+uni1E5E	uni1E5E	
+uni1E5F	uni1E5F	
+uni1E60	uni1E60	
+uni1E61	uni1E61	
+uni1E62	uni1E62	
+uni1E63	uni1E63	
+uni1E6C	uni1E6C	
+uni1E6D	uni1E6D	
+uni1E6E	uni1E6E	
+uni1E6F	uni1E6F	
+Wgrave	Wgrave	
+wgrave	wgrave	
+Wacute	Wacute	
+wacute	wacute	
+Wdieresis	Wdieresis	
+wdieresis	wdieresis	
+uni1E8E	uni1E8E	
+uni1E8F	uni1E8F	
+uni1E92	uni1E92	
+uni1E93	uni1E93	
+uni1E97	uni1E97	
+uni1E9E	uni1E9E	
+uni1EA0	uni1EA0	
+uni1EA1	uni1EA1	
+uni1EA2	uni1EA2	
+uni1EA3	uni1EA3	
+uni1EA4	uni1EA4	
+uni1EA5	uni1EA5	
+uni1EA6	uni1EA6	
+uni1EA7	uni1EA7	
+uni1EA8	uni1EA8	
+uni1EA9	uni1EA9	
+uni1EAA	uni1EAA	
+uni1EAB	uni1EAB	
+uni1EAC	uni1EAC	
+uni1EAD	uni1EAD	
+uni1EAE	uni1EAE	
+uni1EAF	uni1EAF	
+uni1EB0	uni1EB0	
+uni1EB1	uni1EB1	
+uni1EB2	uni1EB2	
+uni1EB3	uni1EB3	
+uni1EB4	uni1EB4	
+uni1EB5	uni1EB5	
+uni1EB6	uni1EB6	
+uni1EB7	uni1EB7	
+uni1EB8	uni1EB8	
+uni1EB9	uni1EB9	
+uni1EBA	uni1EBA	
+uni1EBB	uni1EBB	
+uni1EBC	uni1EBC	
+uni1EBD	uni1EBD	
+uni1EBE	uni1EBE	
+uni1EBF	uni1EBF	
+uni1EC0	uni1EC0	
+uni1EC1	uni1EC1	
+uni1EC2	uni1EC2	
+uni1EC3	uni1EC3	
+uni1EC4	uni1EC4	
+uni1EC5	uni1EC5	
+uni1EC6	uni1EC6	
+uni1EC7	uni1EC7	
+uni1EC8	uni1EC8	
+uni1EC9	uni1EC9	
+uni1ECA	uni1ECA	
+uni1ECB	uni1ECB	
+uni1ECC	uni1ECC	
+uni1ECD	uni1ECD	
+uni1ECE	uni1ECE	
+uni1ECF	uni1ECF	
+uni1ED0	uni1ED0	
+uni1ED1	uni1ED1	
+uni1ED2	uni1ED2	
+uni1ED3	uni1ED3	
+uni1ED4	uni1ED4	
+uni1ED5	uni1ED5	
+uni1ED6	uni1ED6	
+uni1ED7	uni1ED7	
+uni1ED8	uni1ED8	
+uni1ED9	uni1ED9	
+uni1EDA	uni1EDA	
+uni1EDB	uni1EDB	
+uni1EDC	uni1EDC	
+uni1EDD	uni1EDD	
+uni1EDE	uni1EDE	
+uni1EDF	uni1EDF	
+uni1EE0	uni1EE0	
+uni1EE1	uni1EE1	
+uni1EE2	uni1EE2	
+uni1EE3	uni1EE3	
+uni1EE4	uni1EE4	
+uni1EE5	uni1EE5	
+uni1EE6	uni1EE6	
+uni1EE7	uni1EE7	
+uni1EE8	uni1EE8	
+uni1EE9	uni1EE9	
+uni1EEA	uni1EEA	
+uni1EEB	uni1EEB	
+uni1EEC	uni1EEC	
+uni1EED	uni1EED	
+uni1EEE	uni1EEE	
+uni1EEF	uni1EEF	
+uni1EF0	uni1EF0	
+uni1EF1	uni1EF1	
+Ygrave	Ygrave	
+ygrave	ygrave	
+uni1EF4	uni1EF4	
+uni1EF5	uni1EF5	
+uni1EF6	uni1EF6	
+uni1EF7	uni1EF7	
+uni1EF8	uni1EF8	
+uni1EF9	uni1EF9	
+uni2007	uni2007	
+uni2010	uni2010	
+figuredash	figuredash	
+endash	endash	
+emdash	emdash	
+uni2015	uni2015	
+quoteleft	quoteleft	
+quoteright	quoteright	
+quotesinglbase	quotesinglbase	
+quotedblleft	quotedblleft	
+quotedblright	quotedblright	
+quotedblbase	quotedblbase	
+dagger	dagger	
+daggerdbl	daggerdbl	
+bullet	bullet	
+ellipsis	ellipsis	
+perthousand	perthousand	
+uni2032	uni2032	
+uni2033	uni2033	
+guilsinglleft	guilsinglleft	
+guilsinglright	guilsinglright	
+fraction	fraction	
+zero.superior	zero.superior	
+four.superior	four.superior	
+five.superior	five.superior	
+six.superior	six.superior	
+seven.superior	seven.superior	
+eight.superior	eight.superior	
+nine.superior	nine.superior	
+parenleft.superior	parenleft.superior	
+parenright.superior	parenright.superior	
+n.superior	n.superior	
+zero.inferior	zero.inferior	
+one.inferior	one.inferior	
+two.inferior	two.inferior	
+three.inferior	three.inferior	
+four.inferior	four.inferior	
+five.inferior	five.inferior	
+six.inferior	six.inferior	
+seven.inferior	seven.inferior	
+eight.inferior	eight.inferior	
+nine.inferior	nine.inferior	
+parenleft.inferior	parenleft.inferior	
+parenright.inferior	parenright.inferior	
+colonmonetary	colonmonetary	
+lira	lira	
+uni20A6	uni20A6	
+peseta	peseta	
+dong	dong	
+Euro	Euro	
+uni20B1	uni20B1	
+uni20B2	uni20B2	
+uni20B5	uni20B5	
+uni20B9	uni20B9	
+uni20BA	uni20BA	
+uni20BD	uni20BD	
+afii61289	afii61289	
+uni2117	uni2117	
+uni2120	uni2120	
+trademark	trademark	
+Omega	Omega	
+estimated	estimated	
+onethird	onethird	
+twothirds	twothirds	
+oneeighth	oneeighth	
+threeeighths	threeeighths	
+fiveeighths	fiveeighths	
+seveneighths	seveneighths	
+uni2190	uni2190	
+arrowup	arrowup	
+uni2192	uni2192	
+arrowdown	arrowdown	
+partialdiff	partialdiff	
+Delta	Delta	
+product	product	
+summation	summation	
+minus	minus	
+uni2215	uni2215	
+radical	radical	
+infinity	infinity	
+integral	integral	
+approxequal	approxequal	
+notequal	notequal	
+lessequal	lessequal	
+greaterequal	greaterequal	
+uni25A0	uni25A0	
+triagup	triagup	
+uni25B3	uni25B3	
+uni25B6	uni25B6	
+uni25B7	uni25B7	
+triagdn	triagdn	
+uni25BD	uni25BD	
+uni25C0	uni25C0	
+uni25C1	uni25C1	
+uni25C6	uni25C6	
+lozenge	lozenge	
+fi	fi	
+fl	fl	
+DiaComma	DiaComma	
+capgrave	capgrave	
+capacute	capacute	
+caphungarumlaut	caphungarumlaut	
+capring	capring	
+capcircumflex	capcircumflex	
+capcaron	capcaron	
+Comma.ur	Comma.ur	uni060C
+Semicolon.ur	Semicolon.ur	uni061B
+ArabicLetterMark	ArabicLetterMark	uni061C
+Questionmark.ur	Questionmark.ur	uni061F
+Hamza.ur	Hamza.ur	uni0621
+AlefMadda.ur	AlefMadda.ur	uni0622
+AlefHamzaAbove.ur	AlefHamzaAbove.ur	uni0623
+AlefHamzaBelow.ur	AlefHamzaBelow.ur	uni0625
+YeChotiHamza.ur	YeChotiHamza.ur	uni0626
+Alef.ur	Alef.ur	uni0627
+Beh.ur	Beh.ur	uni0628
+Teh.ur	Teh.ur	uni062A
+Seh.ur	Seh.ur	uni062B
+Jeem.ur	Jeem.ur	uni062C
+HahBari.ur	HahBari.ur	uni062D
+Khah.ur	Khah.ur	uni062E
+Dal.ur	Dal.ur	uni062F
+Zal.ur	Zal.ur	uni0630
+Reh.ur	Reh.ur	uni0631
+Zeh.ur	Zeh.ur	uni0632
+Seen.ur	Seen.ur	uni0633
+Sheen.ur	Sheen.ur	uni0634
+Swad.ur	Swad.ur	uni0635
+Zwad.ur	Zwad.ur	uni0636
+Toe.ur	Toe.ur	uni0637
+Zoe.ur	Zoe.ur	uni0638
+Ain.ur	Ain.ur	uni0639
+Ghain.ur	Ghain.ur	uni063A
+Feh.ur	Feh.ur	uni0641
+Qaf.ur	Qaf.ur	uni0642
+Lam.ur	Lam.ur	uni0644
+Meem.ur	Meem.ur	uni0645
+Noon.ur	Noon.ur	uni0646
+Waw.ur	Waw.ur	uni0648
+Zabar.ur	Zabar.ur	uni064E
+Pesh.ur	Pesh.ur	uni064F
+Zer.ur	Zer.ur	uni0650
+Tashdid.ur	Tashdid.ur	uni0651
+MaddaAbove.ur	MaddaAbove.ur	uni0653
+HamzaAbove.ur	HamzaAbove.ur	uni0654
+HamzaBelow.ur	HamzaBelow.ur	uni0655
+AlefSubscript.ur	AlefSubscript.ur	uni0656
+UltaPesh.ur	UltaPesh.ur	uni0657
+Percent.ur	Percent.ur	uni066A
+DecimalSeparater.ur	DecimalSeparater.ur	uni066B
+ThousandsSeparater.ur	ThousandsSeparater.ur	uni066C
+AlefSuperscript.ur	AlefSuperscript.ur	uni0670
+Tteh.ur	Tteh.ur	uni0679
+Peh.ur	Peh.ur	uni067E
+Tcheh.ur	Tcheh.ur	uni0686
+Ddal.ur	Ddal.ur	uni0688
+Rreh.ur	Rreh.ur	uni0691
+Jeh.ur	Jeh.ur	uni0698
+Kaf.ur	Kaf.ur	uni06A9
+Gaf.ur	Gaf.ur	uni06AF
+NoonGhunnah.ur	NoonGhunnah.ur	uni06BA
+HehDochashmi.ur	HehDochashmi.ur	uni06BE
+HehGoal.ur	HehGoal.ur	uni06C1
+HehGoalHamzaAbove.ur	HehGoalHamzaAbove.ur	uni06C2
+TehMarbutaGoal.ur	TehMarbutaGoal.ur	uni06C3
+YeChoti.ur	YeChoti.ur	uni06CC
+YeBari.ur	YeBari.ur	uni06D2
+YeBariHamzaAbove.ur	YeBariHamzaAbove.ur	uni06D3
+Fullstop.ur	Fullstop.ur	uni06D4
+Zero.ur	Zero.ur	uni06F0
+One.ur	One.ur	uni06F1
+Two.ur	Two.ur	uni06F2
+Three.ur	Three.ur	uni06F3
+Four.ur	Four.ur	uni06F4
+Five.ur	Five.ur	uni06F5
+Six.ur	Six.ur	uni06F6
+Seven.ur	Seven.ur	uni06F7
+Eight.ur	Eight.ur	uni06F8
+Nine.ur	Nine.ur	uni06F9
+Alef.fina.ur	Alef.fina.ur	
+Beh.fina.ur	Beh.fina.ur	
+Peh.fina.ur	Peh.fina.ur	
+Teh.fina.ur	Teh.fina.ur	
+Tteh.fina.ur	Tteh.fina.ur	
+Seh.fina.ur	Seh.fina.ur	
+Jeem.fina.ur	Jeem.fina.ur	
+Tcheh.fina.ur	Tcheh.fina.ur	
+Tcheh.fina.ext.ur	Tcheh.fina.ext.ur	
+HahBari.fina.ur	HahBari.fina.ur	
+Khah.fina.ur	Khah.fina.ur	
+Dal.fina.ur	Dal.fina.ur	
+Ddal.fina.ur	Ddal.fina.ur	
+Zal.fina.ur	Zal.fina.ur	
+Reh.fina.ur	Reh.fina.ur	
+Rreh.fina.ur	Rreh.fina.ur	
+Zeh.fina.ur	Zeh.fina.ur	
+Jeh.fina.ur	Jeh.fina.ur	
+Seen.fina.ur	Seen.fina.ur	
+Sheen.fina.ur	Sheen.fina.ur	
+Swad.fina.ur	Swad.fina.ur	
+Zwad.fina.ur	Zwad.fina.ur	
+Toe.fina.ur	Toe.fina.ur	
+Zoe.fina.ur	Zoe.fina.ur	
+Ain.fina.ur	Ain.fina.ur	
+Ghain.fina.ur	Ghain.fina.ur	
+Feh.fina.ur	Feh.fina.ur	
+Qaf.fina.ur	Qaf.fina.ur	
+Gaf.fina.ur	Gaf.fina.ur	
+Kaf.fina.ur	Kaf.fina.ur	
+Lam.fina.ur	Lam.fina.ur	
+Meem.fina.ur	Meem.fina.ur	
+Noon.fina.ur	Noon.fina.ur	
+NoonGhunnah.fina.ur	NoonGhunnah.fina.ur	
+Waw.fina.ur	Waw.fina.ur	
+HehGoal.fina.ur	HehGoal.fina.ur	
+TehMarbuta.fina.ur    TehMarbuta.fina.ur
+HehDochashmi.fina.ur	HehDochashmi.fina.ur	
+YeChoti.fina.ur	YeChoti.fina.ur	
+YeBari.fina.ur	YeBari.fina.ur	
+YeBariHamzaAbove.fina.ur	YeBariHamzaAbove.fina.ur	
+Beh.init.ur	Beh.init.ur	
+Peh.init.ur	Peh.init.ur	
+Teh.init.ur	Teh.init.ur	
+Tteh.init.ur	Tteh.init.ur	
+Seh.init.ur	Seh.init.ur	
+Jeem.init.ur	Jeem.init.ur	
+Tcheh.init.ur	Tcheh.init.ur	
+HahBari.init.ur	HahBari.init.ur	
+Khah.init.ur	Khah.init.ur	
+Seen.init.ur	Seen.init.ur	
+Sheen.init.ur	Sheen.init.ur	
+Swad.init.ur	Swad.init.ur	
+Zwad.init.ur	Zwad.init.ur	
+Toe.init.ur	Toe.init.ur	
+Zoe.init.ur	Zoe.init.ur	
+Ain.init.ur	Ain.init.ur	
+Ghain.init.ur	Ghain.init.ur	
+Feh.init.ur	Feh.init.ur	
+Qaf.init.ur	Qaf.init.ur	
+Gaf.init.ur	Gaf.init.ur	
+Kaf.init.ur	Kaf.init.ur	
+Lam.init.ur	Lam.init.ur	
+Meem.init.ur	Meem.init.ur	
+Noon.init.ur	Noon.init.ur	
+HehGoal.init.ur	HehGoal.init.ur	
+HehDochashmi.init.ur	HehDochashmi.init.ur	
+YeChoti.init.ur	YeChoti.init.ur	
+Beh.medi.ur	Beh.medi.ur	
+Peh.medi.ur	Peh.medi.ur	
+Teh.medi.ur	Teh.medi.ur	
+Tteh.medi.ur	Tteh.medi.ur	
+Seh.medi.ur	Seh.medi.ur	
+Jeem.medi.ur	Jeem.medi.ur	
+Tcheh.medi.ur	Tcheh.medi.ur	
+HahBari.medi.ur	HahBari.medi.ur	
+Khah.medi.ur	Khah.medi.ur	
+Seen.medi.ur	Seen.medi.ur	
+Sheen.medi.ur	Sheen.medi.ur	
+Swad.medi.ur	Swad.medi.ur	
+Zwad.medi.ur	Zwad.medi.ur	
+Toe.medi.ur	Toe.medi.ur	
+Zoe.medi.ur	Zoe.medi.ur	
+Ain.medi.ur	Ain.medi.ur	
+Ghain.medi.ur	Ghain.medi.ur	
+Feh.medi.ur	Feh.medi.ur	
+Qaf.medi.ur	Qaf.medi.ur	
+Gaf.medi.ur	Gaf.medi.ur	
+Kaf.medi.ur	Kaf.medi.ur	
+Lam.medi.ur	Lam.medi.ur	
+Meem.medi.ur	Meem.medi.ur	
+Noon.medi.ur	Noon.medi.ur	
+HehGoal.medi.ur	HehGoal.medi.ur	
+HehDochashmi.medi.ur	HehDochashmi.medi.ur	
+YeChoti.medi.ur	YeChoti.medi.ur	
+LamAlef.ur	LamAlef.ur	
+LamAlef.fina.ur	LamAlef.fina.ur	
+RTLMark	RTLMark	uni200F
+uni25CC	uni25CC	
+ZWNJ	ZWNJ	uni200C
+ZWJ	ZWJ	uni200D
+Dot1.comp	Dot1.comp	
+Dot2.comp	Dot2.comp	
+Dot3Up.comp	Dot3Up.comp	
+Dot3Down.comp	Dot3Down.comp	
+Beh.comp	Beh.comp	
+Beh.fina.comp	Beh.fina.comp	
+Beh.init.comp	Beh.init.comp	
+Beh.medi.comp	Beh.medi.comp	
+gafline.ur	gafline.ur	
+smalltoe.ur	smalltoe.ur	
+WawHamza.ur	WawHamza.ur	uni0624
+TehMarbuta.ar	TehMarbuta.ar	uni0629
+Kaf.ar	Kaf.ar	uni0643
+Kaf.fina.ar	Kaf.fina.ar	
+Heh.ar	Heh.ar	uni0647
+AlefMaksura.ar	AlefMaksura.ar	uni0649
+Yeh.ar	Yeh.ar	uni064A
+Yeh.fina.ar   Yeh.fina.ar
+Veh.ar	Veh.ar	uni06A4
+Veh.fina.ar	Veh.fina.ar	
+Veh.init.ar	Veh.init.ar	
+Veh.medi.ar	Veh.medi.ar	
+HehYehAbove.ar	HehYehAbove.ar	uni06C0
+Zero.ar	Zero.ar	uni0660
+One.ar	One.ar	uni0661
+Two.ar	Two.ar	uni0662
+Three.ar	Three.ar	uni0663
+Four.ar	Four.ar	uni0664
+Five.ar	Five.ar	uni0665
+Six.ar	Six.ar	uni0666
+Seven.ar	Seven.ar	uni0667
+Eight.ar	Eight.ar	uni0668
+Nine.ar	Nine.ar	uni0669
+FivePointedStar.ar	FivePointedStar.ar	uni066D
+Fathatan.ur	Fathatan.ur	uni064B
+Dammatan.ur	Dammatan.ur	uni064C
+Kasratan.ur	Kasratan.ur	uni064D
+TashdidWithDammatan.ur	TashdidWithDammatan.ur	uniFC5E
+TashdidWithKasratan.ur	TashdidWithKasratan.ur	uniFC5F
+TashdidWithZabar.ur	TashdidWithZabar.ur	uniFC60
+TashdidWithPesh.ur	TashdidWithPesh.ur	uniFC61
+TashdidWithZer.ur	TashdidWithZer.ur	uniFC62
+TashdidWithAlefSuperscript.ur	TashdidWithAlefSuperscript.ur	uniFC63
+Sukun.ur	Sukun.ur	uni0652
+Tatweel.ur	Tatweel.ur	uni0640
+

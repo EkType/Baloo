@@ -1,0 +1,237 @@
+
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem arab dflt;
+languagesystem arab URD ;
+
+
+#-------------------------------------------------------------------
+
+#---------- L A T I N ----------#
+
+#--------------------------------------------------------------------
+
+feature frac { # Fractions Latin
+
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+    sub one slash three by onethird;
+    sub two slash three by twothirds;
+    sub one slash eight by oneeighth;
+    sub three slash eight by threeeighths;
+    sub five slash eight by fiveeighths;
+    sub seven slash eight by seveneighths;
+
+} frac;
+
+#--------------------------------------------------------------------
+
+feature liga { # Ligatures
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript/Inferior
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript/Superior
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+#--------------------------------------------------------------------
+
+
+
+
+#--------------------------------------------------------------------
+
+#---------- U R D U ----------#
+
+#--------------------------------------------------------------------
+
+
+
+feature ccmp {
+lookup one {
+sub AlefMadda.ur by Alef.ur MaddaAbove.ur;
+sub AlefHamzaAbove.ur by Alef.ur HamzaAbove.ur;
+sub AlefHamzaBelow.ur by Alef.ur HamzaBelow.ur;
+sub YeBariHamzaAbove.ur by YeBari.ur HamzaAbove.ur;
+sub YeChotiHamza.ur by YeChoti.ur HamzaAbove.ur;
+sub HehGoalHamzaAbove.ur by HehGoal.ur HamzaAbove.ur;
+sub WawHamza.ur by Waw.ur HamzaAbove.ur;
+sub HehYehAbove.ar by HehGoal.ur HamzaAbove.ur;
+} one;
+
+lookup two {
+sub Tashdid.ur Dammatan.ur by TashdidWithDammatan.ur;
+sub Tashdid.ur Kasratan.ur by TashdidWithKasratan.ur;
+sub Tashdid.ur Zabar.ur by TashdidWithZabar.ur;
+sub Tashdid.ur Pesh.ur by TashdidWithPesh.ur;
+sub Tashdid.ur Zer.ur by TashdidWithZer.ur;
+sub Tashdid.ur AlefSuperscript.ur by TashdidWithAlefSuperscript.ur;
+} two;
+
+} ccmp;
+
+feature init {
+  lookupflag IgnoreMarks;
+sub 	Beh.ur	 by 	Beh.init.ur;
+sub 	Peh.ur	 by 	Peh.init.ur;
+sub 	Teh.ur	 by 	Teh.init.ur;
+sub 	Tteh.ur	 by 	Tteh.init.ur;
+sub 	Seh.ur	 by 	Seh.init.ur;
+sub 	Jeem.ur	 by 	Jeem.init.ur;
+sub 	Tcheh.ur	 by 	Tcheh.init.ur;
+sub 	HahBari.ur	 by 	HahBari.init.ur;
+sub 	Khah.ur	 by 	Khah.init.ur;
+sub 	Seen.ur	 by 	Seen.init.ur;
+sub 	Sheen.ur	 by 	Sheen.init.ur;
+sub 	Swad.ur	 by 	Swad.init.ur;
+sub 	Zwad.ur	 by 	Zwad.init.ur;
+sub 	Toe.ur	 by 	Toe.init.ur;
+sub 	Zoe.ur	 by 	Zoe.init.ur;
+sub 	Ain.ur	 by 	Ain.init.ur;
+sub 	Ghain.ur	 by 	Ghain.init.ur;
+sub 	Feh.ur	 by 	Feh.init.ur;
+sub 	Qaf.ur	 by 	Qaf.init.ur;
+sub 	Gaf.ur	 by 	Gaf.init.ur;
+sub 	Kaf.ur	 by 	Kaf.init.ur;
+sub 	Lam.ur	 by 	Lam.init.ur;
+sub 	Meem.ur	 by 	Meem.init.ur;
+sub 	Noon.ur	 by 	Noon.init.ur;
+sub 	HehGoal.ur	 by 	HehGoal.init.ur;
+sub 	HehDochashmi.ur	 by 	HehDochashmi.init.ur;
+sub 	YeChoti.ur	 by 	YeChoti.init.ur;
+sub   Kaf.ar   by   Kaf.init.ur;
+sub   Heh.ar   by   HehDochashmi.init.ur;
+sub   Yeh.ar   by   YeChoti.init.ur;
+sub   Veh.ar   by   Veh.init.ar;
+} init;
+
+feature medi {
+  lookupflag IgnoreMarks;
+sub 	Alef.ur	 by 	Alef.fina.ur;
+sub 	Beh.ur	 by 	Beh.medi.ur;
+sub 	Peh.ur	 by 	Peh.medi.ur;
+sub 	Teh.ur	 by 	Teh.medi.ur;
+sub 	Tteh.ur	 by 	Tteh.medi.ur;
+sub 	Seh.ur	 by 	Seh.medi.ur;
+sub 	Jeem.ur	 by 	Jeem.medi.ur;
+sub 	Tcheh.ur	 by 	Tcheh.medi.ur;
+sub 	HahBari.ur	 by 	HahBari.medi.ur;
+sub 	Khah.ur	 by 	Khah.medi.ur;
+sub 	Dal.ur	 by 	Dal.fina.ur;
+sub 	Ddal.ur	 by 	Ddal.fina.ur;
+sub 	Zal.ur	 by 	Zal.fina.ur;
+sub 	Reh.ur	 by 	Reh.fina.ur;
+sub 	Rreh.ur	 by 	Rreh.fina.ur;
+sub 	Zeh.ur	 by 	Zeh.fina.ur;
+sub 	Jeh.ur	 by 	Jeh.fina.ur;
+sub 	Seen.ur	 by 	Seen.medi.ur;
+sub 	Sheen.ur	 by 	Sheen.medi.ur;
+sub 	Swad.ur	 by 	Swad.medi.ur;
+sub 	Zwad.ur	 by 	Zwad.medi.ur;
+sub 	Toe.ur	 by 	Toe.medi.ur;
+sub 	Zoe.ur	 by 	Zoe.medi.ur;
+sub 	Ain.ur	 by 	Ain.medi.ur;
+sub 	Ghain.ur	 by 	Ghain.medi.ur;
+sub 	Feh.ur	 by 	Feh.medi.ur;
+sub 	Qaf.ur	 by 	Qaf.medi.ur;
+sub 	Gaf.ur	 by 	Gaf.medi.ur;
+sub 	Kaf.ur	 by 	Kaf.medi.ur;
+sub 	Lam.ur	 by 	Lam.medi.ur;
+sub 	Meem.ur	 by 	Meem.medi.ur;
+sub 	Noon.ur	 by 	Noon.medi.ur;
+sub 	Waw.ur	 by 	Waw.fina.ur;
+sub 	HehGoal.ur	 by 	HehGoal.medi.ur;
+sub 	HehDochashmi.ur	 by 	HehDochashmi.medi.ur;
+sub 	YeChoti.ur	 by 	YeChoti.medi.ur;
+sub 	YeBari.ur	 by 	YeBari.fina.ur;
+sub 	YeBariHamzaAbove.ur	 by 	YeBariHamzaAbove.fina.ur;
+sub   TehMarbutaGoal.ur   by   TehMarbuta.fina.ur;
+sub   Kaf.ar   by   Kaf.medi.ur;
+sub   Heh.ar   by   HehDochashmi.medi.ur;
+sub   Yeh.ar   by   YeChoti.medi.ur;
+sub   Veh.ar   by   Veh.medi.ar;
+} medi;
+
+feature fina {
+  lookupflag IgnoreMarks;
+sub 	Alef.ur	 by 	Alef.fina.ur;
+sub 	Beh.ur	 by 	Beh.fina.ur;
+sub 	Peh.ur	 by 	Peh.fina.ur;
+sub 	Teh.ur	 by 	Teh.fina.ur;
+sub 	Tteh.ur	 by 	Tteh.fina.ur;
+sub 	Seh.ur	 by 	Seh.fina.ur;
+sub 	Jeem.ur	 by 	Jeem.fina.ur;
+sub 	Tcheh.ur	 by 	Tcheh.fina.ur;
+sub 	HahBari.ur	 by 	HahBari.fina.ur;
+sub 	Khah.ur	 by 	Khah.fina.ur;
+sub 	Dal.ur	 by 	Dal.fina.ur;
+sub 	Ddal.ur	 by 	Ddal.fina.ur;
+sub 	Zal.ur	 by 	Zal.fina.ur;
+sub 	Reh.ur	 by 	Reh.fina.ur;
+sub 	Rreh.ur	 by 	Rreh.fina.ur;
+sub 	Zeh.ur	 by 	Zeh.fina.ur;
+sub 	Jeh.ur	 by 	Jeh.fina.ur;
+sub 	Seen.ur	 by 	Seen.fina.ur;
+sub 	Sheen.ur	 by 	Sheen.fina.ur;
+sub 	Swad.ur	 by 	Swad.fina.ur;
+sub 	Zwad.ur	 by 	Zwad.fina.ur;
+sub 	Toe.ur	 by 	Toe.fina.ur;
+sub 	Zoe.ur	 by 	Zoe.fina.ur;
+sub 	Ain.ur	 by 	Ain.fina.ur;
+sub 	Ghain.ur	 by 	Ghain.fina.ur;
+sub 	Feh.ur	 by 	Feh.fina.ur;
+sub 	Qaf.ur	 by 	Qaf.fina.ur;
+sub 	Gaf.ur	 by 	Gaf.fina.ur;
+sub 	Kaf.ur	 by 	Kaf.fina.ur;
+sub 	Lam.ur	 by 	Lam.fina.ur;
+sub 	Meem.ur	 by 	Meem.fina.ur;
+sub 	Noon.ur	 by 	Noon.fina.ur;
+sub 	NoonGhunnah.ur	 by 	NoonGhunnah.fina.ur;
+sub 	Waw.ur	 by 	Waw.fina.ur;
+sub 	HehGoal.ur	 by 	HehGoal.fina.ur;
+sub 	HehDochashmi.ur	 by 	HehDochashmi.fina.ur;
+sub 	YeChoti.ur	 by 	YeChoti.fina.ur;
+sub 	YeBari.ur	 by 	YeBari.fina.ur;
+sub 	YeBariHamzaAbove.ur	 by 	YeBariHamzaAbove.fina.ur;
+sub   Veh.ar   by   Veh.fina.ar;
+sub   Yeh.ar   by   Yeh.fina.ar;
+sub   Kaf.ar   by   Kaf.fina.ar;
+sub   AlefMaksura.ar   by  YeChoti.fina.ur;
+
+} fina; 
+
+feature rlig {
+  lookupflag IgnoreMarks;
+sub 	Lam.init.ur   Alef.fina.ur	 by 	LamAlef.ur;
+sub 	Lam.medi.ur   Alef.fina.ur	 by 	LamAlef.fina.ur;
+} rlig;
+
+feature calt {
+  lookupflag IgnoreMarks;
+sub 	Beh.medi.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	Beh.init.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	Peh.medi.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	Peh.init.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	Tcheh.medi.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	Tcheh.init.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	YeChoti.medi.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+sub 	YeChoti.init.ur   Tcheh.fina.ur'	 by 	Tcheh.fina.ext.ur;
+} calt;

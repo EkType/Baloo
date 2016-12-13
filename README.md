@@ -12,6 +12,7 @@ Each font supports one Indic subset plus Latin, Latin Extended, and Vietnamese.
 
 - Baloo for Devanagari
 - Baloo Bhai for Gujarati
+- Baloo Bhaijaan for Urdu
 - Baloo Bhaina for Odia
 - Baloo Chettan for Malayalam
 - Baloo Da for Bengali
@@ -21,7 +22,7 @@ Each font supports one Indic subset plus Latin, Latin Extended, and Vietnamese.
 - Baloo Thambi for Tamil
 
 Well fed and thoroughly nourished across every script, it took a team of committed type designers to rear Baloo and raise it to be the typeface we love. 
-Baloo Devanagari is designed by Sarang Kulkarni, Gurmukhi by Shuchita Grover, Bangla by Noopur Datye, Oriya by Manish Minz and Shuchita Grover, Gujarati by Supriya Tembe and Noopur Datye, Kannada by Divya Kowshik, Telugu by Omkar Shende, Malayalam by Maithili Shingre and Tamil by Aadarsh Rajan. 
+Baloo Devanagari is designed by Sarang Kulkarni, Gurmukhi by Shuchita Grover, Bangla by Noopur Datye, Oriya by Manish Minz and Shuchita Grover, Gujarati by Supriya Tembe and Noopur Datye, Kannada by Divya Kowshik, Telugu by Omkar Shende, Malayalam by Maithili Shingre, Urdu by Devika Bhansali and Tamil by Aadarsh Rajan. 
 Baloo Latin is collaboratively designed by Ek Type. Type design assistance and font engineering by Girish Dalvi.
 
 Baloo is grateful to Sulekha Rajkumar, Vaishnavi Murthy, Gangadharan Menon, Vinay Saynekar, Dave Crossland and others for their involvement, suggestions and feedback. 
