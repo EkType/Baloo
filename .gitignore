@@ -9,5 +9,8 @@
 *.pfm
 *.bak
 *.fpr
-#OTF Folder
+#OTF/TTF Folder
 OTF/
+TTF/
+#Temporary Folder
+temp/

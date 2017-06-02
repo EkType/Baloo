@@ -1,10 +1,6 @@
 
 #BalooTammudu Telugu
 
-table head {
-	FontRevision 1.10;
-} head;
-
 table hhea {
 	Ascender 1177;
 	Descender -1041;

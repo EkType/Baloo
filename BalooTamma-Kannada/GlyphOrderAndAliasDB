@@ -713,6 +713,9 @@ Entu.kn	Entu.kn	uni0CEE
 Ombattu.kn	Ombattu.kn	uni0CEF
 uni0CF1	uni0CF1	
 uni0CF2	uni0CF2	
+matraAiLengthmark1.kn	matraAiLengthmark1.kn	
+matraRu1.kn	matraRu1.kn	
+matraRuu1.kn	matraRuu1.kn	
 KaHalf.kn	KaHalf.kn	
 KhaHalf.kn	KhaHalf.kn	
 GaHalf.kn	GaHalf.kn	
@@ -739,8 +742,8 @@ BaHalf.kn	BaHalf.kn
 BhaHalf.kn	BhaHalf.kn	
 MaHalf.kn	MaHalf.kn	
 YaHalf.kn	YaHalf.kn	
-RaHalf.kn	RaHalf.kn
-RaObsoleteHalf.kn	RaObsoleteHalf.kn
+RaHalf.kn	RaHalf.kn	
+RaObsoleteHalf.kn	RaObsoleteHalf.kn	
 LaHalf.kn	LaHalf.kn	
 LlaHalf.kn	LlaHalf.kn	
 VaHalf.kn	VaHalf.kn	
@@ -783,7 +786,7 @@ Shasmall1.kn	Shasmall1.kn
 Ssasmall1.kn	Ssasmall1.kn	
 Sasmall1.kn	Sasmall1.kn	
 Hasmall1.kn	Hasmall1.kn	
-vowelLaObsoletesmall1.kn	vowelLaObsoletesmall1.kn
+vowelLaObsoletesmall1.kn	vowelLaObsoletesmall1.kn	
 Kasmall2.kn	Kasmall2.kn	
 Khasmall2.kn	Khasmall2.kn	
 Gasmall2.kn	Gasmall2.kn	
@@ -819,26 +822,23 @@ Shasmall2.kn	Shasmall2.kn
 Ssasmall2.kn	Ssasmall2.kn	
 Sasmall2.kn	Sasmall2.kn	
 Hasmall2.kn	Hasmall2.kn	
-vowelLaObsoletesmall2.kn	vowelLaObsoletesmall2.kn
+vowelLaObsoletesmall2.kn	vowelLaObsoletesmall2.kn	
 Rasmall1alt.kn	Rasmall1alt.kn	
-matraAiLengthmark1.kn	matraAiLengthmark1.kn	
-matraRu1.kn	matraRu1.kn	
-matraRuu1.kn	matraRuu1.kn	
-RaYasmall.kn RaYasmall.kn
-RaYasmallalt.kn RaYasmallalt.kn
-KaRasmall.kn	KaRasmall.kn
-GaRasmall.kn	GaRasmall.kn
-TtaRasmall.kn	TtaRasmall.kn
-DdaRasmall.kn	DdaRasmall.kn
-DdhaRasmall.kn	DdhaRasmall.kn
-TaRasmall.kn	TaRasmall.kn
-DaRasmall.kn	DaRasmall.kn
-PaRasmall.kn	PaRasmall.kn
-PhaRasmall.kn	PhaRasmall.kn
-BaRasmall.kn	BaRasmall.kn
-BhaRasmall.kn	BhaRasmall.kn
-MaYasmall.kn	MaYasmall.kn
-TaYasmall.kn	TaYasmall.kn
+RaYasmall.kn	RaYasmall.kn	
+RaYasmallalt.kn	RaYasmallalt.kn	
+KaRasmall.kn	KaRasmall.kn	
+GaRasmall.kn	GaRasmall.kn	
+TtaRasmall.kn	TtaRasmall.kn	
+DdaRasmall.kn	DdaRasmall.kn	
+DdhaRasmall.kn	DdhaRasmall.kn	
+TaRasmall.kn	TaRasmall.kn	
+DaRasmall.kn	DaRasmall.kn	
+PaRasmall.kn	PaRasmall.kn	
+PhaRasmall.kn	PhaRasmall.kn	
+BaRasmall.kn	BaRasmall.kn	
+BhaRasmall.kn	BhaRasmall.kn	
+MaYasmall.kn	MaYasmall.kn	
+TaYasmall.kn	TaYasmall.kn	
 Reph.kn	Reph.kn	
 ShriAlt.kn	ShriAlt.kn	
 NaHalantAlt.kn	NaHalantAlt.kn	
@@ -1235,38 +1235,38 @@ VamatraShortOAlt.kn	VamatraShortOAlt.kn
 PamatraOAlt.kn	PamatraOAlt.kn	
 PhamatraOAlt.kn	PhamatraOAlt.kn	
 VamatraOAlt.kn	VamatraOAlt.kn	
-KaSsa.kn 	KaSsa.kn 
-KaSsaHalant.kn 	KaSsaHalant.kn 
-KaSsamatraAa.kn 	KaSsamatraAa.kn 
-KaSsamatraI.kn 	KaSsamatraI.kn 
-KaSsamatraE.kn 	KaSsamatraE.kn 
-KaSsamatraAu.kn 	KaSsamatraAu.kn 
-KaSsamatraU.kn 	KaSsamatraU.kn 
-KaSsamatraUu.kn 	KaSsamatraUu.kn 
-KaSsamatraShortO.kn 	KaSsamatraShortO.kn 
-KaSsamatraO.kn 	KaSsamatraO.kn 
-KaSsamatraEe.kn 	KaSsamatraEe.kn 
-KaSsamatraAi.kn 	KaSsamatraAi.kn 
-KaSsamatraIi.kn	KaSsamatraIi.kn
-JaNya.kn	JaNya.kn
-JaNyaHalant.kn	JaNyaHalant.kn
-JaNyamatraAa.kn	JaNyamatraAa.kn
-JaNyamatraI.kn	JaNyamatraI.kn
-JaNyamatraE.kn	JaNyamatraE.kn
-JaNyamatraAu.kn	JaNyamatraAu.kn
-JaNyamatraU.kn	JaNyamatraU.kn
-JaNyamatraUu.kn	JaNyamatraUu.kn
-JaNyamatraShortO.kn	JaNyamatraShortO.kn
-JaNyamatraO.kn	JaNyamatraO.kn
-JaNyamatraEe.kn	JaNyamatraEe.kn
-JaNyamatraAi.kn	JaNyamatraAi.kn
-JaNyamatraIi.kn	JaNyamatraIi.kn
-KaSsaHalf.kn	KaSsaHalf.kn
-JaNyaHalf.kn	JaNyaHalf.kn
+KaSsa.kn	KaSsa.kn	
+KaSsaHalant.kn	KaSsaHalant.kn	
+KaSsamatraAa.kn	KaSsamatraAa.kn	
+KaSsamatraI.kn	KaSsamatraI.kn	
+KaSsamatraE.kn	KaSsamatraE.kn	
+KaSsamatraAu.kn	KaSsamatraAu.kn	
+KaSsamatraU.kn	KaSsamatraU.kn	
+KaSsamatraUu.kn	KaSsamatraUu.kn	
+KaSsamatraShortO.kn	KaSsamatraShortO.kn	
+KaSsamatraO.kn	KaSsamatraO.kn	
+KaSsamatraEe.kn	KaSsamatraEe.kn	
+KaSsamatraAi.kn	KaSsamatraAi.kn	
+KaSsamatraIi.kn	KaSsamatraIi.kn	
+JaNya.kn	JaNya.kn	
+JaNyaHalant.kn	JaNyaHalant.kn	
+JaNyamatraAa.kn	JaNyamatraAa.kn	
+JaNyamatraI.kn	JaNyamatraI.kn	
+JaNyamatraE.kn	JaNyamatraE.kn	
+JaNyamatraAu.kn	JaNyamatraAu.kn	
+JaNyamatraU.kn	JaNyamatraU.kn	
+JaNyamatraUu.kn	JaNyamatraUu.kn	
+JaNyamatraShortO.kn	JaNyamatraShortO.kn	
+JaNyamatraO.kn	JaNyamatraO.kn	
+JaNyamatraEe.kn	JaNyamatraEe.kn	
+JaNyamatraAi.kn	JaNyamatraAi.kn	
+JaNyamatraIi.kn	JaNyamatraIi.kn	
+KaSsaHalf.kn	KaSsaHalf.kn	
+JaNyaHalf.kn	JaNyaHalf.kn	
 uni25CC	uni25CC	uni25CC
-ZWNJ	ZWNJ	uni200C		
-ZWJ	ZWJ	uni200D		
-Ek	Ek		
+ZWNJ	ZWNJ	uni200C
+ZWJ	ZWJ	uni200D
+Ek	Ek	
 
 
 

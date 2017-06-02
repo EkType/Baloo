@@ -9,7 +9,6 @@ languagesystem knda KAN ;
 
 #--------------------------------------------------------------------
 
-
 #---------- L A T I N ----------#
 
 #--------------------------------------------------------------------
@@ -29,7 +28,6 @@ feature frac { # Fractions Latin
 } frac;
 
 
-
 #--------------------------------------------------------------------
 
 
@@ -37,6 +35,7 @@ feature liga { # Ligatures
     sub f i by fi;
     sub f l by fl;
 } liga;
+
 
 #--------------------------------------------------------------------
 
@@ -58,7 +57,6 @@ feature sups { # Superscript/Superior
 } sups;
 
 #--------------------------------------------------------------------
-
 
 
 #--------------------------------------------------------------------#
@@ -408,7 +406,7 @@ lookup blwf_small1_1 { # Below-base small1
 } blwf_small1_1;
 
 lookup blwf_small2;
-lookup blwf_matrasmall1;
+#lookup blwf_matrasmall1;
 lookup blwf_Rasmall.alt;
 lookup blwf_RaYasmall.alt;
 

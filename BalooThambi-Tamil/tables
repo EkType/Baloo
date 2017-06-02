@@ -1,9 +1,6 @@
 
 # BalooThambi Tamil
 
-table head {
-	FontRevision 1.10;
-} head;
 
 table hhea {
 	Ascender 1050;

@@ -973,6 +973,21 @@ feature cjct {
 
 feature abvs { # Abovebase matra substitutions
 
+# The next two lookup operations are to get the right output for Ra.dv + matraRu.dv = vowelRu.dv Reph.dv, etc. 
+
+lookup abvs8{ 
+	sub Ra.dv matraRu.dv by dummy1;
+	sub Ra.dv matraRuu.dv by dummy2;
+	sub Ra.dv matraLru.dv by dummy3;
+	sub Ra.dv matraLruu.dv by dummy4;
+}abvs8;
+
+lookup abvs7{
+	sub dummy1 by vowelRu.dv Reph.dv;
+	sub dummy2 by vowelRuu.dv Reph.dv;
+	sub dummy3 by vowelLru.dv Reph.dv;
+	sub dummy4 by vowelLruu.dv Reph.dv;
+}abvs7;
 
 lookup abvs6 {
 	sub matraI.dv @matraIdefault Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
@@ -1197,16 +1212,6 @@ lookup blws_Vertical_Conjuncts {
 
 feature psts { 
 
-#lookup psts6 { #Remove hashtag if needed
-#	sub [Ra.dv RaNukta.dv] matraE.dv' by matraEone.dv;
-#	sub [Ra.dv RaNukta.dv] matraEBindu.dv' by matraEoneBindu.dv;
-#	sub [Ra.dv RaNukta.dv] matraEReph.dv' by matraEoneReph.dv;
-#	sub [Ra.dv RaNukta.dv] matraERephBindu.dv' by matraEoneRephBindu.dv;
-#	sub [Ra.dv RaNukta.dv] matraAi.dv' by matraAione.dv;
-#	sub [Ra.dv RaNukta.dv] matraAiBindu.dv' by matraAioneBindu.dv;
-#} psts6;
-
-
 lookup psts5 {
 	 sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
 	 sub matraIi.dv Chandrabindu.dv by matraIiChandrabindu.dv;
@@ -1283,6 +1288,12 @@ lookup psts1 { # Postbase matra substitutions
 	sub @Width_matraIithree @matraIidefault' by @matraIithree;
 } psts1;
 
+lookup psts6 { # Postbase matra substitutions with vattu
+	sub @Width_matraIione Vattu.dv @matraIidefault' by @matraIione;
+	sub @Width_matraIitwo Vattu.dv @matraIidefault' by @matraIitwo;
+	sub @Width_matraIithree Vattu.dv @matraIidefault' by @matraIithree;
+} psts6;
+
 } psts;
 
 
@@ -1312,6 +1323,10 @@ lookup ss01_2 {
 
 } ss01;
 
+
+feature ss02 { #short matra replacement
+	sub [matraE.dv matraEBindu.dv matraEReph.dv matraERephBindu.dv matraAi.dv matraAiBindu.dv] by [matraEone.dv matraEoneBindu.dv matraEoneReph.dv matraEoneRephBindu.dv matraAione.dv matraAioneBindu.dv];
+} ss02;
 
 #--------------------------------------------------------------------
 

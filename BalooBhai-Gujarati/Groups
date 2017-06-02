@@ -102,7 +102,7 @@
 @_kernTa=[Ta.gj  TaKa.gj TaPha.gj TaKaYa.gj TaKaRa.gj TaKaSsa.gj TaNaYa.gj TaKaHalf.gj TaHalf.gj TaHalf_alt.gj];
 @_kernTha=[Tha.gj  ThaRa.gj ThaHalf.gj];
 @_kernNa=[Na.gj  NaRa.gj NaGa.gj NaCa.gj NaTha.gj NaMa.gj NaHalf.gj NaKaSa.gj NaTaRa.gj NaThaHalf.gj NaHalf_alt.gj NaMaHalf.gj NaHalf_alt2.gj NaTaRaYa.gj];
-@_kernBa=[Ba.gj  BaRa.gj BaDda.gj BaDa.gj BaDha.gj BaSha.gj BaHa.gj BaHalf.gj BaSaKa.gj BaSaTtaRa.gj BaHalf_alt.gj BaDhaHalf.gj Lla.gj LlaHalf.gj LlaRa.gj];
+@_kernBa=[Ba.gj  BaRa.gj BaDda.gj BaDa.gj BaDha.gj BaSha.gj BaHa.gj BaHalf.gj BaSaKa.gj BaSaTta.gj BaHalf_alt.gj BaDhaHalf.gj Lla.gj LlaHalf.gj LlaRa.gj];
 @_kernBha=[Bha.gj  BhaRa.gj BhaRaHalf.gj BhaHalf.gj];
 @_kernMa=[Ma.gj  MaRa.gj MaDa.gj MaSha.gj MaPha.gj MaKa.gj MaHalf.gj];
 @_kernTraRu=[TaRa.gj  VowelRu.gj VowelRuu.gj TaRaHalf.gj];
@@ -134,11 +134,11 @@
 @_kernKaPha2=[Ka.gj  Pha.gj KaRa.gj PhaRa.gj TaKa.gj PaKa.gj LaKa.gj SsaKa.gj SaKa.gj TaPha.gj PaPha.gj MaKa.gj MaPha.gj LaPha.gj SaPha.gj SsaPha.gj TaKaRa.gj BaSaKa.gj SsaKaRa.gj LaPhaRa.gj SaKaRa.gj KaKa.gj PhaPha.gj KaPha.gj KaKaRa.gj];
 @_kernCha2=[Cha.gj  PaCha.gj];
 @_kernJha2=[Jha.gj  JhaRa.gj VaJha.gj YaJha.gj];
-@_kernTta2=[Tta.gj  KaSaTta.gj BaSaTtaRa.gj];
+@_kernTta2=[Tta.gj  KaSaTta.gj BaSaTta.gj];
 @_kernDa2=[Da.gj  MaDa.gj BaDa.gj LaVaDa.gj];
 @_kernDda2=[Dda.gj  PaDda.gj BaDda.gj VaDda.gj KaSaDda.gj];
 @_kernDaconjuncts2=[DaGa.gj  DaNa.gj DaBa.gj DaVa.gj DaMatraRu.gj DaRa.gj DaGha.gj DaDha.gj DaBha.gj];
-
+@_kernI=[VowelI.gj  VowelIi.gj];
 
 
 #--------------------
@@ -152,13 +152,13 @@
 #-------POSITIONING--------
 #----------------------------------
 
-@BelowBaseMark = [MatraU.gj MatraUu.gj MatraRu.gj MatraRuu.gj MatraLru.gj MatraLruu.gj Vattu.gj VattuMatraU.gj VattuMatraUu.gj VattuHalant.gj Halant.gj MatraU1.gj MatraUu1.gj MatraRu1.gj Vattu1.gj VattuHalant1.gj VattuMatraU1.gj VattuMatraUu1.gj];
+@bottom1 = [MatraU.gj MatraUu.gj MatraRu.gj MatraRuu.gj MatraLru.gj MatraLruu.gj Vattu.gj VattuMatraU.gj VattuMatraUu.gj VattuHalant.gj Halant.gj MatraU1.gj MatraUu1.gj MatraRu1.gj Vattu1.gj VattuHalant1.gj VattuMatraU1.gj VattuMatraUu1.gj];
 
-@AboveBaseMark = [MatraChandraE.gj MatraE.gj MatraAi.gj MatraE_alt.gj MatraAi_alt.gj MatraChandraE_alt.gj MatraEBindu.gj MatraEBindu_alt.gj MatraAiBindu.gj MatraAiBindu_alt.gj MatraEChandrabindu.gj MatraEChandrabindu_alt.gj MatraAiChandrabindu.gj MatraAiChandrabindu_alt.gj MatraEReph.gj MatraEReph_alt.gj MatraAiReph.gj MatraAiReph_alt.gj MatraERephBindu.gj MatraERephBindu_alt.gj MatraAiRephBindu.gj MatraAiRephBindu_alt.gj MatraERephChandrabindu.gj MatraERephChandrabindu_alt.gj MatraAiRephChandrabindu.gj MatraAiRephChandrabindu_alt.gj];
+@top1 = [MatraChandraE.gj MatraE.gj MatraAi.gj MatraE_alt.gj MatraAi_alt.gj MatraChandraE_alt.gj MatraEBindu.gj MatraEBindu_alt.gj MatraAiBindu.gj MatraAiBindu_alt.gj MatraEChandrabindu.gj MatraEChandrabindu_alt.gj MatraAiChandrabindu.gj MatraAiChandrabindu_alt.gj MatraEReph.gj MatraEReph_alt.gj MatraAiReph.gj MatraAiReph_alt.gj MatraERephBindu.gj MatraERephBindu_alt.gj MatraAiRephBindu.gj MatraAiRephBindu_alt.gj MatraERephChandrabindu.gj MatraERephChandrabindu_alt.gj MatraAiRephChandrabindu.gj MatraAiRephChandrabindu_alt.gj];
 
-@AboveBaseMark2 = [Bindu.gj Chandrabindu.gj Reph.gj RephBindu.gj RephChandrabindu.gj];
+@top2 = [Bindu.gj Chandrabindu.gj Reph.gj RephBindu.gj RephChandrabindu.gj];
 
-@AboveBaseMark3 = [Bindu1.gj Chandrabindu1.gj];
+@top3 = [Bindu1.gj Chandrabindu1.gj];
 
 #----------------------------------
 #-------SUBSTITUTION--------
@@ -188,7 +188,7 @@
 
 @Width_matraIione = [Cha.gj Jha.gj Da.gj Ra.gj DaRa.gj DaGa.gj DaGha.gj DaDha.gj DaNa.gj DaBa.gj DaBha.gj DaVa.gj ChaVa.gj PaCha.gj BaDa.gj YaJha.gj VaJha.gj LaVaDa.gj];
 
-@Width_matraIitwo = [Ka.gj Tta.gj Ttha.gj Dda.gj Ddha.gj Pha.gj Ha.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DaNa.gj DaVa.gj DdhaDdha.gj KaRa.gj PhaRa.gj HaRa.gj KaKa.gj KaPha.gj TaKa.gj TaPha.gj PaKa.gj PaDda.gj PaPha.gj PhaPha.gj BaDda.gj BaHa.gj MaKa.gj LaKa.gj LaPha.gj VaDda.gj VaHa.gj SsaKa.gj SsaPha.gj SaKa.gj SaPha.gj KaKaRa.gj KaSaDda.gj KaSaTta.gj TaKaRa.gj BaSaKa.gj BaSaTtaRa.gj LaPhaRa.gj SsaKaRa.gj SaKaRa.gj];
+@Width_matraIitwo = [Ka.gj Tta.gj Ttha.gj Dda.gj Ddha.gj Pha.gj Ha.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DaNa.gj DaVa.gj DdhaDdha.gj KaRa.gj PhaRa.gj HaRa.gj KaKa.gj KaPha.gj TaKa.gj TaPha.gj PaKa.gj PaDda.gj PaPha.gj PhaPha.gj BaDda.gj BaHa.gj MaKa.gj LaKa.gj LaPha.gj VaDda.gj VaHa.gj SsaKa.gj SsaPha.gj SaKa.gj SaPha.gj KaKaRa.gj KaSaDda.gj KaSaTta.gj TaKaRa.gj BaSaKa.gj BaSaTta.gj LaPhaRa.gj SsaKaRa.gj SaKaRa.gj];
 
 @Width_matraIithree = [Nga.gj NgaKa.gj NgaGa.gj NgaMa.gj NgaYa.gj];
 
@@ -243,7 +243,7 @@ KaRa.gj PhaRa.gj];
 
 @matraI18 = [KaSaDda.gj KhaSha.gj BaSaKa.gj];
 
-@matraI19 = [ChaYa.gj JhaYa.gj ChaRaYa.gj KaSaTta.gj BaSaTtaRa.gj];
+@matraI19 = [ChaYa.gj JhaYa.gj ChaRaYa.gj KaSaTta.gj BaSaTta.gj];
 
 @matraI20 = [TaKaYa.gj SaThaYa.gj];
 

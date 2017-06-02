@@ -3,3 +3,4 @@ include (GSUB);
 include (GDEF);
 include (GPOS);
 include (tables);
+include (../version);

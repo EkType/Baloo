@@ -2173,8 +2173,13 @@ lookup kern3 {
 }  kern3;
 
 
+lookup kern4{
+   pos @belowsmall1 @_period_comma 220;
+   pos @belowsmall1 @_brackets_Left 220;
+   pos @belowsmall1 slash 100;
+}kern4;
+
+
+
 } kern;
-
-
-
 

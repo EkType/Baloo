@@ -236,19 +236,19 @@
 
 
 
+@top1=[Chandrabindu.dv Bindu.dv Chandra.dv matraShortE.dv matraE.dv matraAi.dv uni093A uni0900 uni0955 Reph.dv RephBindu.dv matraEBindu.dv matraEReph.dv matraERephBindu.dv matraAiBindu.dv matraAiReph.dv matraAiRephBindu.dv RephChandrabindu.dv matraEChandrabindu.dv matraERephChandrabindu.dv matraAiChandrabindu.dv matraAiRephChandrabindu.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephChandrabindu.dv matraShortERephBindu.dv matraEone.dv matraEoneBindu.dv matraEoneReph.dv matraEoneRephBindu.dv matraAione.dv matraAioneBindu.dv];
 
-@AboveBaseMark=[Chandrabindu.dv Bindu.dv Chandra.dv matraShortE.dv matraE.dv matraAi.dv uni093A uni0900 uni0955 Reph.dv RephBindu.dv matraEBindu.dv matraEReph.dv matraERephBindu.dv matraAiBindu.dv matraAiReph.dv matraAiRephBindu.dv RephChandrabindu.dv matraEChandrabindu.dv matraERephChandrabindu.dv matraAiChandrabindu.dv matraAiRephChandrabindu.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephChandrabindu.dv matraShortERephBindu.dv];
-
-@AboveBaseMark1=[Chandrabinduone.dv Binduone.dv];
+@top2=[Chandrabinduone.dv Binduone.dv];
 
 
-@BelowBaseMark1 =[matraU.dv matraUu.dv matraRu.dv matraRuu.dv];
 
-@BelowBaseMark2=[matraUsmall.dv matraUusmall.dv matraRusmall.dv];
+@bottom1 =[matraU.dv matraUu.dv matraRu.dv matraRuu.dv];
 
-@BelowBaseMark3=[Halant.dv];
+@bottom2=[matraUsmall.dv matraUusmall.dv matraRusmall.dv];
 
-@BelowBaseMark4=[Vattu.dv VattumatraU.dv VattumatraUu.dv];
+@bottom3=[Halant.dv];
+
+@bottom4=[Vattu.dv VattumatraU.dv VattumatraUu.dv];
 
 
 

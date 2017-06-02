@@ -270,7 +270,7 @@ feature cjct { # Pre-base Substitutions
 script gjr2;
 language dflt;
 lookup pres6 { # Four-letter conjuncts
-	sub BaHalf.gj SaHalf.gj Tta.gj Vattu.gj by BaSaTtaRa.gj;	
+	sub BaHalf.gj SaHalf.gj Tta.gj by BaSaTta.gj;	
 	sub NaHalf.gj TaRaHalf.gj Ya.gj by NaTaRaYa.gj;		
 } pres6;
 

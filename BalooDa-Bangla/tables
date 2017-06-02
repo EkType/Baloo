@@ -1,9 +1,6 @@
 
 #BalooDa Bangla
 
-table head {
-	FontRevision 1.10;
-} head;
 
 table hhea {
 	Ascender 1095;

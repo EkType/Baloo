@@ -634,6 +634,7 @@ VowelIi.gj	VowelIi.gj	uni0A88
 VowelU.gj	VowelU.gj	uni0A89
 VowelUu.gj	VowelUu.gj	uni0A8A
 VowelRu.gj	VowelRu.gj	uni0A8B
+VowelLru.gj	VowelLru.gj	uni0A8C
 VowelChadraE.gj	VowelChadraE.gj	uni0A8D
 VowelE.gj	VowelE.gj	uni0A8F
 VowelAi.gj	VowelAi.gj	uni0A90
@@ -692,7 +693,6 @@ MatraAu.gj	MatraAu.gj	uni0ACC
 Halant.gj	Halant.gj	uni0ACD
 Om.gj	Om.gj	uni0AD0
 VowelRuu.gj	VowelRuu.gj	uni0AE0
-VowelLru.gj	VowelLru.gj	uni0A8C
 VowelLruu.gj	VowelLruu.gj	uni0AE1
 MatraLru.gj	MatraLru.gj	uni0AE2
 MatraLruu.gj	MatraLruu.gj	uni0AE3
@@ -706,9 +706,9 @@ Six.gj	Six.gj	uni0AEC
 Seven.gj	Seven.gj	uni0AED
 Eight.gj	Eight.gj	uni0AEE
 Nine.gj	Nine.gj	uni0AEF
-Zha.gj	Zha.gj	uni0AF9
-RupeeSign.gj	RupeeSign.gj	uni0AF1
 AbbreviationSign.gj	AbbreviationSign.gj	uni0AF0
+RupeeSign.gj	RupeeSign.gj	uni0AF1
+Zha.gj	Zha.gj	uni0AF9
 KaHalf.gj	KaHalf.gj	
 KaHalf_alt.gj	KaHalf_alt.gj	
 KhaHalf.gj	KhaHalf.gj	
@@ -891,7 +891,7 @@ NaKaSa.gj	NaKaSa.gj
 NaTaRa.gj	NaTaRa.gj	
 NaTaRaYa.gj	NaTaRaYa.gj	
 BaSaKa.gj	BaSaKa.gj	
-BaSaTtaRa.gj	BaSaTtaRa.gj	
+BaSaTta.gj	BaSaTta.gj	
 LaKaYa.gj	LaKaYa.gj	
 LaPhaRa.gj	LaPhaRa.gj	
 LaVaDa.gj	LaVaDa.gj	
@@ -1096,38 +1096,41 @@ MatraI24RephBindu.gj	MatraI24RephBindu.gj
 MatraI25RephBindu.gj	MatraI25RephBindu.gj	
 MatraI26RephBindu.gj	MatraI26RephBindu.gj	
 MatraIDefaultRephBindu.gj	MatraIDefaultRephBindu.gj	
-MatraI1Bindu.gj	 MatraI1Bindu.gj
-MatraI2Bindu.gj	 MatraI2Bindu.gj
-MatraI3Bindu.gj	 MatraI3Bindu.gj
-MatraI4Bindu.gj	 MatraI4Bindu.gj
-MatraI5Bindu.gj	 MatraI5Bindu.gj
-MatraI6Bindu.gj	 MatraI6Bindu.gj
-MatraI7Bindu.gj	 MatraI7Bindu.gj
-MatraI8Bindu.gj	 MatraI8Bindu.gj
-MatraI9Bindu.gj	 MatraI9Bindu.gj
-MatraI10Bindu.gj	 MatraI10Bindu.gj
-MatraI11Bindu.gj	 MatraI11Bindu.gj
-MatraI12Bindu.gj	 MatraI12Bindu.gj
-MatraI13Bindu.gj	 MatraI13Bindu.gj
-MatraI14Bindu.gj	 MatraI14Bindu.gj
-MatraI15Bindu.gj	 MatraI15Bindu.gj
-MatraI16Bindu.gj	 MatraI16Bindu.gj
-MatraI17Bindu.gj	 MatraI17Bindu.gj
-MatraI18Bindu.gj	 MatraI18Bindu.gj
-MatraI19Bindu.gj	 MatraI19Bindu.gj
-MatraI20Bindu.gj	 MatraI20Bindu.gj
-MatraI21Bindu.gj	 MatraI21Bindu.gj
-MatraI22Bindu.gj	 MatraI22Bindu.gj
-MatraI23Bindu.gj	 MatraI23Bindu.gj
-MatraI24Bindu.gj	 MatraI24Bindu.gj
-MatraI25Bindu.gj	 MatraI25Bindu.gj
-MatraI26Bindu.gj	 MatraI26Bindu.gj
-MatraIDefaultBindu.gj	 MatraIDefaultBindu.gj
+MatraI1Bindu.gj	 MatraI1Bindu.gj	
+MatraI2Bindu.gj	 MatraI2Bindu.gj	
+MatraI3Bindu.gj	 MatraI3Bindu.gj	
+MatraI4Bindu.gj	 MatraI4Bindu.gj	
+MatraI5Bindu.gj	 MatraI5Bindu.gj	
+MatraI6Bindu.gj	 MatraI6Bindu.gj	
+MatraI7Bindu.gj	 MatraI7Bindu.gj	
+MatraI8Bindu.gj	 MatraI8Bindu.gj	
+MatraI9Bindu.gj	 MatraI9Bindu.gj	
+MatraI10Bindu.gj	 MatraI10Bindu.gj	
+MatraI11Bindu.gj	 MatraI11Bindu.gj	
+MatraI12Bindu.gj	 MatraI12Bindu.gj	
+MatraI13Bindu.gj	 MatraI13Bindu.gj	
+MatraI14Bindu.gj	 MatraI14Bindu.gj	
+MatraI15Bindu.gj	 MatraI15Bindu.gj	
+MatraI16Bindu.gj	 MatraI16Bindu.gj	
+MatraI17Bindu.gj	 MatraI17Bindu.gj	
+MatraI18Bindu.gj	 MatraI18Bindu.gj	
+MatraI19Bindu.gj	 MatraI19Bindu.gj	
+MatraI20Bindu.gj	 MatraI20Bindu.gj	
+MatraI21Bindu.gj	 MatraI21Bindu.gj	
+MatraI22Bindu.gj	 MatraI22Bindu.gj	
+MatraI23Bindu.gj	 MatraI23Bindu.gj	
+MatraI24Bindu.gj	 MatraI24Bindu.gj	
+MatraI25Bindu.gj	 MatraI25Bindu.gj	
+MatraI26Bindu.gj	 MatraI26Bindu.gj	
+MatraIDefaultBindu.gj	 MatraIDefaultBindu.gj	
 Danda.dv	Danda.dv	uni0964
 Doubledanda.dv	Doubledanda.dv	uni0965
 dottedcircle	dottedcircle	uni25CC
 zwnj	zwnj	uni200C
 zwj	zwj	uni200D
 Ek	Ek	
+		
+		
+		
 		
 		

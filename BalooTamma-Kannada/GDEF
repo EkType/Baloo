@@ -10,27 +10,17 @@ Anuswara.kn Visarga.kn vowelA.kn vowelAa.kn vowelI.kn vowelII.kn vowelU.kn vowel
 
 @GDEF_mark = [Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn  RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn
  Kasmall2.kn Khasmall2.kn Gasmall2.kn Ghasmall2.kn Ngasmall2.kn Casmall2.kn Chasmall2.kn Jasmall2.kn Jhasmall2.kn Nyasmall2.kn Ttasmall2.kn Tthasmall2.kn Ddasmall2.kn Ddhasmall2.kn Nnasmall2.kn Tasmall2.kn Thasmall2.kn Dasmall2.kn Dhasmall2.kn Nasmall2.kn Pasmall2.kn Phasmall2.kn Basmall2.kn Bhasmall2.kn Masmall2.kn Yasmall2.kn Rasmall2.kn RaObsoletesmall2.kn Lasmall2.kn Llasmall2.kn Vasmall2.kn Shasmall2.kn Ssasmall2.kn Sasmall2.kn Hasmall2.kn
-matraAiLengthmark1.kn matraRu1.kn matraRuu1.kn 
-Rasmall1.kn Rasmall2.kn Rasmall1alt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.kn DdhaRasmall.kn TaRasmall.kn DaRasmall.kn PaRasmall.kn PhaRasmall.kn BaRasmall.kn BhaRasmall.kn MaYasmall.kn TaYasmall.kn vowelLaObsoletesmall1.kn vowelLaObsoletesmall2.kn];
-
+Rasmall1.kn Rasmall2.kn Rasmall1alt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.kn DdhaRasmall.kn TaRasmall.kn DaRasmall.kn PaRasmall.kn PhaRasmall.kn BaRasmall.kn BhaRasmall.kn MaYasmall.kn TaYasmall.kn vowelLaObsoletesmall1.kn vowelLaObsoletesmall2.kn
+matraAiLengthmark1.kn matraRu1.kn matraRuu1.kn];
 
 
 @GDEF_ligatures = [fi fl];
 
 
-
-
-
-
-
 table GDEF {
 
-
-GlyphClassDef @GDEF_simple, , @GDEF_mark, @GDEF_ligatures;
+GlyphClassDef @GDEF_simple, , @GDEF_mark, @GDEF_ligatures ;
 
 } GDEF;
-
-
-
 
 

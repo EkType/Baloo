@@ -1,10 +1,6 @@
 
 #BalooTamma Kannada
 
-table head {
-	FontRevision 1.10;
-} head;
-
 table hhea {
 	Ascender 1050;
 	Descender -673;

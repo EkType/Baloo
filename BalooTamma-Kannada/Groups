@@ -16,40 +16,14 @@
 
 
 
-# Classes for Kannada subsitution
-
-
-@belowsmall1 = [Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn Rasmall1.kn RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn
-RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.kn DdhaRasmall.kn TaRasmall.kn DaRasmall.kn PaRasmall.kn PhaRasmall.kn BaRasmall.kn BhaRasmall.kn MaYasmall.kn TaYasmall.kn vowelLaObsoletesmall1.kn];
-
-
-@small1 = [Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn Rasmall1.kn RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn vowelLaObsoletesmall1.kn];
-
-@small2 = [Kasmall2.kn Khasmall2.kn Gasmall2.kn Ghasmall2.kn Ngasmall2.kn Casmall2.kn Chasmall2.kn Jasmall2.kn Jhasmall2.kn Nyasmall2.kn Ttasmall2.kn Tthasmall2.kn Ddasmall2.kn Ddhasmall2.kn Nnasmall2.kn Tasmall2.kn Thasmall2.kn Dasmall2.kn Dhasmall2.kn Nasmall2.kn Pasmall2.kn Phasmall2.kn Basmall2.kn Bhasmall2.kn Masmall2.kn Yasmall2.kn Rasmall2.kn RaObsoletesmall2.kn Lasmall2.kn Llasmall2.kn Vasmall2.kn Shasmall2.kn Ssasmall2.kn Sasmall2.kn Hasmall2.kn vowelLaObsoletesmall2.kn];
-
-@Rasmall = [Gha.kn Cha.kn Jha.kn Ddha.kn Tha.kn Dha.kn Pha.kn Bha.kn GhamatraI.kn GhamatraE.kn ChamatraI.kn ChamatraE.kn JhamatraI.kn JhamatraE.kn DdhamatraI.kn DdhamatraE.kn ThamatraI.kn ThamatraE.kn DhamatraI.kn DhamatraE.kn PhamatraI.kn PhamatraE.kn BhamatraI.kn BhamatraE.kn];
-
-@matrasmall =[matraAiLengthmark.kn matraRu.kn matraRuu.kn];
-
-@matrasmall1 = [matraAiLengthmark1.kn matraRu1.kn matraRuu1.kn];
-
-
-
-
-#--------------------------------------------------------------------
-
-
-
-
-# Kerning classes for Latin & Kannada
-
+# Kerning classes for Latin
 
 @_A_Left_Right=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
 @_C_Right=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
-@_O_Left=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut G Gbreve Gcommaaccent Oslash Gcircumflex Gdotaccent Ohorn uni01D1 Gcaron uni1E20 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 C Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_O_Left=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut G Gbreve Gcommaaccent Oslash Gcircumflex Gdotaccent Ohorn uni01D1 Gcaron uni1E20 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2  C Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
 @_O_Right=[O  Q Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut D Eth Dcaron Dcroat Oslash uni01D1 uni1E0C uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1E0E uni018F];
 @_E_Right=[E  AE Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron OE Ebreve uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6];
-@_G_Right=[G  Gbreve Gcommaaccent Gcircumflex Gdotaccent Gcaron uni1E20];
+@_G_Right=[G  Gbreve Gcommaaccent Gcircumflex Gdotaccent Gcaron uni1E20 ];
 @_K_Right=[K  Kcommaaccent];
 @_L_Right=[L  Lacute Lcommaaccent Lcaron Ldot uni1E36 uni1E38 uni1E3A];
 @_R_Right=[R  Racute Rcommaaccent Rcaron uni1E5A uni1E5C uni1E5E];
@@ -91,7 +65,7 @@ RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.
 @_quoteright_Right=[quoteright  quotedblright lcaron tcaron dcaron];
 @_quote=[quotesingle  quotedbl];
 @_ord=[ordmasculine  ordfeminine];
-@_g_Left=[g  gbreve gcommaaccent uni1E21 gcircumflex gdotaccent gcaron uni0261];
+@_g_Left=[g  gbreve gcommaaccent uni1E21 gcircumflex gdotaccent gcaron uni0261 ];
 @_g_Right=[g  gbreve gcommaaccent q uni1E21 gcircumflex gdotaccent gcaron uni0261];
 @_i_Right=[i  igrave iacute icircumflex idieresis imacron iogonek dotlessi fi];
 @_M_Left_Right=[M  uni1E42];
@@ -102,7 +76,7 @@ RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.
 @_J_Left=[J  Jcircumflex uni0237];
 @_fractions3=[onethird  twothirds];
 @_fractions8=[oneeighth  threeeighths fiveeighths seveneighths];
-@_horn_right=[Ohorn  uni1EDA Uhorn uni1EDC uni1EDE uni1EE0 uni1EE2 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
+@_horn_right=[Ohorn  uni1EDA Uhorn uni1EDC uni1EDE uni1EE0 uni1EE2 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0 ];
 @_l_Left=[l  k b h lacute lcommaaccent lcaron ldot kcommaaccent hcircumflex uni1E25 uni1E2B];
 @_l_Right=[l  d lcommaaccent uni1E0D uni1E0F];
 @_horn_right_1=[ohorn  uhorn uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1];
@@ -111,6 +85,38 @@ RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.
 @_COPYRIGHT=[copyright  uni2117];
 
 
+
+#--------------------------------------------------------------------
+
+
+
+
+# Classes for Kannada subsitution
+
+
+@belowsmall1 = [Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn Rasmall1.kn RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn
+RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.kn DdhaRasmall.kn TaRasmall.kn DaRasmall.kn PaRasmall.kn PhaRasmall.kn BaRasmall.kn BhaRasmall.kn MaYasmall.kn TaYasmall.kn vowelLaObsoletesmall1.kn];
+
+
+@small1 = [Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn Rasmall1.kn RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn vowelLaObsoletesmall1.kn];
+
+@small2 = [Kasmall2.kn Khasmall2.kn Gasmall2.kn Ghasmall2.kn Ngasmall2.kn Casmall2.kn Chasmall2.kn Jasmall2.kn Jhasmall2.kn Nyasmall2.kn Ttasmall2.kn Tthasmall2.kn Ddasmall2.kn Ddhasmall2.kn Nnasmall2.kn Tasmall2.kn Thasmall2.kn Dasmall2.kn Dhasmall2.kn Nasmall2.kn Pasmall2.kn Phasmall2.kn Basmall2.kn Bhasmall2.kn Masmall2.kn Yasmall2.kn Rasmall2.kn RaObsoletesmall2.kn Lasmall2.kn Llasmall2.kn Vasmall2.kn Shasmall2.kn Ssasmall2.kn Sasmall2.kn Hasmall2.kn vowelLaObsoletesmall2.kn];
+
+@Rasmall = [Gha.kn Cha.kn Jha.kn Ddha.kn Tha.kn Dha.kn Pha.kn Bha.kn GhamatraI.kn GhamatraE.kn ChamatraI.kn ChamatraE.kn JhamatraI.kn JhamatraE.kn DdhamatraI.kn DdhamatraE.kn ThamatraI.kn ThamatraE.kn DhamatraI.kn DhamatraE.kn PhamatraI.kn PhamatraE.kn BhamatraI.kn BhamatraE.kn];
+
+@matrasmall =[matraAiLengthmark.kn matraRu.kn matraRuu.kn];
+
+@matrasmall1 = [matraAiLengthmark1.kn matraRu1.kn matraRuu1.kn];
+
+
+
+
+#--------------------------------------------------------------------
+
+
+
+
+# Kerning classes for Kannada
 
 
 @_vowelA_Left=[vowelA.kn  vowelAa.kn La.kn Entu.kn LaHalf.kn LaHalant.kn LamatraAa.kn LamatraI.kn LamatraE.kn LamatraAu.kn LamatraShortO.kn LamatraO.kn LamatraEe.kn LamatraAi.kn LamatraIi.kn];
@@ -129,7 +135,7 @@ RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.
 @_matraU_Left=[matraU.kn  matraUu.kn matraShortO.kn matraO.kn];
 @_vowelA_Right=[vowelA.kn  La.kn Eradu.kn vowelI.kn LamatraE.kn];
 @_vowelAa_Right=[vowelAa.kn ];
-@_vowelU_Right=[vowelU.kn  vowelUu.kn vowelRu.kn VowelLu.kn Kha.kn Jha.kn Ma.kn Ya.kn Nna.kn RaObsolete.kn vowelLaObsolete.kn vowelRuu.kn VowelLuu.kn Shunya.kn Ondu.kn vowelAi.kn JhamatraI.kn TthamatraI.kn NnamatraI.kn ThamatraI.kn DamatraI.kn DhamatraI.kn NamatraI.kn MamatraI.kn YamatraI.kn RamatraI.kn RaObsoletematraI.kn vowelLaObsoletematraI.kn VamatraI.kn ShamatraI.kn matraAa.kn KamatraAa.kn KhamatraAa.kn GamatraAa.kn GhamatraAa.kn NgamatraAa.kn CamatraAa.kn ChamatraAa.kn JamatraAa.kn JhamatraAa.kn NyamatraAa.kn TtamatraAa.kn TthamatraAa.kn DdamatraAa.kn DdhamatraAa.kn NnamatraAa.kn TamatraAa.kn ThamatraAa.kn DamatraAa.kn DhamatraAa.kn NamatraAa.kn PamatraAa.kn PhamatraAa.kn BamatraAa.kn BhamatraAa.kn MamatraAa.kn YamatraAa.kn RamatraAa.kn RaObsoletematraAa.kn LamatraAa.kn LlamatraAa.kn VamatraAa.kn ShamatraAa.kn SsamatraAa.kn SamatraAa.kn HamatraAa.kn KaSsamatraAa.kn JaNyamatraAa.kn matraU.kn KamatraU.kn KhamatraU.kn GamatraU.kn GhamatraU.kn JamatraU.kn NyamatraU.kn LlamatraU.kn SsamatraU.kn PamatraU.kn PhamatraU.kn VamatraU.kn KaSsamatraU.kn JaNyamatraU.kn matraUu.kn KamatraUu.kn JamatraUu.kn PamatraUu.kn PhamatraUu.kn VamatraUu.kn KaSsamatraUu.kn JaNyamatraUu.kn matraShortO.kn KamatraShortO.kn KhamatraShortO.kn GamatraShortO.kn GhamatraShortO.kn NgamatraShortO.kn CamatraShortO.kn ChamatraShortO.kn JamatraShortO.kn JhamatraShortO.kn NyamatraShortO.kn TtamatraShortO.kn TthamatraShortO.kn DdamatraShortO.kn DdhamatraShortO.kn NnamatraShortO.kn TamatraShortO.kn ThamatraShortO.kn DamatraShortO.kn DhamatraShortO.kn NamatraShortO.kn PamatraShortO.kn PhamatraShortO.kn BamatraShortO.kn BhamatraShortO.kn MamatraShortO.kn YamatraShortO.kn RamatraShortO.kn RaObsoletematraShortO.kn LamatraShortO.kn LlamatraShortO.kn VamatraShortO.kn ShamatraShortO.kn SsamatraShortO.kn SamatraShortO.kn HamatraShortO.kn KaSsamatraShortO.kn JaNyamatraShortO.kn KhamatraE.kn JhamatraE.kn MamatraE.kn YamatraE.kn];
+@_vowelU_Right=[vowelU.kn  vowelUu.kn vowelRu.kn VowelLu.kn Kha.kn Jha.kn Ma.kn Ya.kn Nna.kn RaObsolete.kn vowelLaObsolete.kn vowelRuu.kn VowelLuu.kn Shunya.kn Ondu.kn vowelAi.kn JhamatraI.kn TthamatraI.kn PhamatraU.kn NnamatraI.kn ThamatraI.kn DamatraI.kn DhamatraI.kn NamatraI.kn MamatraI.kn YamatraI.kn RamatraI.kn RaObsoletematraI.kn vowelLaObsoletematraI.kn VamatraI.kn ShamatraI.kn matraAa.kn KamatraAa.kn KhamatraAa.kn GamatraAa.kn GhamatraAa.kn NgamatraAa.kn CamatraAa.kn ChamatraAa.kn JamatraAa.kn JhamatraAa.kn NyamatraAa.kn TtamatraAa.kn TthamatraAa.kn DdamatraAa.kn DdhamatraAa.kn NnamatraAa.kn TamatraAa.kn ThamatraAa.kn DamatraAa.kn DhamatraAa.kn NamatraAa.kn PamatraAa.kn PhamatraAa.kn BamatraAa.kn BhamatraAa.kn MamatraAa.kn YamatraAa.kn RamatraAa.kn RaObsoletematraAa.kn LamatraAa.kn LlamatraAa.kn VamatraAa.kn ShamatraAa.kn SsamatraAa.kn SamatraAa.kn HamatraAa.kn KaSsamatraAa.kn JaNyamatraAa.kn matraU.kn KamatraU.kn KhamatraU.kn GamatraU.kn GhamatraU.kn JamatraU.kn NyamatraU.kn LlamatraU.kn SsamatraU.kn PamatraU.kn VamatraU.kn KaSsamatraU.kn JaNyamatraU.kn matraUu.kn KamatraUu.kn JamatraUu.kn PamatraUu.kn PhamatraUu.kn VamatraUu.kn KaSsamatraUu.kn JaNyamatraUu.kn matraShortO.kn KamatraShortO.kn KhamatraShortO.kn GamatraShortO.kn GhamatraShortO.kn NgamatraShortO.kn CamatraShortO.kn ChamatraShortO.kn JamatraShortO.kn JhamatraShortO.kn NyamatraShortO.kn TtamatraShortO.kn TthamatraShortO.kn DdamatraShortO.kn DdhamatraShortO.kn NnamatraShortO.kn TamatraShortO.kn ThamatraShortO.kn DamatraShortO.kn DhamatraShortO.kn NamatraShortO.kn PamatraShortO.kn PhamatraShortO.kn BamatraShortO.kn BhamatraShortO.kn MamatraShortO.kn YamatraShortO.kn RamatraShortO.kn RaObsoletematraShortO.kn LamatraShortO.kn LlamatraShortO.kn VamatraShortO.kn ShamatraShortO.kn SsamatraShortO.kn SamatraShortO.kn HamatraShortO.kn KaSsamatraShortO.kn JaNyamatraShortO.kn KhamatraE.kn JhamatraE.kn MamatraE.kn YamatraE.kn];
 @_Ba_Right=[Ba.kn  vowelShortE.kn vowelE.kn];
 @_Ja_Right=[Ja.kn  vowelShortO.kn vowelO.kn Nga.kn vowelAu.kn JamatraI.kn NgamatraI.kn SsamatraI.kn SamatraI.kn HamatraI.kn JamatraE.kn];
 @_Ka_Right=[Ka.kn  Ca.kn KamatraI.kn CamatraI.kn KamatraE.kn CamatraE.kn];
@@ -148,8 +154,6 @@ RaYasmall.kn RaYasmallalt.kn KaRasmall.kn GaRasmall.kn TtaRasmall.kn DdaRasmall.
 @_Rasmall=[Rasmall1.kn  Rasmall1alt.kn RaYasmall.kn RaYasmallalt.kn];
 @_Lasmall=[Lasmall1.kn  Hasmall1.kn];
 @_Ttasmall=[Ttasmall1.kn  TtaRasmall.kn];
-
-
 
 
 @everything = [Anuswara.kn Visarga.kn vowelA.kn vowelAa.kn vowelI.kn vowelII.kn vowelU.kn vowelUu.kn vowelRu.kn VowelLu.kn vowelShortE.kn vowelE.kn vowelAi.kn vowelShortO.kn vowelO.kn vowelAu.kn Ka.kn Kha.kn Ga.kn Gha.kn Nga.kn Ca.kn Cha.kn Ja.kn Jha.kn Nya.kn Tta.kn Ttha.kn Dda.kn Ddha.kn Nna.kn Ta.kn Tha.kn Da.kn Dha.kn Na.kn Pa.kn Pha.kn Ba.kn Bha.kn Ma.kn Ya.kn Ra.kn RaObsolete.kn La.kn Lla.kn vowelLaObsolete.kn Va.kn Sha.kn Ssa.kn Sa.kn Ha.kn vowelRuu.kn VowelLuu.kn matraLu.kn matraLuu.kn Shunya.kn Ondu.kn Eradu.kn Muru.kn Nalku.kn Aidu.kn Aaru.kn Yolu.kn Entu.kn Ombattu.kn Lengthmark.kn matraI.kn matraIi.kn matraAiLengthmark.kn matraU.kn matraUu.kn matraAa.kn matraRu.kn matraRuu.kn matraE.kn matraEe.kn matraAi.kn matraShortO.kn matraO.kn matraAu.kn Halant.kn KaHalf.kn KhaHalf.kn GaHalf.kn GhaHalf.kn NgaHalf.kn CaHalf.kn ChaHalf.kn JaHalf.kn JhaHalf.kn NyaHalf.kn TtaHalf.kn TthaHalf.kn DdaHalf.kn DdhaHalf.kn NnaHalf.kn TaHalf.kn ThaHalf.kn DaHalf.kn DhaHalf.kn NaHalf.kn PaHalf.kn PhaHalf.kn BaHalf.kn BhaHalf.kn MaHalf.kn YaHalf.kn RaHalf.kn LaHalf.kn LlaHalf.kn VaHalf.kn ShaHalf.kn SsaHalf.kn SaHalf.kn HaHalf.kn Kasmall1.kn Khasmall1.kn Gasmall1.kn Ghasmall1.kn Ngasmall1.kn Casmall1.kn Chasmall1.kn Jasmall1.kn Jhasmall1.kn Nyasmall1.kn Ttasmall1.kn Tthasmall1.kn Ddasmall1.kn Ddhasmall1.kn Nnasmall1.kn Tasmall1.kn Thasmall1.kn Dasmall1.kn Dhasmall1.kn Nasmall1.kn Pasmall1.kn Phasmall1.kn Basmall1.kn Bhasmall1.kn Masmall1.kn Yasmall1.kn Rasmall1.kn RaObsoletesmall1.kn Lasmall1.kn Llasmall1.kn Vasmall1.kn Shasmall1.kn Ssasmall1.kn Sasmall1.kn Hasmall1.kn Nukta.kn Reph.kn NaHalantAlt.kn KaNukta.kn KhaNukta.kn GaNukta.kn JaNukta.kn DdaNukta.kn DdhaNukta.kn PhaNukta.kn YaNukta.kn NaNukta.kn RaNukta.kn LlaNukta.kn KaHalant.kn KhaHalant.kn GaHalant.kn GhaHalant.kn NgaHalant.kn CaHalant.kn ChaHalant.kn JaHalant.kn JhaHalant.kn NyaHalant.kn TtaHalant.kn TthaHalant.kn  DdaHalant.kn DdhaHalant.kn NnaHalant.kn TaHalant.kn ThaHalant.kn DaHalant.kn DhaHalant.kn NaHalant.kn PaHalant.kn  PhaHalant.kn BaHalant.kn BhaHalant.kn MaHalant.kn YaHalant.kn RaHalant.kn RaObsoleteHalant.kn LaHalant.kn LlaHalant.kn  VaHalant.kn ShaHalant.kn SsaHalant.kn SaHalant.kn HaHalant.kn KamatraAa.kn KhamatraAa.kn  GamatraAa.kn GhamatraAa.kn NgamatraAa.kn CamatraAa.kn ChamatraAa.kn JamatraAa.kn JhamatraAa.kn NyamatraAa.kn TtamatraAa.kn  TthamatraAa.kn DdamatraAa.kn DdhamatraAa.kn NnamatraAa.kn TamatraAa.kn ThamatraAa.kn DamatraAa.kn DhamatraAa.kn NamatraAa.kn  PamatraAa.kn PhamatraAa.kn BamatraAa.kn BhamatraAa.kn MamatraAa.kn YamatraAa.kn RamatraAa.kn RaObsoletematraAa.kn  LamatraAa.kn LlamatraAa.kn VamatraAa.kn ShamatraAa.kn SsamatraAa.kn SamatraAa.kn HamatraAa.kn KamatraI.kn KhamatraI.kn GamatraI.kn GhamatraI.kn NgamatraI.kn CamatraI.kn ChamatraI.kn JamatraI.kn JhamatraI.kn NyamatraI.kn TtamatraI.kn TthamatraI.kn DdamatraI.kn DdhamatraI.kn NnamatraI.kn TamatraI.kn ThamatraI.kn DamatraI.kn DhamatraI.kn  NamatraI.kn PamatraI.kn PhamatraI.kn BamatraI.kn BhamatraI.kn MamatraI.kn YamatraI.kn RamatraI.kn RaObsoletematraI.kn  LamatraI.kn LlamatraI.kn vowelLaObsoletematraI.kn VamatraI.kn ShamatraI.kn SsamatraI.kn SamatraI.kn HamatraI.kn KamatraE.kn KhamatraE.kn GamatraE.kn GhamatraE.kn NgamatraE.kn CamatraE.kn ChamatraE.kn JamatraE.kn JhamatraE.kn NyamatraE.kn TtamatraE.kn TthamatraE.kn DdamatraE.kn DdhamatraE.kn NnamatraE.kn TamatraE.kn ThamatraE.kn DamatraE.kn DhamatraE.kn NamatraE.kn PamatraE.kn PhamatraE.kn BamatraE.kn BhamatraE.kn MamatraE.kn YamatraE.kn RamatraE.kn RaObsoletematraE.kn LamatraE.kn LlamatraE.kn VamatraE.kn ShamatraE.kn SsamatraE.kn SamatraE.kn HamatraE.kn KamatraAu.kn KhamatraAu.kn GamatraAu.kn GhamatraAu.kn NgamatraAu.kn CamatraAu.kn ChamatraAu.kn JamatraAu.kn JhamatraAu.kn NyamatraAu.kn TtamatraAu.kn TthamatraAu.kn DdamatraAu.kn DdhamatraAu.kn NnamatraAu.kn TamatraAu.kn ThamatraAu.kn DamatraAu.kn DhamatraAu.kn NamatraAu.kn PamatraAu.kn PhamatraAu.kn BamatraAu.kn BhamatraAu.kn MamatraAu.kn YamatraAu.kn RamatraAu.kn RaObsoletematraAu.kn LamatraAu.kn LlamatraAu.kn VamatraAu.kn ShamatraAu.kn SsamatraAu.kn SamatraAu.kn HamatraAu.kn KhamatraU.kn PamatraU.kn PamatraUu.kn PhamatraU.kn PhamatraUu.kn VamatraU.kn VamatraUu.kn PamatraUAlt.kn PamatraUuAlt.kn PhamatraUAlt.kn PhamatraUuAlt.kn  
