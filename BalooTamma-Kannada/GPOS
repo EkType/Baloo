@@ -358,6 +358,7 @@ lookup kern1 {
    pos lozenge one -20;
    pos lozenge four 5;
    pos lozenge seven -10;
+   pos vowelI.kn matraRu.kn 40;
    pos vowelII.kn vowelII.kn -5;
    pos vowelShortE.kn question -20;
    pos vowelShortE.kn asterisk -15;
@@ -386,6 +387,7 @@ lookup kern1 {
    pos Nya.kn MamatraI.kn -40;
    pos Nya.kn MamatraIi.kn -40;
    pos Nya.kn TamatraIi.kn -60;
+   pos Nya.kn matraRu.kn -140;
    pos Ddha.kn Llasmall1.kn 20;
    pos Ddha.kn Vasmall1.kn 20;
    pos Ddha.kn Ssasmall1.kn 40;
@@ -409,6 +411,9 @@ lookup kern1 {
    pos Ssa.kn Llasmall1.kn 60;
    pos Ssa.kn Shasmall1.kn 50;
    pos Ssa.kn Sasmall1.kn 50;
+   pos Ssa.kn matraRu.kn 40;
+   pos matraRu.kn Sa.kn 20;
+   pos matraRu.kn vowelII.kn -50;
    pos Shunya.kn Eradu.kn -30;
    pos Shunya.kn Muru.kn 5;
    pos Shunya.kn Aaru.kn -10;
@@ -469,6 +474,9 @@ lookup kern1 {
    pos Ombattu.kn Yolu.kn -50;
    pos Ombattu.kn Entu.kn -20;
    pos Ombattu.kn Ombattu.kn -15;
+   pos matraAiLengthmark1.kn Halant.kn -599;
+   pos matraRu1.kn Halant.kn -577;
+   pos matraRuu1.kn Halant.kn -910;
    pos Khasmall1.kn Halant.kn -60;
    pos Khasmall1.kn Sa.kn 20;
    pos Ghasmall1.kn Halant.kn -30;
@@ -485,9 +493,6 @@ lookup kern1 {
    pos Shasmall1.kn Sa.kn 15;
    pos Sasmall1.kn Halant.kn -10;
    pos Rasmall1alt.kn Halant.kn -200;
-   pos matraAiLengthmark1.kn Halant.kn -599;
-   pos matraRu1.kn Halant.kn -577;
-   pos matraRuu1.kn Halant.kn -910;
    pos RaYasmall.kn Halant.kn -207;
    pos RaYasmallalt.kn Halant.kn -207;
    pos TtaRasmall.kn Halant.kn -20;
@@ -923,6 +928,7 @@ lookup kern1 {
    enum pos @_COPYRIGHT seven -8;
    enum pos @_COPYRIGHT X -10;
    enum pos @_vowelA_Right vowelII.kn -5;
+   enum pos [vowelA.kn La.kn Eradu.kn LamatraE.kn] matraRu.kn -20;
    enum pos @_vowelAa_Right vowelII.kn -10;
    enum pos @_vowelU_Right question -10;
    pos Ba.kn asterisk -20;
@@ -951,6 +957,7 @@ lookup kern1 {
    enum pos @_Nya_Right TamatraIi.kn -30;
    enum pos @_Nya_Right MamatraI.kn -35;
    enum pos @_Nya_Right MamatraIi.kn -35;
+   enum pos @_Nya_Right matraAiLengthmark.kn -40;
    enum pos @_Ga_Right vowelII.kn -5;
    enum pos @_Ga_Right slash 20;
    enum pos @_Ga_Right Yasmall1.kn 30;
@@ -959,10 +966,13 @@ lookup kern1 {
    enum pos @_Ga_Right Llasmall1.kn 40;
    enum pos @_Ga_Right Shasmall1.kn 40;
    enum pos @_Ga_Right Sasmall1.kn 40;
+   enum pos @_Ga_Right matraRu.kn 20;
    enum pos [Gha.kn NyamatraI.kn GhamatraI.kn] Tta.kn -8;
    enum pos [Gha.kn NyamatraI.kn GhamatraI.kn] NamatraI.kn -25;
    enum pos [Gha.kn NyamatraI.kn GhamatraI.kn] SamatraI.kn -50;
    enum pos @_Gha_Right Yasmall1.kn -40;
+   enum pos @_Gha_Right matraAiLengthmark.kn -80;
+   enum pos [Gha.kn NyamatraI.kn GhamatraI.kn] matraRu.kn -80;
    enum pos @_Halant_Right vowelII.kn -30;
    enum pos @_Halant_Right Tta.kn -15;
    enum pos @_Halant_Right vowelE.kn -50;
@@ -1003,6 +1013,64 @@ lookup kern1 {
    enum pos @_Lasmall Yasmall2.kn -50;
    pos Ttasmall1.kn Halant.kn -20;
    enum pos @_Ttasmall Sa.kn 10;
+   enum pos @__PamatraU Khasmall1.kn 240;
+   enum pos @__PamatraU Gasmall1.kn 200;
+   enum pos @__PamatraU Ghasmall1.kn 240;
+   enum pos @__PamatraU Ngasmall1.kn 240;
+   enum pos @__PamatraU Casmall1.kn 240;
+   enum pos @__PamatraU Chasmall1.kn 240;
+   enum pos @__PamatraU Jasmall1.kn 240;
+   enum pos @__PamatraU Jhasmall1.kn 300;
+   enum pos @__PamatraU Nyasmall1.kn 250;
+   enum pos @__PamatraU Tthasmall1.kn 200;
+   enum pos @__PamatraU Ddasmall1.kn 240;
+   enum pos @__PamatraU Nnasmall1.kn 240;
+   enum pos @__PamatraU Tasmall1.kn 240;
+   enum pos @__PamatraU Thasmall1.kn 240;
+   enum pos @__PamatraU Dasmall1.kn 220;
+   enum pos @__PamatraU Dhasmall1.kn 220;
+   enum pos @__PamatraU Nasmall1.kn 200;
+   enum pos @__PamatraU Basmall1.kn 240;
+   enum pos @__PamatraU Bhasmall1.kn 240;
+   enum pos @__PamatraU Masmall1.kn 80;
+   enum pos @__PamatraU Yasmall1.kn 200;
+   enum pos @__PamatraU RaObsoletesmall1.kn 200;
+   enum pos @__PamatraU Llasmall1.kn 260;
+   enum pos @__PamatraU Vasmall1.kn 240;
+   enum pos @__PamatraU Shasmall1.kn 150;
+   enum pos @__PamatraU Ssasmall1.kn 240;
+   enum pos @__PamatraU Sasmall1.kn 220;
+   enum pos @__PamatraU vowelLaObsoletesmall1.kn 220;
+   enum pos @__PamatraU Ddhasmall1.kn 220;
+   enum pos @_Nuktaforms Khasmall1.kn 180;
+   enum pos @_Nuktaforms Gasmall1.kn 150;
+   enum pos @_Nuktaforms Ghasmall1.kn 200;
+   enum pos @_Nuktaforms Ngasmall1.kn 180;
+   enum pos @_Nuktaforms Casmall1.kn 180;
+   enum pos @_Nuktaforms Chasmall1.kn 180;
+   enum pos @_Nuktaforms Jasmall1.kn 180;
+   enum pos @_Nuktaforms Jhasmall1.kn 240;
+   enum pos @_Nuktaforms Nyasmall1.kn 200;
+   enum pos @_Nuktaforms Tthasmall1.kn 160;
+   enum pos @_Nuktaforms Ddasmall1.kn 180;
+   enum pos @_Nuktaforms Ddhasmall1.kn 180;
+   enum pos @_Nuktaforms Nnasmall1.kn 180;
+   enum pos @_Nuktaforms Tasmall1.kn 140;
+   enum pos @_Nuktaforms Thasmall1.kn 180;
+   enum pos @_Nuktaforms Dasmall1.kn 180;
+   enum pos @_Nuktaforms Dhasmall1.kn 180;
+   enum pos @_Nuktaforms Nasmall1.kn 180;
+   enum pos @_Nuktaforms Basmall1.kn 180;
+   enum pos @_Nuktaforms Bhasmall1.kn 180;
+   enum pos @_Nuktaforms Masmall1.kn 40;
+   enum pos @_Nuktaforms Yasmall1.kn 130;
+   enum pos @_Nuktaforms RaObsoletesmall1.kn 180;
+   enum pos @_Nuktaforms Llasmall1.kn 220;
+   enum pos @_Nuktaforms Vasmall1.kn 240;
+   enum pos @_Nuktaforms Shasmall1.kn 80;
+   enum pos @_Nuktaforms Ssasmall1.kn 240;
+   enum pos @_Nuktaforms Sasmall1.kn 200;
+   enum pos @_Nuktaforms vowelLaObsoletesmall1.kn 180;
    subtable;
    enum pos space @_quote -50;
    enum pos space @_quoteleft -50;
@@ -1013,6 +1081,7 @@ lookup kern1 {
    enum pos numbersign @_Z_Left_Right -10;
    enum pos ampersand @_v_Left_Right -20;
    enum pos ampersand @_w_Left_Right -5;
+   subtable;
    enum pos ampersand @_z_Left_right 5;
    enum pos asterisk @_A_Left_Right -70;
    enum pos asterisk @_O_Left -5;
@@ -1028,7 +1097,6 @@ lookup kern1 {
    enum pos asterisk @_v_Left_Right 5;
    enum pos comma @_j_Left_Right 10;
    enum pos slash @_A_Left_Right -30;
-   subtable;
    enum pos slash @_O_Left -5;
    enum pos slash @_J_Left -40;
    enum pos slash @_T_Left_Right 40;
@@ -1438,6 +1506,11 @@ lookup kern1 {
    enum pos Ssa.kn @_Kasmall_Right 70;
    enum pos Ssa.kn @_Ttasmall 60;
    enum pos Ssa.kn @_Pasmall 50;
+   enum pos matraRu.kn @_Lla_Left -50;
+   enum pos matraRu.kn @_vowelI_Left -60;
+   enum pos matraRu.kn @_vowelA_Left -30;
+   enum pos matraRu.kn @_vowelRu_Left 20;
+   enum pos matraRu.kn @_Ra_Left -20;
    enum pos Ghasmall1.kn @_Kha_Left 30;
    enum pos Ghasmall1.kn @_Ga_Left 40;
    enum pos Casmall1.kn @_Ga_Left 20;
@@ -2159,27 +2232,76 @@ lookup kern1 {
    pos @_Reph_Right @_Ba_Left -5;
    pos @_Kasmall_Right @_Kha_Left 20;
    pos @_Rasmall @_Kha_Left 20;
+   pos @__PamatraU @_Kasmall_Right 120;
+   pos @__PamatraU @_Ttasmall 250;
+   pos @__PamatraU @_Pasmall 200;
+   pos @__PamatraU @_Rasmall 50;
+   pos @__PamatraU @_Lasmall 250;
+   pos @_Nuktaforms @_Kasmall_Right 100;
+   pos @_Nuktaforms @_Ttasmall 230;
+   pos @_Nuktaforms @_Pasmall 180;
+   pos @_Nuktaforms @_Lasmall 230;
 } kern1;
 
 
 lookup kern2 {
-   pos space @everything 50;
-} kern2;
-
-
-lookup kern3 {
    pos [KaSsa.kn KaSsaHalant.kn KaSsamatraAa.kn KaSsamatraI.kn KaSsamatraE.kn KaSsamatraAu.kn KaSsamatraU.kn KaSsamatraUu.kn KaSsamatraShortO.kn] Nnasmall2.kn -150;
    pos [KaSsa.kn KaSsaHalant.kn KaSsamatraAa.kn KaSsamatraI.kn KaSsamatraE.kn KaSsamatraAu.kn KaSsamatraU.kn KaSsamatraUu.kn KaSsamatraShortO.kn] Masmall2.kn -150; 
-}  kern3;
+}  kern2;
 
 
-lookup kern4{
-   pos @belowsmall1 @_period_comma 220;
+lookup kern3{
+   pos [Hasmall1.kn Tasmall1.kn TaRasmall.kn Nasmall1.kn] comma 50;
    pos @belowsmall1 @_brackets_Left 220;
    pos @belowsmall1 slash 100;
-}kern4;
-
-
+   pos @belowsmall1 comma 150;
+   pos @belowsmall1 period 50;
+}kern3;
 
 } kern;
+
+
+feature dist {
+   pos space @everything 50;
+} dist;
+
+#-----------------------------------------------------------------------------
+#-----------------------------------------------------------------------------
+
+
+@Nukta = [Nukta.kn];
+
+@Ka =[Ka.kn KaHalf.kn KaHalant.kn KamatraAa.kn KamatraI.kn KamatraE.kn KamatraAu.kn KamatraU.kn KamatraUu.kn KamatraShortO.kn KamatraO.kn KamatraEe.kn KamatraAi.kn KamatraIi.kn];
+
+@Kha =[ Kha.kn KhaHalf.kn KhaHalant.kn KhamatraAa.kn KhamatraI.kn KhamatraE.kn KhamatraAu.kn KhamatraU.kn KhamatraShortO.kn KhamatraO.kn KhamatraEe.kn KhamatraAi.kn KhamatraIi.kn];
+
+@Ga =[ Ga.kn GaHalf.kn GaHalant.kn GamatraAa.kn GamatraI.kn GamatraE.kn GamatraAu.kn GamatraU.kn GamatraShortO.kn GamatraO.kn GamatraEe.kn GamatraAi.kn GamatraIi.kn];
+
+@Ja =[ Ja.kn JaHalf.kn JaHalant.kn JamatraAa.kn JamatraI.kn JamatraE.kn JamatraAu.kn JamatraU.kn JamatraUu.kn JamatraShortO.kn JamatraO.kn JamatraEe.kn JamatraAi.kn JamatraIi.kn JaNya.kn JaNyaHalant.kn JaNyamatraAa.kn JaNyamatraI.kn JaNyamatraE.kn JaNyamatraAu.kn JaNyamatraU.kn JaNyamatraUu.kn JaNyamatraShortO.kn JaNyamatraO.kn JaNyamatraEe.kn JaNyamatraAi.kn JaNyamatraIi.kn JaNyaHalf.kn];
+
+@Dda =[ Dda.kn DdaHalf.kn DdaHalant.kn DdamatraAa.kn DdamatraI.kn DdamatraE.kn DdamatraAu.kn DdamatraShortO.kn DdamatraO.kn DdamatraEe.kn DdamatraAi.kn DdamatraIi.kn];
+
+@Ya =[Ya.kn YaHalf.kn YaHalant.kn YamatraAa.kn YamatraI.kn YamatraE.kn YamatraAu.kn YamatraShortO.kn YamatraO.kn YamatraEe.kn YamatraAi.kn YamatraIi.kn];
+
+@Na =[ Na.kn NaHalf.kn NaHalant.kn NamatraAa.kn NamatraI.kn NamatraE.kn NamatraAu.kn NamatraShortO.kn NamatraO.kn NamatraEe.kn NamatraAi.kn NamatraIi.kn];
+
+@Ra =[ Ra.kn RaHalant.kn RamatraAa.kn RamatraI.kn RamatraE.kn RamatraAu.kn RamatraShortO.kn RamatraO.kn RamatraEe.kn RamatraAi.kn RamatraIi.kn];
+
+@Lla =[ Lla.kn LlaHalf.kn LlaHalant.kn LlamatraAa.kn LlamatraI.kn LlamatraE.kn LlamatraAu.kn LlamatraU.kn LlamatraShortO.kn LlamatraO.kn LlamatraEe.kn LlamatraAi.kn LlamatraIi.kn];
+
+#-------------------------
+
+
+feature blwm{
+pos base @Ka <anchor 700 0> mark @Nukta;
+pos base @Kha <anchor 776 0> mark @Nukta;
+pos base @Ja <anchor 776 0> mark @Nukta;
+pos base @Ga <anchor 710 0> mark @Nukta;
+pos base @Dda @Ja <anchor 786 0> mark @Nukta;
+pos base @Ya <anchor 1148 0> mark @Nukta;
+pos base @Na <anchor 768 0> mark @Nukta;
+pos base @Ra <anchor 715 0> mark @Nukta;
+pos base @Lla <anchor 738 0> mark @Nukta;
+
+}blwm;
 

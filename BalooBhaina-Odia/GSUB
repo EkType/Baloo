@@ -187,7 +187,7 @@ script orya;
   sub  Ba.or Virama.or by BaSmall.or;
   sub  Bha.or Virama.or by BhaSmall.or;
   sub  Ma.or Virama.or by MaSmall.or;
-  sub  Ya.or Virama.or by YyaSmall.or;
+  sub  Ya.or Virama.or by YaSmall.or;
   sub  Yya.or Virama.or by YyaSmall.or;
   sub  Ra.or Virama.or by RaSmall.or;
   sub  La.or Virama.or by LaSmall.or;
@@ -225,7 +225,7 @@ script ory2;
   sub Virama.or Ba.or by BaSmall.or;
   sub Virama.or Bha.or by BhaSmall.or;
   sub Virama.or Ma.or by MaSmall.or;
-  sub Virama.or Ya.or by YyaSmall.or;
+  sub Virama.or Ya.or by YaSmall.or;
   sub Virama.or Yya.or by YyaSmall.or;
   sub Virama.or Ra.or by RaSmall.or;
   sub Virama.or La.or by LaSmall.or;
@@ -324,7 +324,6 @@ lookupflag UseMarkFilteringSet @TOP_MARKS;
   sub Da.or RaSmall.or by DaRa.or;
   sub Da.or BaSmall.or by DaBa.or;
   sub Da.or YaSmall.or by DaYa.or;
-  sub Da.or YyaSmall.or by DaYa.or;
   sub Da.or GaSmall.or by DaGa.or;
   sub Da.or GhaSmall.or by DaGha.or;
   sub Da.or DaSmall.or by DaDa.or;
@@ -333,7 +332,6 @@ lookupflag UseMarkFilteringSet @TOP_MARKS;
   sub Da.or BhaSmall.or by DaBha.or;
   sub Dha.or RaSmall.or by DhaRa.or;
   sub Dha.or VaSmall.or by DhaVa.or;
-  sub Dha.or YaSmall.or by DhaYya.or;
   sub Dha.or YyaSmall.or by DhaYya.or;
   sub Na.or RaSmall.or by NaRa.or;
   sub Na.or TaSmall.or by NaTa.or;
@@ -425,10 +423,10 @@ feature pstf{
 
 script ory2;
   sub Virama.or Yya.or by YyaSmall.or;
-  sub Virama.or Ya.or by YyaSmall.or;
+  sub Virama.or Ya.or by YaSmall.or;
 script orya;
   sub Yya.or Virama.or by YyaSmall.or;
-  sub Ya.or Virama.or by YyaSmall.or;
+  sub Ya.or Virama.or by YaSmall.or;
 
 }pstf;
 
@@ -485,7 +483,7 @@ script orya;
   sub  Ba.or Virama.or by BaSmall.or;
   sub  Bha.or Virama.or by BhaSmall.or;
   sub  Ma.or Virama.or by MaSmall.or;
-  sub  Ya.or Virama.or by YyaSmall.or;
+  sub  Ya.or Virama.or by YaSmall.or;
   sub  Yya.or Virama.or by YyaSmall.or;
   sub  Ra.or Virama.or by RaSmall.or;
   sub  La.or Virama.or by LaSmall.or;
@@ -523,7 +521,7 @@ script ory2;
   sub Virama.or Ba.or by BaSmall.or;
   sub Virama.or Bha.or by BhaSmall.or;
   sub Virama.or Ma.or by MaSmall.or;
-  sub Virama.or Ya.or by YyaSmall.or;
+  sub Virama.or Ya.or by YaSmall.or;
   sub Virama.or Yya.or by YyaSmall.or;
   sub Virama.or Ra.or by RaSmall.or;
   sub Virama.or La.or by LaSmall.or;
@@ -594,7 +592,6 @@ lookup blws1{
 feature psts { #Post-Base Substitution
 
   sub chandrabindu.or LengthmarkAu.or by AulengthmarkChandrabindu.or;
-  sub Dha.or YaSmall.or by DhaYya.or;
   sub reph.or chandrabindu.or LengthmarkAu.or by RephAulengthmarkChandrabindu.or;
   sub reph.or LengthmarkAu.or by RephAulengthmark.or;
   sub reph.or chandrabindu.or by Chandrabindu.or.alt;
